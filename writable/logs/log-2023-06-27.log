@@ -1,0 +1,881 @@
+CRITICAL - 2023-06-27 07:26:37 --> Invalid file: "administradores/principal/headercopy.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administradores/principal/headercopy.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/principal/headercopy', [], true)
+ 3 APPPATH\Controllers\AdministrarAsuntos.php(28): view('administradores/principal/headercopy', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:27:41 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 51.
+ 1 APPPATH\Views\principal\menu\menu.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(28): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:27:42 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 51.
+ 1 APPPATH\Views\principal\menu\menu.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(28): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:27:43 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 51.
+ 1 APPPATH\Views\principal\menu\menu.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(28): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:27:43 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 51.
+ 1 APPPATH\Views\principal\menu\menu.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(28): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:27:43 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 51.
+ 1 APPPATH\Views\principal\menu\menu.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(28): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:27:43 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 51.
+ 1 APPPATH\Views\principal\menu\menu.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(28): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:27:43 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 51.
+ 1 APPPATH\Views\principal\menu\menu.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(28): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:27:44 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 51.
+ 1 APPPATH\Views\principal\menu\menu.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(28): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:27:44 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 51.
+ 1 APPPATH\Views\principal\menu\menu.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(28): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:27:44 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 51.
+ 1 APPPATH\Views\principal\menu\menu.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(28): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:27:44 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 51.
+ 1 APPPATH\Views\principal\menu\menu.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(28): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:27:45 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 51.
+ 1 APPPATH\Views\principal\menu\menu.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(28): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:28:21 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 51.
+ 1 APPPATH\Views\principal\menu\menu.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(28): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:30:19 --> Undefined variable $session
+in APPPATH\Controllers\AdministrarAsuntos.php on line 26.
+ 1 APPPATH\Controllers\AdministrarAsuntos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\AdministrarAsuntos.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:31:01 --> Undefined variable $DatosPerfil
+in APPPATH\Views\principal\menu\menu.php on line 108.
+ 1 APPPATH\Views\principal\menu\menu.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $DatosPerfil', 'APPPATH\\Views\\principal\\menu\\menu.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(34): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:31:02 --> Undefined variable $DatosPerfil
+in APPPATH\Views\principal\menu\menu.php on line 108.
+ 1 APPPATH\Views\principal\menu\menu.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $DatosPerfil', 'APPPATH\\Views\\principal\\menu\\menu.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(34): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:31:02 --> Undefined variable $DatosPerfil
+in APPPATH\Views\principal\menu\menu.php on line 108.
+ 1 APPPATH\Views\principal\menu\menu.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $DatosPerfil', 'APPPATH\\Views\\principal\\menu\\menu.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(34): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:31:03 --> Undefined variable $DatosPerfil
+in APPPATH\Views\principal\menu\menu.php on line 108.
+ 1 APPPATH\Views\principal\menu\menu.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $DatosPerfil', 'APPPATH\\Views\\principal\\menu\\menu.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(34): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:31:03 --> Undefined variable $DatosPerfil
+in APPPATH\Views\principal\menu\menu.php on line 108.
+ 1 APPPATH\Views\principal\menu\menu.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $DatosPerfil', 'APPPATH\\Views\\principal\\menu\\menu.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(34): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:31:03 --> Undefined variable $DatosPerfil
+in APPPATH\Views\principal\menu\menu.php on line 108.
+ 1 APPPATH\Views\principal\menu\menu.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $DatosPerfil', 'APPPATH\\Views\\principal\\menu\\menu.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(34): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:31:03 --> Undefined variable $DatosPerfil
+in APPPATH\Views\principal\menu\menu.php on line 108.
+ 1 APPPATH\Views\principal\menu\menu.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $DatosPerfil', 'APPPATH\\Views\\principal\\menu\\menu.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(34): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:31:04 --> Undefined variable $DatosPerfil
+in APPPATH\Views\principal\menu\menu.php on line 108.
+ 1 APPPATH\Views\principal\menu\menu.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $DatosPerfil', 'APPPATH\\Views\\principal\\menu\\menu.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(34): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:31:04 --> Undefined variable $DatosPerfil
+in APPPATH\Views\principal\menu\menu.php on line 108.
+ 1 APPPATH\Views\principal\menu\menu.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $DatosPerfil', 'APPPATH\\Views\\principal\\menu\\menu.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(34): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 07:41:34 --> mysqli_sql_exception: Column 'usuario_crea' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-27 07:41:34 --> Column 'usuario_crea' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asunto` (`asunto`, `usuario_crea`, `fecha_crea`) VALUES (:asunto:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 07:42:51 --> mysqli_sql_exception: Column 'usuario_crea' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-27 07:42:51 --> Column 'usuario_crea' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asunto` (`asunto`, `usuario_crea`, `fecha_crea`) VALUES (:asunto:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 07:43:00 --> mysqli_sql_exception: Column 'usuario_crea' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-27 07:43:00 --> Column 'usuario_crea' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asunto` (`asunto`, `usuario_crea`, `fecha_crea`) VALUES (:asunto:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 07:43:01 --> mysqli_sql_exception: Column 'usuario_crea' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-27 07:43:01 --> Column 'usuario_crea' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asunto` (`asunto`, `usuario_crea`, `fecha_crea`) VALUES (:asunto:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 07:43:09 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`asunto`, CONSTRAINT `Usuario_Crea_Asuntos` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-27 07:43:09 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`asunto`, CONSTRAINT `Usuario_Crea_Asuntos` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asunto` (`asunto`, `usuario_crea`, `fecha_crea`) VALUES (:asunto:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 07:43:50 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`asunto`, CONSTRAINT `Usuario_Crea_Asuntos` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-27 07:43:50 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`asunto`, CONSTRAINT `Usuario_Crea_Asuntos` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asunto` (`asunto`, `usuario_crea`, `fecha_crea`) VALUES (:asunto:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:44:36 --> Undefined variable $id_usuario
+in APPPATH\Controllers\AdministrarAsuntos.php on line 48.
+ 1 APPPATH\Controllers\AdministrarAsuntos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_usuario', 'APPPATH\\Controllers\\AdministrarAsuntos.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:44:39 --> Undefined variable $id_usuario
+in APPPATH\Controllers\AdministrarAsuntos.php on line 48.
+ 1 APPPATH\Controllers\AdministrarAsuntos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_usuario', 'APPPATH\\Controllers\\AdministrarAsuntos.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:44:39 --> Undefined variable $id_usuario
+in APPPATH\Controllers\AdministrarAsuntos.php on line 48.
+ 1 APPPATH\Controllers\AdministrarAsuntos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_usuario', 'APPPATH\\Controllers\\AdministrarAsuntos.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:44:39 --> Undefined variable $id_usuario
+in APPPATH\Controllers\AdministrarAsuntos.php on line 48.
+ 1 APPPATH\Controllers\AdministrarAsuntos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_usuario', 'APPPATH\\Controllers\\AdministrarAsuntos.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:44:40 --> Undefined variable $id_usuario
+in APPPATH\Controllers\AdministrarAsuntos.php on line 48.
+ 1 APPPATH\Controllers\AdministrarAsuntos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_usuario', 'APPPATH\\Controllers\\AdministrarAsuntos.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:44:40 --> Undefined variable $id_usuario
+in APPPATH\Controllers\AdministrarAsuntos.php on line 48.
+ 1 APPPATH\Controllers\AdministrarAsuntos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_usuario', 'APPPATH\\Controllers\\AdministrarAsuntos.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:44:59 --> Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 577.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 577)
+ 2 SYSTEMPATH\Model.php(836): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->__call('insertID', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:45:00 --> Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 577.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 577)
+ 2 SYSTEMPATH\Model.php(836): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->__call('insertID', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:45:00 --> Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 577.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 577)
+ 2 SYSTEMPATH\Model.php(836): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->__call('insertID', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:45:00 --> Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 577.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 577)
+ 2 SYSTEMPATH\Model.php(836): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->__call('insertID', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:45:00 --> Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 577.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 577)
+ 2 SYSTEMPATH\Model.php(836): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->__call('insertID', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:45:01 --> Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 577.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 577)
+ 2 SYSTEMPATH\Model.php(836): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->__call('insertID', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:45:01 --> Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 577.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 577)
+ 2 SYSTEMPATH\Model.php(836): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->__call('insertID', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:45:01 --> Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 577.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 577)
+ 2 SYSTEMPATH\Model.php(836): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->__call('insertID', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:45:01 --> Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 577.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'SYSTEMPATH\\Database\\MySQLi\\Connection.php', 577)
+ 2 SYSTEMPATH\Model.php(836): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->__call('insertID', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 07:45:51 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`asunto`, CONSTRAINT `Usuario_Crea_Asuntos` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarAsuntos.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-27 07:45:51 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`asunto`, CONSTRAINT `Usuario_Crea_Asuntos` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asunto` (`asunto`, `usuario_crea`, `fecha_crea`) VALUES (:asunto:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 07:45:52 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`asunto`, CONSTRAINT `Usuario_Crea_Asuntos` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarAsuntos.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-27 07:45:52 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`asunto`, CONSTRAINT `Usuario_Crea_Asuntos` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asunto` (`asunto`, `usuario_crea`, `fecha_crea`) VALUES (:asunto:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 07:46:37 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`asunto`, CONSTRAINT `Usuario_Crea_Asuntos` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarAsuntos.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-27 07:46:37 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`asunto`, CONSTRAINT `Usuario_Crea_Asuntos` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asunto` (`asunto`, `usuario_crea`, `fecha_crea`) VALUES (:asunto:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 07:47:03 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`asunto`, CONSTRAINT `Usuario_Crea_Asuntos` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarAsuntos.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-27 07:47:03 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`asunto`, CONSTRAINT `Usuario_Crea_Asuntos` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asunto` (`asunto`, `usuario_crea`, `fecha_crea`) VALUES (:asunto:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:47:32 --> syntax error, unexpected single-quoted string "usuario_crea", expecting "]"
+in APPPATH\Controllers\AdministrarAsuntos.php on line 52.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdministrarAsuntos.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdministrarAsuntos')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdministrarAsuntos')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\AdministrarAsuntos', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:47:41 --> Undefined variable $id_usuario
+in APPPATH\Controllers\AdministrarAsuntos.php on line 52.
+ 1 APPPATH\Controllers\AdministrarAsuntos.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_usuario', 'APPPATH\\Controllers\\AdministrarAsuntos.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:47:42 --> Undefined variable $id_usuario
+in APPPATH\Controllers\AdministrarAsuntos.php on line 52.
+ 1 APPPATH\Controllers\AdministrarAsuntos.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_usuario', 'APPPATH\\Controllers\\AdministrarAsuntos.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:47:42 --> Undefined variable $id_usuario
+in APPPATH\Controllers\AdministrarAsuntos.php on line 52.
+ 1 APPPATH\Controllers\AdministrarAsuntos.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_usuario', 'APPPATH\\Controllers\\AdministrarAsuntos.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:47:42 --> Undefined variable $id_usuario
+in APPPATH\Controllers\AdministrarAsuntos.php on line 52.
+ 1 APPPATH\Controllers\AdministrarAsuntos.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_usuario', 'APPPATH\\Controllers\\AdministrarAsuntos.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:47:42 --> Undefined variable $id_usuario
+in APPPATH\Controllers\AdministrarAsuntos.php on line 52.
+ 1 APPPATH\Controllers\AdministrarAsuntos.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_usuario', 'APPPATH\\Controllers\\AdministrarAsuntos.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:47:43 --> Undefined variable $id_usuario
+in APPPATH\Controllers\AdministrarAsuntos.php on line 52.
+ 1 APPPATH\Controllers\AdministrarAsuntos.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_usuario', 'APPPATH\\Controllers\\AdministrarAsuntos.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:47:43 --> Undefined variable $id_usuario
+in APPPATH\Controllers\AdministrarAsuntos.php on line 52.
+ 1 APPPATH\Controllers\AdministrarAsuntos.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_usuario', 'APPPATH\\Controllers\\AdministrarAsuntos.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:47:43 --> Undefined variable $id_usuario
+in APPPATH\Controllers\AdministrarAsuntos.php on line 52.
+ 1 APPPATH\Controllers\AdministrarAsuntos.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_usuario', 'APPPATH\\Controllers\\AdministrarAsuntos.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 07:48:37 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`asunto`, CONSTRAINT `Usuario_Crea_Asuntos` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `asunto`...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `asunto`...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `asunto`...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `asunto`...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarAsuntos.php(56): CodeIgniter\Model->update('3', Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-27 07:48:37 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`asunto`, CONSTRAINT `Usuario_Crea_Asuntos` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `asunto` SET `asunto` = :asunto:, `usuario_crea` = :usuario_crea:
+WHERE `asunto`.`id_asunto` IN :asunto.id_asunto:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(56): CodeIgniter\Model->update('3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:52:34 --> Undefined variable $session
+in APPPATH\Controllers\AdministrarAsuntos.php on line 83.
+ 1 APPPATH\Controllers\AdministrarAsuntos.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\AdministrarAsuntos.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:53:44 --> Invalid file: "/administradores/principal/headercopy.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/administradores/principal/headercopy.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/principal/headercopy', [], true)
+ 3 APPPATH\Controllers\AdministrarAsuntos.php(92): view('/administradores/principal/headercopy', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->Indexeliminados()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:53:44 --> Invalid file: "/administradores/principal/headercopy.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/administradores/principal/headercopy.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/principal/headercopy', [], true)
+ 3 APPPATH\Controllers\AdministrarAsuntos.php(92): view('/administradores/principal/headercopy', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->Indexeliminados()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:53:45 --> Invalid file: "/administradores/principal/headercopy.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/administradores/principal/headercopy.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/principal/headercopy', [], true)
+ 3 APPPATH\Controllers\AdministrarAsuntos.php(92): view('/administradores/principal/headercopy', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->Indexeliminados()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:53:45 --> Invalid file: "/administradores/principal/headercopy.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/administradores/principal/headercopy.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/principal/headercopy', [], true)
+ 3 APPPATH\Controllers\AdministrarAsuntos.php(92): view('/administradores/principal/headercopy', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->Indexeliminados()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:53:45 --> Invalid file: "/administradores/principal/headercopy.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/administradores/principal/headercopy.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/principal/headercopy', [], true)
+ 3 APPPATH\Controllers\AdministrarAsuntos.php(92): view('/administradores/principal/headercopy', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->Indexeliminados()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 07:53:53 --> Invalid file: "/administradores/principal/headercopy.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/administradores/principal/headercopy.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/principal/headercopy', [], true)
+ 3 APPPATH\Controllers\AdministrarAsuntos.php(92): view('/administradores/principal/headercopy', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->Indexeliminados()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 07:57:22 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`detalles`, CONSTRAINT `Usuario_Crea_Detalles` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarDetalles.php(49): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarDetalles->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarDetalles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-27 07:57:22 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`detalles`, CONSTRAINT `Usuario_Crea_Detalles` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `detalles` (`id_encabezado`, `nombre`, `resumen`, `usuario_crea`, `fecha_crea`) VALUES (:id_encabezado:, :nombre:, :resumen:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarDetalles.php(49): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarDetalles->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarDetalles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 08:02:22 --> Undefined variable $id_usuario
+in APPPATH\Controllers\AdministrarEncabezado.php on line 48.
+ 1 APPPATH\Controllers\AdministrarEncabezado.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_usuario', 'APPPATH\\Controllers\\AdministrarEncabezado.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarEncabezado->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarEncabezado))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 08:03:45 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`detalles`, CONSTRAINT `Usuario_Crea_Detalles` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `detalle...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `detalle...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `detalle...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `detalle...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarDetalles.php(62): CodeIgniter\Model->update('23', Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarDetalles->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarDetalles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-27 08:03:45 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`detalles`, CONSTRAINT `Usuario_Crea_Detalles` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `detalles` SET `id_encabezado` = :id_encabezado:, `nombre` = :nombre:, `resumen` = :resumen:, `usuario_crea` = :usuario_crea:
+WHERE `detalles`.`id_detalles` IN :detalles.id_detalles:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\AdministrarDetalles.php(62): CodeIgniter\Model->update('23', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarDetalles->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarDetalles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-27 08:04:25 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`asunto`, CONSTRAINT `Usuario_Crea_Asuntos` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `asunto`...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `asunto`...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `asunto`...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `asunto`...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarAsuntos.php(56): CodeIgniter\Model->update('19', Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-27 08:04:25 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`asunto`, CONSTRAINT `Usuario_Crea_Asuntos` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `asunto` SET `asunto` = :asunto:, `usuario_crea` = :usuario_crea:
+WHERE `asunto`.`id_asunto` IN :asunto.id_asunto:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(56): CodeIgniter\Model->update('19', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

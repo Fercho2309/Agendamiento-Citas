@@ -1,0 +1,303 @@
+CRITICAL - 2023-06-21 07:17:51 --> Trying to access array offset on value of type null
+in APPPATH\Views\principal\menu\menu.php on line 105.
+ 1 APPPATH\Views\principal\menu\menu.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\principal\\menu\\menu.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\DocenteDisponibilidad.php(36): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 08:42:44 --> Undefined array key "id_detalles"
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 102.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_detalles"', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 102)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(53): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 08:42:55 --> Undefined array key "id_detalles"
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 102.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_detalles"', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 102)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(53): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 08:45:53 --> Cannot use App\Models\PruebaCalendar\CalendarioModel as CalendarioModel because the name is already in use
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:45:55 --> Cannot use App\Models\PruebaCalendar\CalendarioModel as CalendarioModel because the name is already in use
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:45:55 --> Cannot use App\Models\PruebaCalendar\CalendarioModel as CalendarioModel because the name is already in use
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:45:55 --> Cannot use App\Models\PruebaCalendar\CalendarioModel as CalendarioModel because the name is already in use
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:45:56 --> Cannot use App\Models\PruebaCalendar\CalendarioModel as CalendarioModel because the name is already in use
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:45:56 --> Cannot use App\Models\PruebaCalendar\CalendarioModel as CalendarioModel because the name is already in use
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:45:56 --> Cannot use App\Models\PruebaCalendar\CalendarioModel as CalendarioModel because the name is already in use
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:45:56 --> Cannot use App\Models\PruebaCalendar\CalendarioModel as CalendarioModel because the name is already in use
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:45:56 --> Cannot use App\Models\PruebaCalendar\CalendarioModel as CalendarioModel because the name is already in use
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:45:57 --> Cannot use App\Models\PruebaCalendar\CalendarioModel as CalendarioModel because the name is already in use
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:45:57 --> Cannot use App\Models\PruebaCalendar\CalendarioModel as CalendarioModel because the name is already in use
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:45:57 --> Cannot use App\Models\PruebaCalendar\CalendarioModel as CalendarioModel because the name is already in use
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:45:57 --> Cannot use App\Models\PruebaCalendar\CalendarioModel as CalendarioModel because the name is already in use
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:45:58 --> Cannot use App\Models\PruebaCalendar\CalendarioModel as CalendarioModel because the name is already in use
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:46:13 --> Cannot use App\Models\PruebaCalendar\CalendarioModel as CalendarioModel because the name is already in use
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:46:13 --> Cannot use App\Models\PruebaCalendar\CalendarioModel as CalendarioModel because the name is already in use
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:46:13 --> Cannot use App\Models\PruebaCalendar\CalendarioModel as CalendarioModel because the name is already in use
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:46:31 --> Cannot redeclare App\Controllers\EstudiantesSolicitarCita::$eventos
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:46:32 --> Cannot redeclare App\Controllers\EstudiantesSolicitarCita::$eventos
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:46:32 --> Cannot redeclare App\Controllers\EstudiantesSolicitarCita::$eventos
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:46:32 --> Cannot redeclare App\Controllers\EstudiantesSolicitarCita::$eventos
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:46:32 --> Cannot redeclare App\Controllers\EstudiantesSolicitarCita::$eventos
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:46:33 --> Cannot redeclare App\Controllers\EstudiantesSolicitarCita::$eventos
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:46:33 --> Cannot redeclare App\Controllers\EstudiantesSolicitarCita::$eventos
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:46:33 --> Cannot redeclare App\Controllers\EstudiantesSolicitarCita::$eventos
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:46:33 --> Cannot redeclare App\Controllers\EstudiantesSolicitarCita::$eventos
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:46:34 --> Cannot redeclare App\Controllers\EstudiantesSolicitarCita::$eventos
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:46:34 --> Cannot redeclare App\Controllers\EstudiantesSolicitarCita::$eventos
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:46:34 --> Cannot redeclare App\Controllers\EstudiantesSolicitarCita::$eventos
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:46:34 --> Cannot redeclare App\Controllers\EstudiantesSolicitarCita::$eventos
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:46:35 --> Cannot redeclare App\Controllers\EstudiantesSolicitarCita::$eventos
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:46:35 --> Cannot redeclare App\Controllers\EstudiantesSolicitarCita::$eventos
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:46:35 --> Cannot redeclare App\Controllers\EstudiantesSolicitarCita::$eventos
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:46:35 --> Cannot redeclare App\Controllers\EstudiantesSolicitarCita::$eventos
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:49:40 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:50:12 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:50:23 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:50:24 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:50:24 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:50:24 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:50:54 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:51:31 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:19 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:20 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:20 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:20 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:20 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:21 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:21 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:21 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:21 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:21 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:22 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:22 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:22 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:22 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:22 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:22 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:23 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:23 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:23 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:24 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:24 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:24 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:57:36 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:58:04 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:58:04 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\AdministradorModels\RolesModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-21 08:58:18 --> Call to undefined method App\Models\AdministradorModels\RolesModel::getProducts
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\EstudiantesSolicitarCita.php(51): CodeIgniter\Model->__call('getProducts', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 08:58:19 --> Call to undefined method App\Models\AdministradorModels\RolesModel::getProducts
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\EstudiantesSolicitarCita.php(51): CodeIgniter\Model->__call('getProducts', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 08:59:57 --> Undefined variable $Nameroles
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 55.
+ 1 APPPATH\Controllers\EstudiantesSolicitarCita.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Nameroles', 'APPPATH\\Controllers\\EstudiantesSolicitarCita.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 09:00:08 --> Undefined variable $Nroles
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 48.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Nroles', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(57): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-21 10:56:36 --> mysqli_sql_exception: Column 'color' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteDisponibilidad.php(67): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->crear_disponiblidad()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-21 10:56:36 --> Column 'color' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pruebaeventos` (`start`, `end`, `color`, `usuario_crea`, `fecha_crea`) VALUES (:start:, :end:, :color:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\DocenteDisponibilidad.php(67): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->crear_disponiblidad()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 11:42:42 --> Undefined array key "aula"
+in APPPATH\Views\docentes\agendamientoDisponibilidad\agendamiento.php on line 239.
+ 1 APPPATH\Views\docentes\agendamientoDisponibilidad\agendamiento.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "aula"', 'APPPATH\\Views\\docentes\\agendamientoDisponibilidad\\agendamiento.php', 239)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\agendamientoDisponibilidad\\agendamiento.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/agendamientoDisponibilidad/agendamiento', [], true)
+ 5 APPPATH\Controllers\DocenteDisponibilidad.php(37): view('docentes/agendamientoDisponibilidad/agendamiento', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

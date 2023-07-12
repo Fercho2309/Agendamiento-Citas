@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-all{
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0px 0px 15px 5px #5f6c7b;;
+    border-radius: 20px;  */
+}
+
+.contenedor-form1{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    padding: 20px; 
+    
+}
+
+.from-1{
+    margin: 30px 0px;
+    text-align: center;
+    box-shadow: 0px 0px 15px 5px #5f6c7b;;
+    border-radius: 20px; 
+   
+}
+
+.contenedorTitle{
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #094067;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#emailImg{
+    width: 15%;
+    padding: 5px 10px;
+}
+
+
+.titulo-registro{
+    font-size: 85px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif ;
+    color: #fffffe;
+}
+
+#regresarCita{
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    padding: 10px 10% 10px 10%;
+    background-color: #094067;
+    border-radius: 15px;
+    transition: all 0.9s ease;
+}
+
+#regresarCita:hover{
+    transition: all 0.9s ease;
+    background-color: #2cb67d;
+}
+
+.contenedor-button{
+    padding: 20px;
+}

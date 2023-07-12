@@ -1,0 +1,453 @@
+CRITICAL - 2023-05-16 12:25:01 --> Call to undefined method App\Models\AdministradorModels\UsuariosModel::Auth_usuario
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LoginSignin.php(74): CodeIgniter\Model->__call('Auth_usuario', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-16 12:26:01 --> mysqli_sql_exception: Unknown column 'usuario' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(74): App\Models\AdministradorModels\UsuariosModel->Auth_usuario(NULL)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-16 12:26:01 --> Unknown column 'usuario' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*
+FROM `usuarios`
+WHERE `usuario` IS NULL
+ LIMIT 1', [], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\LoginSignin.php(74): App\Models\AdministradorModels\UsuariosModel->Auth_usuario(null)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-16 12:29:44 --> mysqli_sql_exception: Unknown column 'usuario' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(74): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-16 12:29:44 --> Unknown column 'usuario' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*
+FROM `usuarios`
+WHERE `usuario` = :usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\LoginSignin.php(74): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-16 12:36:42 --> mysqli_sql_exception: Unknown column 'usuario' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(74): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-16 12:36:42 --> Unknown column 'usuario' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*
+FROM `usuarios`
+WHERE `usuario` = :usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\LoginSignin.php(74): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-16 12:42:31 --> mysqli_sql_exception: Unknown column 'usuario' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(74): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-16 12:42:31 --> Unknown column 'usuario' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*
+FROM `usuarios`
+WHERE `usuario` = :usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\LoginSignin.php(74): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-16 12:50:33 --> mysqli_sql_exception: Unknown column 'usuario' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(74): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-16 12:50:33 --> Unknown column 'usuario' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*
+FROM `usuarios`
+WHERE `usuario` = :usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\LoginSignin.php(74): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-16 12:51:15 --> mysqli_sql_exception: Unknown column 'usuario' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(74): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-16 12:51:15 --> Unknown column 'usuario' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*
+FROM `usuarios`
+WHERE `usuario` = :usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\LoginSignin.php(74): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-16 12:54:12 --> mysqli_sql_exception: Unknown column 'usuario' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(75): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin', '1234')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-16 12:54:12 --> Unknown column 'usuario' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*
+FROM `usuarios`
+WHERE `usuario` = :usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\LoginSignin.php(75): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin', '1234')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-16 13:04:03 --> mysqli_sql_exception: Unknown column 'usuario' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(75): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin', '1234')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-16 13:04:03 --> Unknown column 'usuario' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*
+FROM `usuarios`
+WHERE `usuario` = :usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\LoginSignin.php(75): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin', '1234')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-16 13:10:44 --> mysqli_sql_exception: Unknown column 'usuario' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(75): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-16 13:10:44 --> Unknown column 'usuario' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*
+FROM `usuarios`
+WHERE `usuario` = :usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\LoginSignin.php(75): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:11:21 --> Undefined array key "pass"
+in APPPATH\Controllers\LoginSignin.php on line 79.
+ 1 APPPATH\Controllers\LoginSignin.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pass"', 'APPPATH\\Controllers\\LoginSignin.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-16 13:18:37 --> mysqli_sql_exception: Unknown column 'usuario' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(75): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin', '1234')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-16 13:18:37 --> Unknown column 'usuario' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*
+FROM `usuarios`
+WHERE `usuario` = :usuario:
+AND `nombre_corto` = :nombre_corto:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\LoginSignin.php(75): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin', '1234')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-16 13:20:09 --> mysqli_sql_exception: Unknown column 'usuario' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(75): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin', '1234')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-16 13:20:09 --> Unknown column 'usuario' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*
+FROM `usuarios`
+WHERE `usuario` = :usuario:
+AND `nombre_corto` = :nombre_corto:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(110): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\LoginSignin.php(75): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin', '1234')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:22:04 --> Undefined variable $nombreCorto
+in APPPATH\Models\AdministradorModels\UsuariosModel.php on line 109.
+ 1 APPPATH\Models\AdministradorModels\UsuariosModel.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombreCorto', 'APPPATH\\Models\\AdministradorModels\\UsuariosModel.php', 109)
+ 2 APPPATH\Controllers\LoginSignin.php(75): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin', '1234')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:22:48 --> Undefined variable $usaurio
+in APPPATH\Models\AdministradorModels\UsuariosModel.php on line 109.
+ 1 APPPATH\Models\AdministradorModels\UsuariosModel.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usaurio', 'APPPATH\\Models\\AdministradorModels\\UsuariosModel.php', 109)
+ 2 APPPATH\Controllers\LoginSignin.php(75): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin', '1234')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:25:35 --> Undefined array key "pass"
+in APPPATH\Controllers\LoginSignin.php on line 79.
+ 1 APPPATH\Controllers\LoginSignin.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pass"', 'APPPATH\\Controllers\\LoginSignin.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:31:52 --> Cannot access offset of type string on string
+in APPPATH\Controllers\LoginSignin.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:44:11 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\LoginSignin.php on line 79.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:48:51 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\LoginSignin.php on line 77.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:49:02 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\LoginSignin.php on line 77.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:49:14 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\LoginSignin.php on line 77.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:49:34 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\LoginSignin.php on line 79.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:49:45 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\LoginSignin.php on line 79.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:07:22 --> Undefined variable $usaurio
+in APPPATH\Models\AdministradorModels\UsuariosModel.php on line 109.
+ 1 APPPATH\Models\AdministradorModels\UsuariosModel.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usaurio', 'APPPATH\\Models\\AdministradorModels\\UsuariosModel.php', 109)
+ 2 APPPATH\Controllers\LoginSignin.php(75): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('ojala1')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:34:18 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\LoginSignin.php on line 87.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 16:11:57 --> syntax error, unexpected token "&"
+in APPPATH\Controllers\LoginSignin.php on line 81.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 16:12:14 --> syntax error, unexpected token "&"
+in APPPATH\Controllers\LoginSignin.php on line 81.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

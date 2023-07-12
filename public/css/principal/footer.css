@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#contenedorfoo{
+    background-color: #5f6c7b;
+}
+
+.icons{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#img {
+    width: 3rem;
+}
+
+.hr{
+    flex-grow: 1;
+    border-top:1px solid aliceblue;
+}

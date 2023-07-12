@@ -1,0 +1,1526 @@
+CRITICAL - 2023-05-10 12:16:37 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\LoginSignin.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 13:50:59 --> Undefined variable $usuarios
+in APPPATH\Views\administradores\telefonos\telefonos.php on line 123.
+ 1 APPPATH\Views\administradores\telefonos\telefonos.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'APPPATH\\Views\\administradores\\telefonos\\telefonos.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\telefonos\\telefonos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/telefonos/telefonos', [], true)
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(32): view('/administradores/telefonos/telefonos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 13:51:01 --> Undefined variable $usuarios
+in APPPATH\Views\administradores\telefonos\telefonos.php on line 123.
+ 1 APPPATH\Views\administradores\telefonos\telefonos.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'APPPATH\\Views\\administradores\\telefonos\\telefonos.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\telefonos\\telefonos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/telefonos/telefonos', [], true)
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(32): view('/administradores/telefonos/telefonos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:02:17 --> Undefined variable $prioridad
+in APPPATH\Views\administradores\correos\correos.php on line 109.
+ 1 APPPATH\Views\administradores\correos\correos.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prioridad', 'APPPATH\\Views\\administradores\\correos\\correos.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\correos\\correos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/correos/correos', [], true)
+ 5 APPPATH\Controllers\AdministrarCorreos.php(26): view('/administradores/correos/correos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:02:34 --> Undefined variable $prioridad
+in APPPATH\Views\administradores\correos\correos.php on line 109.
+ 1 APPPATH\Views\administradores\correos\correos.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prioridad', 'APPPATH\\Views\\administradores\\correos\\correos.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\correos\\correos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/correos/correos', [], true)
+ 5 APPPATH\Controllers\AdministrarCorreos.php(26): view('/administradores/correos/correos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:06:02 --> Too few arguments to function App\Models\AdministradorModels\UsuariosModel::obtenerUsuarios(), 1 passed in C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarCorreos.php on line 25 and exactly 2 expected
+in APPPATH\Models\AdministradorModels\UsuariosModel.php on line 53.
+ 1 APPPATH\Controllers\AdministrarCorreos.php(25): App\Models\AdministradorModels\UsuariosModel->obtenerUsuarios('A')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:06:22 --> Undefined property: App\Controllers\AdministrarTelefonos::$asunto
+in APPPATH\Controllers\AdministrarTelefonos.php on line 60.
+ 1 APPPATH\Controllers\AdministrarTelefonos.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdministrarTelefonos::$asunto', 'APPPATH\\Controllers\\AdministrarTelefonos.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:06:28 --> Undefined property: App\Controllers\AdministrarTelefonos::$asunto
+in APPPATH\Controllers\AdministrarTelefonos.php on line 60.
+ 1 APPPATH\Controllers\AdministrarTelefonos.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdministrarTelefonos::$asunto', 'APPPATH\\Controllers\\AdministrarTelefonos.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:06:43 --> Undefined variable $prioridad
+in APPPATH\Views\administradores\correos\correos.php on line 109.
+ 1 APPPATH\Views\administradores\correos\correos.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prioridad', 'APPPATH\\Views\\administradores\\correos\\correos.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\correos\\correos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/correos/correos', [], true)
+ 5 APPPATH\Controllers\AdministrarCorreos.php(30): view('/administradores/correos/correos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:10:25 --> Undefined array key "id_detalle"
+in APPPATH\Views\administradores\correos\correos.php on line 110.
+ 1 APPPATH\Views\administradores\correos\correos.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_detalle"', 'APPPATH\\Views\\administradores\\correos\\correos.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\correos\\correos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/correos/correos', [], true)
+ 5 APPPATH\Controllers\AdministrarCorreos.php(34): view('/administradores/correos/correos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:10:41 --> Undefined array key "id_emcabezado"
+in APPPATH\Views\administradores\correos\correos.php on line 110.
+ 1 APPPATH\Views\administradores\correos\correos.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_emcabezado"', 'APPPATH\\Views\\administradores\\correos\\correos.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\correos\\correos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/correos/correos', [], true)
+ 5 APPPATH\Controllers\AdministrarCorreos.php(34): view('/administradores/correos/correos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:12:52 --> Undefined array key "nombre_corto"
+in APPPATH\Views\administradores\correos\correos.php on line 110.
+ 1 APPPATH\Views\administradores\correos\correos.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_corto"', 'APPPATH\\Views\\administradores\\correos\\correos.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\correos\\correos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/correos/correos', [], true)
+ 5 APPPATH\Controllers\AdministrarCorreos.php(34): view('/administradores/correos/correos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:16:48 --> Undefined variable $usuarios
+in APPPATH\Views\administradores\telefonos\telefonos.php on line 129.
+ 1 APPPATH\Views\administradores\telefonos\telefonos.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'APPPATH\\Views\\administradores\\telefonos\\telefonos.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\telefonos\\telefonos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/telefonos/telefonos', [], true)
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(34): view('/administradores/telefonos/telefonos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:19:57 --> Class "App\Controllers\UsuariosModel" not found
+in APPPATH\Controllers\AdministrarTelefonos.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AdministrarTelefonos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 14:24:51 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `correos...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `correos...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `correos...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `correos...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\CorreosModel.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarCorreos.php(27): App\Models\AdministradorModels\CorreosModel->obtenerPrioxCorreo('A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 14:24:51 --> Illegal parameter data types varchar and row for operation '='
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `correos`.*, `usuarios`.`nombre_corto` as `NomUsuario`, `detalles`.`nombre` as `nomPrio`
+FROM `correos`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `detalles` ON `detalles`.`id_detalles` = `detalles`.`id_detalles`
+WHERE `correos`.`estado` = :correos.estado:
+AND `detalles`.`nombre` = :detalles.nombre:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\CorreosModel.php(41): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdministrarCorreos.php(27): App\Models\AdministradorModels\CorreosModel->obtenerPrioxCorreo('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 14:25:33 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `correos...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `correos...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `correos...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `correos...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\CorreosModel.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarCorreos.php(27): App\Models\AdministradorModels\CorreosModel->obtenerPrioxCorreo('A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 14:25:33 --> Illegal parameter data types varchar and row for operation '='
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `correos`.*, `usuarios`.`nombre_corto` as `NomUsuario`, `detalles`.`nombre` as `nomPrio`
+FROM `correos`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `detalles` ON `detalles`.`id_detalles` = `detalles`.`id_detalles`
+WHERE `correos`.`estado` = :correos.estado:
+AND `detalles`.`nombre` = :detalles.nombre:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\CorreosModel.php(41): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdministrarCorreos.php(27): App\Models\AdministradorModels\CorreosModel->obtenerPrioxCorreo('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:26:00 --> syntax error, unexpected integer "15", expecting ")"
+in APPPATH\Models\AdministradorModels\CorreosModel.php on line 40.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\AdministradorModels\\CorreosModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AdministradorModels\\CorreosModel')
+ 3 APPPATH\Controllers\AdministrarCorreos.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AdministradorModels\\CorreosModel')
+ 4 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AdministrarCorreos->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:27:24 --> Undefined array key "nomPrio"
+in APPPATH\Views\administradores\correos\correos.php on line 58.
+ 1 APPPATH\Views\administradores\correos\correos.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomPrio"', 'APPPATH\\Views\\administradores\\correos\\correos.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\correos\\correos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/correos/correos', [], true)
+ 5 APPPATH\Controllers\AdministrarCorreos.php(34): view('/administradores/correos/correos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 14:36:24 --> mysqli_sql_exception: Unknown column 'detalles.id_encabezado' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `correos...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `correos...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `correos...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `correos...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\CorreosModel.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarCorreos.php(27): App\Models\AdministradorModels\CorreosModel->obtenerPrioxCorreo('5', 'A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 14:36:24 --> Unknown column 'detalles.id_encabezado' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `correos`.*, `usuarios`.`nombre_corto` as `NomUsuario`, `encabezado`.`nombre` as `nomPrio`
+FROM `correos`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `encabezado` ON `encabezado`.`id_encabezado` = `detalles`.`id_encabezado`
+WHERE `detalles`.`id_encabezado` = :detalles.id_encabezado:
+AND `correos`.`estado` = :correos.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\CorreosModel.php(41): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdministrarCorreos.php(27): App\Models\AdministradorModels\CorreosModel->obtenerPrioxCorreo('5', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 14:37:28 --> mysqli_sql_exception: Unknown column 'detalles.id_encabezado' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `correos...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `correos...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `correos...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `correos...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\CorreosModel.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarCorreos.php(29): App\Models\AdministradorModels\CorreosModel->obtenerPrioxCorreo('5', 'A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 14:37:28 --> Unknown column 'detalles.id_encabezado' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `correos`.*, `usuarios`.`nombre_corto` as `NomUsuario`, `encabezado`.`nombre` as `nomPrio`
+FROM `correos`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `encabezado` ON `encabezado`.`id_encabezado` = `detalles`.`id_encabezado`
+WHERE `detalles`.`id_encabezado` = :detalles.id_encabezado:
+AND `correos`.`estado` = :correos.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\CorreosModel.php(41): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdministrarCorreos.php(29): App\Models\AdministradorModels\CorreosModel->obtenerPrioxCorreo('5', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 14:38:32 --> mysqli_sql_exception: Unknown column 'detalles.id_encabezado' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `correos...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `correos...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `correos...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `correos...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\CorreosModel.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarCorreos.php(29): App\Models\AdministradorModels\CorreosModel->obtenerPrioxCorreo('5', 'A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 14:38:32 --> Unknown column 'detalles.id_encabezado' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `correos`.*, `usuarios`.`nombre_corto` as `NomUsuario`, `encabezado`.`nombre` as `nomPrio`
+FROM `correos`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `encabezado` ON `encabezado`.`id_encabezado` = `detalles`.`id_encabezado`
+WHERE `detalles`.`id_encabezado` = :detalles.id_encabezado:
+AND `correos`.`estado` = :correos.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\CorreosModel.php(41): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdministrarCorreos.php(29): App\Models\AdministradorModels\CorreosModel->obtenerPrioxCorreo('5', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 14:38:52 --> mysqli_sql_exception: Unknown column 'correos.id_encabezado' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `correos...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `correos...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `correos...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `correos...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\CorreosModel.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarCorreos.php(29): App\Models\AdministradorModels\CorreosModel->obtenerPrioxCorreo('5', 'A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 14:38:52 --> Unknown column 'correos.id_encabezado' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `correos`.*, `usuarios`.`nombre_corto` as `NomUsuario`, `encabezado`.`nombre` as `nomPrio`
+FROM `correos`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `encabezado` ON `encabezado`.`id_encabezado` = `detalles`.`id_encabezado`
+WHERE `correos`.`id_encabezado` = :correos.id_encabezado:
+AND `correos`.`estado` = :correos.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\CorreosModel.php(41): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdministrarCorreos.php(29): App\Models\AdministradorModels\CorreosModel->obtenerPrioxCorreo('5', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 14:38:53 --> mysqli_sql_exception: Unknown column 'correos.id_encabezado' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `correos...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `correos...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `correos...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `correos...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\CorreosModel.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarCorreos.php(29): App\Models\AdministradorModels\CorreosModel->obtenerPrioxCorreo('5', 'A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 14:38:53 --> Unknown column 'correos.id_encabezado' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `correos`.*, `usuarios`.`nombre_corto` as `NomUsuario`, `encabezado`.`nombre` as `nomPrio`
+FROM `correos`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `encabezado` ON `encabezado`.`id_encabezado` = `detalles`.`id_encabezado`
+WHERE `correos`.`id_encabezado` = :correos.id_encabezado:
+AND `correos`.`estado` = :correos.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\CorreosModel.php(41): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdministrarCorreos.php(29): App\Models\AdministradorModels\CorreosModel->obtenerPrioxCorreo('5', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 14:39:06 --> mysqli_sql_exception: Unknown column 'detalles.id_encabezado' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `correos...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `correos...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `correos...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `correos...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\CorreosModel.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarCorreos.php(29): App\Models\AdministradorModels\CorreosModel->obtenerPrioxCorreo('5', 'A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 14:39:06 --> Unknown column 'detalles.id_encabezado' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `correos`.*, `usuarios`.`nombre_corto` as `NomUsuario`, `encabezado`.`nombre` as `nomPrio`
+FROM `correos`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `encabezado` ON `encabezado`.`id_encabezado` = `detalles`.`id_encabezado`
+WHERE `detalles`.`id_encabezado` = :detalles.id_encabezado:
+AND `correos`.`estado` = :correos.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\CorreosModel.php(41): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdministrarCorreos.php(29): App\Models\AdministradorModels\CorreosModel->obtenerPrioxCorreo('5', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 14:39:52 --> mysqli_sql_exception: Unknown column 'detalles.id_encabezado' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `correos...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `correos...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `correos...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `correos...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\CorreosModel.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarCorreos.php(29): App\Models\AdministradorModels\CorreosModel->obtenerPrioxCorreo('5', 'A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 14:39:52 --> Unknown column 'detalles.id_encabezado' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `correos`.*, `usuarios`.`nombre_corto` as `NomUsuario`, `encabezado`.`nombre` as `nomPrio`
+FROM `correos`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `encabezado` ON `encabezado`.`id_encabezado` = `detalles`.`id_encabezado`
+WHERE `detalles`.`id_encabezado` = :detalles.id_encabezado:
+AND `correos`.`estado` = :correos.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\CorreosModel.php(41): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdministrarCorreos.php(29): App\Models\AdministradorModels\CorreosModel->obtenerPrioxCorreo('5', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:44:29 --> Class "App\Controllers\HorasModel" not found
+in APPPATH\Controllers\AdministrarHoras.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AdministrarHoras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:45:07 --> Class "App\Models\AdministradorModels\HorasModel" not found
+in APPPATH\Controllers\AdministrarHoras.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AdministrarHoras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:45:08 --> Class "App\Models\AdministradorModels\HorasModel" not found
+in APPPATH\Controllers\AdministrarHoras.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AdministrarHoras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:45:08 --> Class "App\Models\AdministradorModels\HorasModel" not found
+in APPPATH\Controllers\AdministrarHoras.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AdministrarHoras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:45:08 --> Class "App\Models\AdministradorModels\HorasModel" not found
+in APPPATH\Controllers\AdministrarHoras.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AdministrarHoras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:46:28 --> Class "App\Models\AdministradorModels\HorasModel" not found
+in APPPATH\Controllers\AdministrarHoras.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AdministrarHoras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:46:29 --> Class "App\Models\AdministradorModels\HorasModel" not found
+in APPPATH\Controllers\AdministrarHoras.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AdministrarHoras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:46:29 --> Class "App\Models\AdministradorModels\HorasModel" not found
+in APPPATH\Controllers\AdministrarHoras.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AdministrarHoras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:46:30 --> Class "App\Models\AdministradorModels\HorasModel" not found
+in APPPATH\Controllers\AdministrarHoras.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AdministrarHoras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:46:30 --> Class "App\Models\AdministradorModels\HorasModel" not found
+in APPPATH\Controllers\AdministrarHoras.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AdministrarHoras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:46:30 --> Class "App\Models\AdministradorModels\HorasModel" not found
+in APPPATH\Controllers\AdministrarHoras.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AdministrarHoras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:46:30 --> Class "App\Models\AdministradorModels\HorasModel" not found
+in APPPATH\Controllers\AdministrarHoras.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AdministrarHoras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:46:30 --> Class "App\Models\AdministradorModels\HorasModel" not found
+in APPPATH\Controllers\AdministrarHoras.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AdministrarHoras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:46:31 --> Class "App\Models\AdministradorModels\HorasModel" not found
+in APPPATH\Controllers\AdministrarHoras.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AdministrarHoras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:46:31 --> Class "App\Models\AdministradorModels\HorasModel" not found
+in APPPATH\Controllers\AdministrarHoras.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AdministrarHoras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:46:31 --> Class "App\Models\AdministradorModels\HorasModel" not found
+in APPPATH\Controllers\AdministrarHoras.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AdministrarHoras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 14:50:40 --> Undefined property: App\Controllers\AdministrarCorreos::$roles
+in APPPATH\Controllers\AdministrarCorreos.php on line 53.
+ 1 APPPATH\Controllers\AdministrarCorreos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdministrarCorreos::$roles', 'APPPATH\\Controllers\\AdministrarCorreos.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:02:19 --> Undefined property: App\Controllers\AdministrarTelefonos::$asunto
+in APPPATH\Controllers\AdministrarTelefonos.php on line 76.
+ 1 APPPATH\Controllers\AdministrarTelefonos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdministrarTelefonos::$asunto', 'APPPATH\\Controllers\\AdministrarTelefonos.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:04:12 --> Undefined variable $horas
+in APPPATH\Views\administradores\horas\eliminados.php on line 49.
+ 1 APPPATH\Views\administradores\horas\eliminados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $horas', 'APPPATH\\Views\\administradores\\horas\\eliminados.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\horas\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/horas/eliminados', [], true)
+ 5 APPPATH\Controllers\AdministrarHoras.php(35): view('/administradores/horas/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarHoras->Indexeliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarHoras))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:04:25 --> Undefined property: App\Controllers\AdministrarTelefonos::$asunto
+in APPPATH\Controllers\AdministrarTelefonos.php on line 76.
+ 1 APPPATH\Controllers\AdministrarTelefonos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdministrarTelefonos::$asunto', 'APPPATH\\Controllers\\AdministrarTelefonos.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:04:28 --> Undefined array key "id_rol"
+in APPPATH\Views\administradores\horas\eliminados.php on line 56.
+ 1 APPPATH\Views\administradores\horas\eliminados.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_rol"', 'APPPATH\\Views\\administradores\\horas\\eliminados.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\horas\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/horas/eliminados', [], true)
+ 5 APPPATH\Controllers\AdministrarHoras.php(35): view('/administradores/horas/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarHoras->Indexeliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarHoras))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:05:21 --> Undefined property: App\Controllers\AdministrarTelefonos::$asunto
+in APPPATH\Controllers\AdministrarTelefonos.php on line 76.
+ 1 APPPATH\Controllers\AdministrarTelefonos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdministrarTelefonos::$asunto', 'APPPATH\\Controllers\\AdministrarTelefonos.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 15:06:18 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`correos`, CONSTRAINT `correo_usuarios` FOREIGN KEY (`id_usuarios`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarCorreos.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 15:06:18 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`correos`, CONSTRAINT `correo_usuarios` FOREIGN KEY (`id_usuarios`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `correos` (`correo_electronico`, `prioridad`, `fecha_crea`) VALUES (:correo_electronico:, :prioridad:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarCorreos.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 15:08:48 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`correos`, CONSTRAINT `correo_usuarios` FOREIGN KEY (`id_usuarios`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarCorreos.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 15:08:48 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`correos`, CONSTRAINT `correo_usuarios` FOREIGN KEY (`id_usuarios`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `correos` (`correo_electronico`, `prioridad`, `fecha_crea`) VALUES (:correo_electronico:, :prioridad:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarCorreos.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 15:11:03 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`correos`, CONSTRAINT `correo_usuarios` FOREIGN KEY (`id_usuarios`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarCorreos.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 15:11:03 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`correos`, CONSTRAINT `correo_usuarios` FOREIGN KEY (`id_usuarios`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `correos` (`correo_electronico`, `prioridad`, `fecha_crea`) VALUES (:correo_electronico:, :prioridad:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarCorreos.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:14:00 --> Undefined property: App\Controllers\AdministrarTelefonos::$asunto
+in APPPATH\Controllers\AdministrarTelefonos.php on line 62.
+ 1 APPPATH\Controllers\AdministrarTelefonos.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdministrarTelefonos::$asunto', 'APPPATH\\Controllers\\AdministrarTelefonos.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:14:22 --> Undefined property: App\Controllers\AdministrarTelefonos::$telefono
+in APPPATH\Controllers\AdministrarTelefonos.php on line 62.
+ 1 APPPATH\Controllers\AdministrarTelefonos.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdministrarTelefonos::$telefono', 'APPPATH\\Controllers\\AdministrarTelefonos.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 15:15:11 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`correos`, CONSTRAINT `correo_usuarios` FOREIGN KEY (`id_usuarios`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarCorreos.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 15:15:11 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`correos`, CONSTRAINT `correo_usuarios` FOREIGN KEY (`id_usuarios`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `correos` (`correo_electronico`, `prioridad`, `fecha_crea`) VALUES (:correo_electronico:, :prioridad:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarCorreos.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:21:43 --> Undefined variable $usuarios
+in APPPATH\Views\administradores\horas\horas.php on line 109.
+ 1 APPPATH\Views\administradores\horas\horas.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'APPPATH\\Views\\administradores\\horas\\horas.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\horas\\horas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/horas/horas', [], true)
+ 5 APPPATH\Controllers\AdministrarHoras.php(23): view('administradores/horas/horas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarHoras->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarHoras))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:23:14 --> Call to a member function obtenerUsuarios() on null
+in APPPATH\Controllers\AdministrarHoras.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarHoras->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarHoras))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 15:28:15 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`correos`, CONSTRAINT `correo_usuarios` FOREIGN KEY (`id_usuarios`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarCorreos.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 15:28:15 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`correos`, CONSTRAINT `correo_usuarios` FOREIGN KEY (`id_usuarios`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `correos` (`correo_electronico`, `prioridad`, `fecha_crea`) VALUES (:correo_electronico:, :prioridad:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarCorreos.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 15:32:38 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`correos`, CONSTRAINT `correo_usuarios` FOREIGN KEY (`id_usuarios`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarCorreos.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 15:32:38 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`correos`, CONSTRAINT `correo_usuarios` FOREIGN KEY (`id_usuarios`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `correos` (`correo_electronico`, `prioridad`, `fecha_crea`) VALUES (:correo_electronico:, :prioridad:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarCorreos.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:32:50 --> Undefined property: App\Controllers\AdministrarTelefonos::$asunto
+in APPPATH\Controllers\AdministrarTelefonos.php on line 76.
+ 1 APPPATH\Controllers\AdministrarTelefonos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdministrarTelefonos::$asunto', 'APPPATH\\Controllers\\AdministrarTelefonos.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:34:07 --> Undefined property: App\Controllers\AdministrarTelefonos::$asunto
+in APPPATH\Controllers\AdministrarTelefonos.php on line 76.
+ 1 APPPATH\Controllers\AdministrarTelefonos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdministrarTelefonos::$asunto', 'APPPATH\\Controllers\\AdministrarTelefonos.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 15:34:57 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`correos`, CONSTRAINT `correo_usuarios` FOREIGN KEY (`id_usuarios`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarCorreos.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 15:34:57 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`correos`, CONSTRAINT `correo_usuarios` FOREIGN KEY (`id_usuarios`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `correos` (`correo_electronico`, `prioridad`, `fecha_crea`) VALUES (:correo_electronico:, :prioridad:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarCorreos.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 15:35:43 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`correos`, CONSTRAINT `correo_usuarios` FOREIGN KEY (`id_usuarios`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarCorreos.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 15:35:43 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`correos`, CONSTRAINT `correo_usuarios` FOREIGN KEY (`id_usuarios`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `correos` (`correo_electronico`, `prioridad`, `fecha_crea`) VALUES (:correo_electronico:, :prioridad:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarCorreos.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarCorreos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarCorreos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 15:41:16 --> mysqli_sql_exception: Unknown column 'telefono.usuario_crea' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `telefon...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `telefon...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `telefon...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefon...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\TelefonosModel.php(43): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(76): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('1', 'A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 15:41:16 --> Unknown column 'telefono.usuario_crea' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefonos`.*, `telefono`.`usuario_crea` as `usuario_crea`, `telefonos`.`id_detalles` as `id_detalles`
+FROM `telefonos`
+JOIN `detalles` ON `detalles`.`id_detalles` = `telefonos`.`id_detalles`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `telefonos`.`id_usuario`
+WHERE `telefonos`.`id_telefono` = :telefonos.id_telefono:
+AND `telefonos`.`estado` = :telefonos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\TelefonosModel.php(43): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(76): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('1', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 15:42:48 --> mysqli_sql_exception: Unknown column 'telefono.usuario_crea' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `telefon...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `telefon...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `telefon...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefon...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\TelefonosModel.php(43): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(76): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('1', 'A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 15:42:48 --> Unknown column 'telefono.usuario_crea' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefonos`.*, `telefono`.`usuario_crea` as `usuario_crea`, `telefonos`.`id_detalles` as `id_detalles`
+FROM `telefonos`
+JOIN `detalles` ON `detalles`.`id_detalles` = `telefonos`.`id_detalles`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `telefonos`.`id_usuario`
+WHERE `telefonos`.`id_telefono` = :telefonos.id_telefono:
+AND `telefonos`.`estado` = :telefonos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\TelefonosModel.php(43): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(76): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('1', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 15:46:51 --> mysqli_sql_exception: Column 'numero' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `te...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(53): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 15:46:51 --> Column 'numero' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `telefonos` (`numero`, `prioridad`, `fecha_crea`) VALUES (:numero:, :prioridad:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(53): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 15:47:46 --> mysqli_sql_exception: Column 'numero' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `te...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(53): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 15:47:46 --> Column 'numero' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `telefonos` (`numero`, `prioridad`, `fecha_crea`) VALUES (:numero:, :prioridad:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(53): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 15:47:51 --> mysqli_sql_exception: Column 'numero' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `te...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(53): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 15:47:51 --> Column 'numero' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `telefonos` (`numero`, `prioridad`, `fecha_crea`) VALUES (:numero:, :prioridad:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(53): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 15:47:52 --> mysqli_sql_exception: Column 'numero' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `te...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(53): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 15:47:52 --> Column 'numero' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `telefonos` (`numero`, `prioridad`, `fecha_crea`) VALUES (:numero:, :prioridad:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(53): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:52:48 --> Call to undefined method App\Models\AdministradorModels\UsuariosModel::UsuariosTodo
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdministrarTelefonos.php(38): CodeIgniter\Model->__call('UsuariosTodo', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:04:03 --> Undefined variable $dataEncabezado
+in APPPATH\Controllers\AdministrarDetalles.php on line 30.
+ 1 APPPATH\Controllers\AdministrarDetalles.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataEncabezado', 'APPPATH\\Controllers\\AdministrarDetalles.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarDetalles->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarDetalles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:04:59 --> Trying to access array offset on value of type null
+in APPPATH\Views\administradores\detalles\detalles.php on line 102.
+ 1 APPPATH\Views\administradores\detalles\detalles.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\administradores\\detalles\\detalles.php', 102)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\detalles\\detalles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/detalles/detalles', [], true)
+ 5 APPPATH\Controllers\AdministrarDetalles.php(33): view('administradores/detalles/detalles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarDetalles->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarDetalles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:18:23 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarTelefonos.php(64): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 16:23:55 --> mysqli_sql_exception: Unknown column 'telefono.id_usuario' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `telefon...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `telefon...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `telefon...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefon...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\TelefonosModel.php(45): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(80): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('1', 'A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 16:23:55 --> Unknown column 'telefono.id_usuario' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefonos`.*, `telefono`.`id_usuario` as `id_usuarios`, `telefonos`.`usuario_crea` as `usuario_crea`, `telefonos`.`id_detalles` as `id_detalles`
+FROM `telefonos`
+JOIN `detalles` ON `detalles`.`id_detalles` = `telefonos`.`id_detalles`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `telefonos`.`id_usuario`
+JOIN `usuarios` as `usuariocrea` ON `usuariocrea`.`id_usuario` = `telefonos`.`usuario_crea`
+WHERE `telefonos`.`id_telefono` = :telefonos.id_telefono:
+AND `telefonos`.`estado` = :telefonos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\TelefonosModel.php(45): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(80): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('1', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 16:24:12 --> mysqli_sql_exception: Unknown column 'id_usuarios' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `te...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(55): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 16:24:12 --> Unknown column 'id_usuarios' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `telefonos` (`id_detalles`, `numero`, `prioridad`, `id_usuarios`, `usuario_crea`, `fecha_crea`) VALUES (:id_detalles:, :numero:, :prioridad:, :id_usuarios:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(55): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 16:25:55 --> mysqli_sql_exception: Unknown column 'id_usuarios' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `te...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(55): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 16:25:55 --> Unknown column 'id_usuarios' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `telefonos` (`id_detalles`, `numero`, `prioridad`, `id_usuarios`, `usuario_crea`, `fecha_crea`) VALUES (:id_detalles:, :numero:, :prioridad:, :id_usuarios:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(55): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:25:57 --> Undefined variable $telefonos
+in APPPATH\Views\administradores\telefonos\telefonos.php on line 57.
+ 1 APPPATH\Views\administradores\telefonos\telefonos.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $telefonos', 'APPPATH\\Views\\administradores\\telefonos\\telefonos.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\telefonos\\telefonos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/telefonos/telefonos', [], true)
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(44): view('/administradores/telefonos/telefonos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:25:57 --> Undefined variable $telefonos
+in APPPATH\Views\administradores\telefonos\telefonos.php on line 57.
+ 1 APPPATH\Views\administradores\telefonos\telefonos.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $telefonos', 'APPPATH\\Views\\administradores\\telefonos\\telefonos.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\telefonos\\telefonos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/telefonos/telefonos', [], true)
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(44): view('/administradores/telefonos/telefonos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:25:58 --> Undefined variable $telefonos
+in APPPATH\Views\administradores\telefonos\telefonos.php on line 57.
+ 1 APPPATH\Views\administradores\telefonos\telefonos.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $telefonos', 'APPPATH\\Views\\administradores\\telefonos\\telefonos.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\telefonos\\telefonos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/telefonos/telefonos', [], true)
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(44): view('/administradores/telefonos/telefonos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:25:58 --> Undefined variable $telefonos
+in APPPATH\Views\administradores\telefonos\telefonos.php on line 57.
+ 1 APPPATH\Views\administradores\telefonos\telefonos.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $telefonos', 'APPPATH\\Views\\administradores\\telefonos\\telefonos.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\telefonos\\telefonos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/telefonos/telefonos', [], true)
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(44): view('/administradores/telefonos/telefonos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:25:58 --> Undefined variable $telefonos
+in APPPATH\Views\administradores\telefonos\telefonos.php on line 57.
+ 1 APPPATH\Views\administradores\telefonos\telefonos.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $telefonos', 'APPPATH\\Views\\administradores\\telefonos\\telefonos.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\telefonos\\telefonos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/telefonos/telefonos', [], true)
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(44): view('/administradores/telefonos/telefonos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 16:26:17 --> mysqli_sql_exception: Unknown column 'id_usuarios' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `te...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(55): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 16:26:17 --> Unknown column 'id_usuarios' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `telefonos` (`id_detalles`, `numero`, `prioridad`, `id_usuarios`, `usuario_crea`, `fecha_crea`) VALUES (:id_detalles:, :numero:, :prioridad:, :id_usuarios:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(55): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 16:27:15 --> mysqli_sql_exception: Column 'usuario_crea' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `te...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(55): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 16:27:15 --> Column 'usuario_crea' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `telefonos` (`id_detalles`, `numero`, `prioridad`, `id_usuario`, `usuario_crea`, `fecha_crea`) VALUES (:id_detalles:, :numero:, :prioridad:, :id_usuario:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(55): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 16:27:31 --> mysqli_sql_exception: Column 'usuario_crea' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `te...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(55): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 16:27:31 --> Column 'usuario_crea' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `telefonos` (`id_detalles`, `numero`, `prioridad`, `id_usuario`, `usuario_crea`, `fecha_crea`) VALUES (:id_detalles:, :numero:, :prioridad:, :id_usuario:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(55): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 16:29:04 --> mysqli_sql_exception: Unknown column 'telefono.id_usuario' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `telefon...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `telefon...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `telefon...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefon...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\TelefonosModel.php(45): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(80): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('1', 'A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 16:29:04 --> Unknown column 'telefono.id_usuario' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefonos`.*, `telefono`.`id_usuario` as `id_usuario`, `telefonos`.`usuario_crea` as `usuario_crea`, `telefonos`.`id_detalles` as `id_detalles`
+FROM `telefonos`
+JOIN `detalles` ON `detalles`.`id_detalles` = `telefonos`.`id_detalles`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `telefonos`.`id_usuario`
+JOIN `usuarios` as `usuariocrea` ON `usuariocrea`.`id_usuario` = `telefonos`.`usuario_crea`
+WHERE `telefonos`.`id_telefono` = :telefonos.id_telefono:
+AND `telefonos`.`estado` = :telefonos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\TelefonosModel.php(45): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(80): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('1', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 16:29:42 --> mysqli_sql_exception: Unknown column 'telefono.id_usuario' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `telefon...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `telefon...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `telefon...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefon...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\TelefonosModel.php(45): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(80): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('1', 'A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 16:29:42 --> Unknown column 'telefono.id_usuario' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefonos`.*, `telefono`.`id_usuario` as `id_usuario`, `telefonos`.`usuario_crea` as `usuario_crea`, `telefonos`.`id_detalles` as `id_detalles`
+FROM `telefonos`
+JOIN `detalles` ON `detalles`.`id_detalles` = `telefonos`.`id_detalles`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `telefonos`.`id_usuario`
+JOIN `usuarios` as `usuariocrea` ON `usuariocrea`.`id_usuario` = `telefonos`.`usuario_crea`
+WHERE `telefonos`.`id_telefono` = :telefonos.id_telefono:
+AND `telefonos`.`estado` = :telefonos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\TelefonosModel.php(45): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(80): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('1', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 16:31:51 --> mysqli_sql_exception: Unknown column 'telefono.id_usuario' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `telefon...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `telefon...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `telefon...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefon...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\TelefonosModel.php(45): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(80): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('6', 'A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('6')
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 16:31:51 --> Unknown column 'telefono.id_usuario' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefonos`.*, `telefono`.`id_usuario` as `id_usuario`, `telefonos`.`usuario_crea` as `usuario_crea`, `telefonos`.`id_detalles` as `id_detalles`
+FROM `telefonos`
+JOIN `detalles` ON `detalles`.`id_detalles` = `telefonos`.`id_detalles`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `telefonos`.`id_usuario`
+JOIN `usuarios` as `usuariocrea` ON `usuariocrea`.`id_usuario` = `telefonos`.`usuario_crea`
+WHERE `telefonos`.`id_telefono` = :telefonos.id_telefono:
+AND `telefonos`.`estado` = :telefonos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\TelefonosModel.php(45): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(80): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('6', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('6')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 16:32:53 --> mysqli_sql_exception: Unknown column 'telefono.id_usuario' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `telefon...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `telefon...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `telefon...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefon...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\TelefonosModel.php(45): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(80): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('6', 'A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('6')
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 16:32:53 --> Unknown column 'telefono.id_usuario' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefonos`.*, `telefono`.`id_usuario` as `id_usuario`, `telefonos`.`usuario_crea` as `usuario_crea`, `telefonos`.`id_detalles` as `id_detalles`
+FROM `telefonos`
+JOIN `detalles` ON `detalles`.`id_detalles` = `telefonos`.`id_detalles`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `telefonos`.`id_usuario`
+JOIN `usuarios` as `usuariocrea` ON `usuariocrea`.`id_usuario` = `telefonos`.`usuario_crea`
+WHERE `telefonos`.`id_telefono` = :telefonos.id_telefono:
+AND `telefonos`.`estado` = :telefonos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\TelefonosModel.php(45): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(80): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('6', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('6')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 16:33:38 --> mysqli_sql_exception: Unknown column 'telefono.id_usuario' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `telefon...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `telefon...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `telefon...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefon...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\TelefonosModel.php(45): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(80): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('1', 'A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 16:33:38 --> Unknown column 'telefono.id_usuario' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefonos`.*, `telefono`.`id_usuario` as `id_usuario`, `telefonos`.`usuario_crea` as `usuario_crea`, `telefonos`.`id_detalles` as `id_detalles`
+FROM `telefonos`
+JOIN `detalles` ON `detalles`.`id_detalles` = `telefonos`.`id_detalles`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `telefonos`.`id_usuario`
+JOIN `usuarios` as `usuariocrea` ON `usuariocrea`.`id_usuario` = `telefonos`.`usuario_crea`
+WHERE `telefonos`.`id_telefono` = :telefonos.id_telefono:
+AND `telefonos`.`estado` = :telefonos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\TelefonosModel.php(45): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(80): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('1', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 16:33:53 --> mysqli_sql_exception: Unknown column 'telefono.id_usuario' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `telefon...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `telefon...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `telefon...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefon...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\TelefonosModel.php(45): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(80): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('1', 'A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 16:33:53 --> Unknown column 'telefono.id_usuario' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefonos`.*, `telefono`.`id_usuario` as `id_usuario`, `telefonos`.`usuario_crea` as `usuario_crea`, `telefonos`.`id_detalles` as `id_detalles`
+FROM `telefonos`
+JOIN `detalles` ON `detalles`.`id_detalles` = `telefonos`.`id_detalles`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `telefonos`.`id_usuario`
+JOIN `usuarios` as `usuariocrea` ON `usuariocrea`.`id_usuario` = `telefonos`.`usuario_crea`
+WHERE `telefonos`.`id_telefono` = :telefonos.id_telefono:
+AND `telefonos`.`estado` = :telefonos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\TelefonosModel.php(45): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(80): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('1', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 16:36:01 --> mysqli_sql_exception: Unknown column 'telefono.id_usuario' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `telefon...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `telefon...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `telefon...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefon...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\TelefonosModel.php(45): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(80): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('1', 'A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 16:36:01 --> Unknown column 'telefono.id_usuario' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefonos`.*, `telefono`.`id_usuario` as `id_usuario`, `telefonos`.`usuario_crea` as `usuario_crea`, `telefonos`.`id_detalles` as `id_detalles`
+FROM `telefonos`
+JOIN `detalles` ON `detalles`.`id_detalles` = `telefonos`.`id_detalles`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `telefonos`.`id_usuario`
+JOIN `usuarios` as `usuariocrea` ON `usuariocrea`.`id_usuario` = `telefonos`.`usuario_crea`
+WHERE `telefonos`.`id_telefono` = :telefonos.id_telefono:
+AND `telefonos`.`estado` = :telefonos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\TelefonosModel.php(45): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(80): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('1', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 16:36:18 --> mysqli_sql_exception: Unknown column 'telefono.id_usuario' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `telefon...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `telefon...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `telefon...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefon...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\TelefonosModel.php(45): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(80): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('1', 'A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-10 16:36:18 --> Unknown column 'telefono.id_usuario' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefonos`.*, `telefono`.`id_usuario` as `id_usuario`, `telefonos`.`usuario_crea` as `usuario_crea`, `telefonos`.`id_detalles` as `id_detalles`
+FROM `telefonos`
+JOIN `detalles` ON `detalles`.`id_detalles` = `telefonos`.`id_detalles`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `telefonos`.`id_usuario`
+JOIN `usuarios` as `usuariocrea` ON `usuariocrea`.`id_usuario` = `telefonos`.`usuario_crea`
+WHERE `telefonos`.`id_telefono` = :telefonos.id_telefono:
+AND `telefonos`.`estado` = :telefonos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\TelefonosModel.php(45): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(80): App\Models\AdministradorModels\TelefonosModel->colocarTelefonos('1', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->buscar_Telefonos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:42:08 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\LoginSignin.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

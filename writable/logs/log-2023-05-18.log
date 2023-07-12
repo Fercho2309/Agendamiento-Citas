@@ -1,0 +1,809 @@
+ERROR - 2023-05-18 12:38:58 --> mysqli_sql_exception: Column 'sexo' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarUsuarios.php(46): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarUsuarios->insertar()
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarUsuarios))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-18 12:38:58 --> Column 'sexo' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre_p`, `nombre_s`, `apellido_p`, `apellido_s`, `nombre_corto`, `direccion`, `sexo`, `tipo_de_documento`, `numero_de_documento`, `cargo`, `contrasena`, `id_rol`, `fecha_crea`) VALUES (:nombre_p:, :nombre_s:, :apellido_p:, :apellido_s:, :nombre_corto:, :direccion:, :sexo:, :tipo_de_documento:, :numero_de_documento:, :cargo:, :contrasena:, :id_rol:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\AdministrarUsuarios.php(46): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarUsuarios->insertar()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarUsuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 12:47:25 --> mysqli_sql_exception: Unknown column 'telefonos.id_detalles' in 'on clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `telefon...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `telefon...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `telefon...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefon...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\TelefonosModel.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(34): App\Models\AdministradorModels\TelefonosModel->obtenerTelefono('A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-18 12:47:25 --> Unknown column 'telefonos.id_detalles' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefonos`.*, `usuarios`.`nombre_corto` as `NomUsuario`, `usuariocrea`.`nombre_corto` as `UsuarioCrea`, `detalles`.`nombre` as `numTelefono`
+FROM `telefonos`
+JOIN `detalles` ON `detalles`.`id_detalles` = `telefonos`.`id_detalles`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `telefonos`.`id_usuario`
+JOIN `usuarios` as `usuariocrea` ON `usuariocrea`.`id_usuario` = `telefonos`.`usuario_crea`
+WHERE `telefonos`.`estado` = :telefonos.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\TelefonosModel.php(34): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(34): App\Models\AdministradorModels\TelefonosModel->obtenerTelefono('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 12:48:23 --> mysqli_sql_exception: Table 'db_citas.horas' doesn't exist in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `horas`....', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `horas`....')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `horas`....')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `horas`....', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\HorasModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarHoras.php(22): App\Models\AdministradorModels\HorasModel->obtenerHoras('A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarHoras->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarHoras))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-18 12:48:23 --> Table 'db_citas.horas' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `horas`.*, `usuarios`.`nombre_corto` as `NomUsuario`
+FROM `horas`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `horas`.`usuario_crea`
+WHERE `horas`.`estado` = :horas.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\HorasModel.php(31): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdministrarHoras.php(22): App\Models\AdministradorModels\HorasModel->obtenerHoras('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarHoras->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarHoras))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 12:48:32 --> mysqli_sql_exception: Table 'db_citas.horas' doesn't exist in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `horas`....', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `horas`....')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `horas`....')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `horas`....', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\HorasModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarHoras.php(22): App\Models\AdministradorModels\HorasModel->obtenerHoras('A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarHoras->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarHoras))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-18 12:48:32 --> Table 'db_citas.horas' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `horas`.*, `usuarios`.`nombre_corto` as `NomUsuario`
+FROM `horas`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `horas`.`usuario_crea`
+WHERE `horas`.`estado` = :horas.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\HorasModel.php(31): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdministrarHoras.php(22): App\Models\AdministradorModels\HorasModel->obtenerHoras('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarHoras->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarHoras))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 12:49:03 --> mysqli_sql_exception: Unknown column 'telefonos.id_detalles' in 'on clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `telefon...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `telefon...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `telefon...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefon...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\TelefonosModel.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(34): App\Models\AdministradorModels\TelefonosModel->obtenerTelefono('A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-18 12:49:03 --> Unknown column 'telefonos.id_detalles' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefonos`.*, `usuarios`.`nombre_corto` as `NomUsuario`, `usuariocrea`.`nombre_corto` as `UsuarioCrea`, `detalles`.`nombre` as `numTelefono`
+FROM `telefonos`
+JOIN `detalles` ON `detalles`.`id_detalles` = `telefonos`.`id_detalles`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `telefonos`.`id_usuario`
+JOIN `usuarios` as `usuariocrea` ON `usuariocrea`.`id_usuario` = `telefonos`.`usuario_crea`
+WHERE `telefonos`.`estado` = :telefonos.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\TelefonosModel.php(34): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(34): App\Models\AdministradorModels\TelefonosModel->obtenerTelefono('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:58:21 --> Class "App\Models\AdministradorModels\HorasModel" not found
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\EstudiantesSolicitarCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 12:58:46 --> mysqli_sql_exception: Unknown column 'horas.estado' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `lapsos`...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lapsos`...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lapsos`...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `lapsos`...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\LapsoModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarLapsos.php(22): App\Models\AdministradorModels\LapsoModel->obtenerHoras('A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarLapsos->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarLapsos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-18 12:58:46 --> Unknown column 'horas.estado' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `lapsos`.*, `usuarios`.`nombre_corto` as `NomUsuario`
+FROM `lapsos`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `lapsos`.`usuario_crea`
+WHERE `horas`.`estado` = :horas.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\LapsoModel.php(31): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdministrarLapsos.php(22): App\Models\AdministradorModels\LapsoModel->obtenerHoras('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarLapsos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarLapsos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:58:55 --> Invalid file: "administradores/horas/horas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administradores/horas/horas.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/horas/horas', [], true)
+ 3 APPPATH\Controllers\AdministrarLapsos.php(27): view('administradores/horas/horas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarLapsos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarLapsos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:58:57 --> Invalid file: "administradores/horas/horas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administradores/horas/horas.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/horas/horas', [], true)
+ 3 APPPATH\Controllers\AdministrarLapsos.php(27): view('administradores/horas/horas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarLapsos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarLapsos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:58:57 --> Invalid file: "administradores/horas/horas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administradores/horas/horas.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/horas/horas', [], true)
+ 3 APPPATH\Controllers\AdministrarLapsos.php(27): view('administradores/horas/horas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarLapsos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarLapsos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:58:57 --> Invalid file: "administradores/horas/horas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administradores/horas/horas.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/horas/horas', [], true)
+ 3 APPPATH\Controllers\AdministrarLapsos.php(27): view('administradores/horas/horas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarLapsos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarLapsos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:58:57 --> Invalid file: "administradores/horas/horas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administradores/horas/horas.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/horas/horas', [], true)
+ 3 APPPATH\Controllers\AdministrarLapsos.php(27): view('administradores/horas/horas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarLapsos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarLapsos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:58:57 --> Invalid file: "administradores/horas/horas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administradores/horas/horas.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/horas/horas', [], true)
+ 3 APPPATH\Controllers\AdministrarLapsos.php(27): view('administradores/horas/horas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarLapsos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarLapsos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:59:18 --> Invalid file: "administradores/lapso/lapso.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administradores/lapso/lapso.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/lapso/lapso', [], true)
+ 3 APPPATH\Controllers\AdministrarLapsos.php(27): view('administradores/lapso/lapso', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarLapsos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarLapsos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:59:19 --> Invalid file: "administradores/lapso/lapso.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administradores/lapso/lapso.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/lapso/lapso', [], true)
+ 3 APPPATH\Controllers\AdministrarLapsos.php(27): view('administradores/lapso/lapso', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarLapsos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarLapsos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:59:24 --> Undefined array key "id_hora"
+in APPPATH\Views\administradores\lapso\lapsos.php on line 51.
+ 1 APPPATH\Views\administradores\lapso\lapsos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_hora"', 'APPPATH\\Views\\administradores\\lapso\\lapsos.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\lapso\\lapsos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/lapso/lapsos', [], true)
+ 5 APPPATH\Controllers\AdministrarLapsos.php(27): view('administradores/lapso/lapsos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarLapsos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarLapsos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:59:39 --> Undefined array key "id_hora"
+in APPPATH\Views\administradores\lapso\lapsos.php on line 58.
+ 1 APPPATH\Views\administradores\lapso\lapsos.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_hora"', 'APPPATH\\Views\\administradores\\lapso\\lapsos.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\lapso\\lapsos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/lapso/lapsos', [], true)
+ 5 APPPATH\Controllers\AdministrarLapsos.php(27): view('administradores/lapso/lapsos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarLapsos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarLapsos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:59:40 --> Undefined array key "id_hora"
+in APPPATH\Views\administradores\lapso\lapsos.php on line 58.
+ 1 APPPATH\Views\administradores\lapso\lapsos.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_hora"', 'APPPATH\\Views\\administradores\\lapso\\lapsos.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\lapso\\lapsos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/lapso/lapsos', [], true)
+ 5 APPPATH\Controllers\AdministrarLapsos.php(27): view('administradores/lapso/lapsos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarLapsos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarLapsos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:59:40 --> Undefined array key "id_hora"
+in APPPATH\Views\administradores\lapso\lapsos.php on line 58.
+ 1 APPPATH\Views\administradores\lapso\lapsos.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_hora"', 'APPPATH\\Views\\administradores\\lapso\\lapsos.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\lapso\\lapsos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/lapso/lapsos', [], true)
+ 5 APPPATH\Controllers\AdministrarLapsos.php(27): view('administradores/lapso/lapsos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarLapsos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarLapsos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:59:41 --> Undefined array key "id_hora"
+in APPPATH\Views\administradores\lapso\lapsos.php on line 58.
+ 1 APPPATH\Views\administradores\lapso\lapsos.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_hora"', 'APPPATH\\Views\\administradores\\lapso\\lapsos.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\lapso\\lapsos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/lapso/lapsos', [], true)
+ 5 APPPATH\Controllers\AdministrarLapsos.php(27): view('administradores/lapso/lapsos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarLapsos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarLapsos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:59:41 --> Undefined array key "id_hora"
+in APPPATH\Views\administradores\lapso\lapsos.php on line 58.
+ 1 APPPATH\Views\administradores\lapso\lapsos.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_hora"', 'APPPATH\\Views\\administradores\\lapso\\lapsos.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\lapso\\lapsos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/lapso/lapsos', [], true)
+ 5 APPPATH\Controllers\AdministrarLapsos.php(27): view('administradores/lapso/lapsos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarLapsos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarLapsos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:00:59 --> Undefined property: App\Controllers\AdministrarLapsos::$horas
+in APPPATH\Controllers\AdministrarLapsos.php on line 78.
+ 1 APPPATH\Controllers\AdministrarLapsos.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdministrarLapsos::$horas', 'APPPATH\\Controllers\\AdministrarLapsos.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarLapsos->eliminar('18', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarLapsos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 13:20:21 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Usuario_Crea_Usuarios` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(46): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-18 13:20:21 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Usuario_Crea_Usuarios` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre_p`, `nombre_s`, `apellido_p`, `apellido_s`, `nombre_corto`, `direccion`, `sexo`, `tipo_de_documento`, `numero_de_documento`, `cargo`, `id_rol`, `contrasena`, `fecha_crea`) VALUES (:nombre_p:, :nombre_s:, :apellido_p:, :apellido_s:, :nombre_corto:, :direccion:, :sexo:, :tipo_de_documento:, :numero_de_documento:, :cargo:, :id_rol:, :contrasena:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\LoginRegistrarUsuario.php(46): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 13:29:23 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `usuarios_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(46): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-18 13:29:23 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `usuarios_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre_p`, `nombre_s`, `apellido_p`, `apellido_s`, `nombre_corto`, `direccion`, `sexo`, `tipo_de_documento`, `numero_de_documento`, `cargo`, `id_rol`, `contrasena`, `fecha_crea`) VALUES (:nombre_p:, :nombre_s:, :apellido_p:, :apellido_s:, :nombre_corto:, :direccion:, :sexo:, :tipo_de_documento:, :numero_de_documento:, :cargo:, :id_rol:, :contrasena:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\LoginRegistrarUsuario.php(46): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 13:34:11 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Usuario_Crea_Usuarios` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(46): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-18 13:34:11 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Usuario_Crea_Usuarios` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre_p`, `nombre_s`, `apellido_p`, `apellido_s`, `nombre_corto`, `direccion`, `sexo`, `tipo_de_documento`, `numero_de_documento`, `cargo`, `id_rol`, `contrasena`, `fecha_crea`) VALUES (:nombre_p:, :nombre_s:, :apellido_p:, :apellido_s:, :nombre_corto:, :direccion:, :sexo:, :tipo_de_documento:, :numero_de_documento:, :cargo:, :id_rol:, :contrasena:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\LoginRegistrarUsuario.php(46): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 13:38:17 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Usuario_Crea_Usuarios` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarUsuarios.php(46): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarUsuarios->insertar()
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarUsuarios))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-18 13:38:17 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Usuario_Crea_Usuarios` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre_p`, `nombre_s`, `apellido_p`, `apellido_s`, `nombre_corto`, `direccion`, `sexo`, `tipo_de_documento`, `numero_de_documento`, `cargo`, `contrasena`, `id_rol`, `fecha_crea`) VALUES (:nombre_p:, :nombre_s:, :apellido_p:, :apellido_s:, :nombre_corto:, :direccion:, :sexo:, :tipo_de_documento:, :numero_de_documento:, :cargo:, :contrasena:, :id_rol:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\AdministrarUsuarios.php(46): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarUsuarios->insertar()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarUsuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 13:42:46 --> mysqli_sql_exception: Unknown column 'telefonos.id_detalles' in 'on clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `telefon...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `telefon...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `telefon...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefon...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\TelefonosModel.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarTelefonos.php(34): App\Models\AdministradorModels\TelefonosModel->obtenerTelefono('A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-18 13:42:46 --> Unknown column 'telefonos.id_detalles' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `telefonos`.*, `usuarios`.`nombre_corto` as `NomUsuario`, `usuariocrea`.`nombre_corto` as `UsuarioCrea`, `detalles`.`nombre` as `numTelefono`
+FROM `telefonos`
+JOIN `detalles` ON `detalles`.`id_detalles` = `telefonos`.`id_detalles`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `telefonos`.`id_usuario`
+JOIN `usuarios` as `usuariocrea` ON `usuariocrea`.`id_usuario` = `telefonos`.`usuario_crea`
+WHERE `telefonos`.`estado` = :telefonos.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\TelefonosModel.php(34): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdministrarTelefonos.php(34): App\Models\AdministradorModels\TelefonosModel->obtenerTelefono('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarTelefonos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarTelefonos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:44:32 --> Undefined array key "id_hora"
+in APPPATH\Views\administradores\lapso\eliminados.php on line 46.
+ 1 APPPATH\Views\administradores\lapso\eliminados.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_hora"', 'APPPATH\\Views\\administradores\\lapso\\eliminados.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\lapso\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/administradores/lapso/eliminados', [], true)
+ 5 APPPATH\Controllers\AdministrarLapsos.php(72): view('/administradores/lapso/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarLapsos->Indexeliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarLapsos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:51:57 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\LoginSignin.php on line 95.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:52:11 --> syntax error, unexpected token "else", expecting "("
+in APPPATH\Controllers\LoginSignin.php on line 94.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:52:12 --> syntax error, unexpected token "else", expecting "("
+in APPPATH\Controllers\LoginSignin.php on line 94.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:52:12 --> syntax error, unexpected token "else", expecting "("
+in APPPATH\Controllers\LoginSignin.php on line 94.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:52:12 --> syntax error, unexpected token "else", expecting "("
+in APPPATH\Controllers\LoginSignin.php on line 94.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:52:12 --> syntax error, unexpected token "else", expecting "("
+in APPPATH\Controllers\LoginSignin.php on line 94.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:52:12 --> syntax error, unexpected token "else", expecting "("
+in APPPATH\Controllers\LoginSignin.php on line 94.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:52:13 --> syntax error, unexpected token "else", expecting "("
+in APPPATH\Controllers\LoginSignin.php on line 94.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:52:13 --> syntax error, unexpected token "else", expecting "("
+in APPPATH\Controllers\LoginSignin.php on line 94.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:52:13 --> syntax error, unexpected token "else", expecting "("
+in APPPATH\Controllers\LoginSignin.php on line 94.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:52:13 --> syntax error, unexpected token "else", expecting "("
+in APPPATH\Controllers\LoginSignin.php on line 94.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:52:13 --> syntax error, unexpected token "else", expecting "("
+in APPPATH\Controllers\LoginSignin.php on line 94.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:52:14 --> syntax error, unexpected token "else", expecting "("
+in APPPATH\Controllers\LoginSignin.php on line 94.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:53:46 --> Class "App\Models\AdministradorModels\HorasModel" not found
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\EstudiantesSolicitarCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 14:03:38 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `usuarios_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarUsuarios.php(70): CodeIgniter\Model->update('40', Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarUsuarios->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarUsuarios))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-18 14:03:38 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `usuarios_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre_p` = :nombre_p:, `nombre_s` = :nombre_s:, `apellido_p` = :apellido_p:, `apellido_s` = :apellido_s:, `nombre_corto` = :nombre_corto:, `direccion` = :direccion:, `sexo` = :sexo:, `tipo_de_documento` = :tipo_de_documento:, `numero_de_documento` = :numero_de_documento:, `cargo` = :cargo:, `contrasena` = :contrasena:, `id_rol` = :id_rol:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\AdministrarUsuarios.php(70): CodeIgniter\Model->update('40', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarUsuarios->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarUsuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 14:04:07 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `usuarios_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarUsuarios.php(70): CodeIgniter\Model->update('40', Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarUsuarios->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarUsuarios))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-18 14:04:07 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `usuarios_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre_p` = :nombre_p:, `nombre_s` = :nombre_s:, `apellido_p` = :apellido_p:, `apellido_s` = :apellido_s:, `nombre_corto` = :nombre_corto:, `direccion` = :direccion:, `sexo` = :sexo:, `tipo_de_documento` = :tipo_de_documento:, `numero_de_documento` = :numero_de_documento:, `cargo` = :cargo:, `contrasena` = :contrasena:, `id_rol` = :id_rol:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\AdministrarUsuarios.php(70): CodeIgniter\Model->update('40', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarUsuarios->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarUsuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:46:52 --> Class "app\Filters\SessionAdmin" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('signin', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:46:52 --> Class "app\Filters\SessionAdmin" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('signin', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:46:52 --> Class "app\Filters\SessionAdmin" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('signin', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:46:53 --> Class "app\Filters\SessionAdmin" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('signin', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:46:53 --> Class "app\Filters\SessionAdmin" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('signin', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:49:44 --> Class "app\Filters\SessionAdmin" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('signin', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:49:48 --> Class "app\Filters\SessionAdmin" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('signin', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:49:59 --> Class "app\Filters\SessionAdmin" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('signin', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:50:35 --> Class "Config\SessionAdmin" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('signin', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:51:05 --> Class "app\Filters\SessionAdmin" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('signin', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:52:02 --> Class "app\Filters\SessionAdmin" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('signin', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:52:51 --> Class "app\Filters\SessionAdmin" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('signin', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:52:55 --> Class "app\Filters\SessionAdmin" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('signin', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:53:06 --> Class "app\Filters\SessionAdmin" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('signin', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:58:13 --> Class "Config\App\Filters\SessionAdmin" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('signin', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 15:56:09 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `usuarios_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\AdministrarUsuarios.php(70): CodeIgniter\Model->update('41', Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\AdministrarUsuarios->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarUsuarios))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-18 15:56:09 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `usuarios_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre_p` = :nombre_p:, `nombre_s` = :nombre_s:, `apellido_p` = :apellido_p:, `apellido_s` = :apellido_s:, `nombre_corto` = :nombre_corto:, `direccion` = :direccion:, `sexo` = :sexo:, `tipo_de_documento` = :tipo_de_documento:, `numero_de_documento` = :numero_de_documento:, `cargo` = :cargo:, `contrasena` = :contrasena:, `id_rol` = :id_rol:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\AdministrarUsuarios.php(70): CodeIgniter\Model->update('41', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarUsuarios->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarUsuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 15:57:08 --> syntax error, unexpected double-quoted string "signin", expecting "]"
+in APPPATH\Config\Filters.php on line 69.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Config\\Filters.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('Config\\Filters')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'Filters')
+ 6 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 7 SYSTEMPATH\Config\Services.php(285): config('Filters')
+ 8 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters(null, false)
+ 9 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+10 SYSTEMPATH\Config\Services.php(282): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+11 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters()
+12 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 15:57:11 --> syntax error, unexpected double-quoted string "signin", expecting "]"
+in APPPATH\Config\Filters.php on line 69.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Config\\Filters.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('Config\\Filters')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'Filters')
+ 6 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 7 SYSTEMPATH\Config\Services.php(285): config('Filters')
+ 8 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters(null, false)
+ 9 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+10 SYSTEMPATH\Config\Services.php(282): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+11 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters()
+12 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 15:59:45 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Config\Filters.php on line 72.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Config\\Filters.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('Config\\Filters')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'Filters')
+ 6 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 7 SYSTEMPATH\Config\Services.php(285): config('Filters')
+ 8 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters(null, false)
+ 9 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+10 SYSTEMPATH\Config\Services.php(282): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+11 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters()
+12 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,584 @@
+CRITICAL - 2023-06-09 12:56:45 --> Trying to access array offset on value of type null
+in APPPATH\Views\principal\menu\menu.php on line 109.
+ 1 APPPATH\Views\principal\menu\menu.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\principal\\menu\\menu.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\AdministrarUsuarios.php(54): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarUsuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarUsuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-09 13:05:53 --> mysqli_sql_exception: Table 'db_citas.pruebaeventos' doesn't exist in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteDisponibilidad.php(60): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-09 13:05:53 --> Table 'db_citas.pruebaeventos' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pruebaeventos` (`title`, `start`, `end`, `color`, `fecha_crea`) VALUES (:title:, :start:, :end:, :color:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\DocenteDisponibilidad.php(60): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:22:55 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteDisponibilidad.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteDisponibilidad')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteDisponibilidad')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteDisponibilidad', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:23:13 --> Undefined variable $usuarioCrea
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 32.
+ 1 APPPATH\Controllers\DocenteDisponibilidad.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioCrea', 'APPPATH\\Controllers\\DocenteDisponibilidad.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:23:14 --> Undefined variable $usuarioCrea
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 32.
+ 1 APPPATH\Controllers\DocenteDisponibilidad.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioCrea', 'APPPATH\\Controllers\\DocenteDisponibilidad.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:23:15 --> Undefined variable $usuarioCrea
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 32.
+ 1 APPPATH\Controllers\DocenteDisponibilidad.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioCrea', 'APPPATH\\Controllers\\DocenteDisponibilidad.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:23:25 --> Undefined variable $usuarioCrea
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 32.
+ 1 APPPATH\Controllers\DocenteDisponibilidad.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioCrea', 'APPPATH\\Controllers\\DocenteDisponibilidad.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:23:26 --> Undefined variable $usuarioCrea
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 32.
+ 1 APPPATH\Controllers\DocenteDisponibilidad.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioCrea', 'APPPATH\\Controllers\\DocenteDisponibilidad.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:23:26 --> Undefined variable $usuarioCrea
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 32.
+ 1 APPPATH\Controllers\DocenteDisponibilidad.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioCrea', 'APPPATH\\Controllers\\DocenteDisponibilidad.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:23:26 --> Undefined variable $usuarioCrea
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 32.
+ 1 APPPATH\Controllers\DocenteDisponibilidad.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioCrea', 'APPPATH\\Controllers\\DocenteDisponibilidad.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:23:26 --> Undefined variable $usuarioCrea
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 32.
+ 1 APPPATH\Controllers\DocenteDisponibilidad.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioCrea', 'APPPATH\\Controllers\\DocenteDisponibilidad.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:23:26 --> Undefined variable $usuarioCrea
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 32.
+ 1 APPPATH\Controllers\DocenteDisponibilidad.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioCrea', 'APPPATH\\Controllers\\DocenteDisponibilidad.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:23:27 --> Undefined variable $usuarioCrea
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 32.
+ 1 APPPATH\Controllers\DocenteDisponibilidad.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioCrea', 'APPPATH\\Controllers\\DocenteDisponibilidad.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:23:27 --> Undefined variable $usuarioCrea
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 32.
+ 1 APPPATH\Controllers\DocenteDisponibilidad.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioCrea', 'APPPATH\\Controllers\\DocenteDisponibilidad.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:24:22 --> Multiple access type modifiers are not allowed
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteDisponibilidad.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteDisponibilidad')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteDisponibilidad')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteDisponibilidad', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:24:23 --> Multiple access type modifiers are not allowed
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteDisponibilidad.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteDisponibilidad')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteDisponibilidad')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteDisponibilidad', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:24:23 --> Multiple access type modifiers are not allowed
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteDisponibilidad.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteDisponibilidad')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteDisponibilidad')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteDisponibilidad', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:24:23 --> Multiple access type modifiers are not allowed
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteDisponibilidad.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteDisponibilidad')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteDisponibilidad')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteDisponibilidad', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:24:24 --> Multiple access type modifiers are not allowed
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteDisponibilidad.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteDisponibilidad')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteDisponibilidad')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteDisponibilidad', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:24:24 --> Multiple access type modifiers are not allowed
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteDisponibilidad.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteDisponibilidad')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteDisponibilidad')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteDisponibilidad', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:24:37 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteDisponibilidad.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteDisponibilidad')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteDisponibilidad')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteDisponibilidad', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:24:38 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteDisponibilidad.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteDisponibilidad')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteDisponibilidad')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteDisponibilidad', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:24:38 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteDisponibilidad.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteDisponibilidad')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteDisponibilidad')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteDisponibilidad', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:24:38 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteDisponibilidad.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteDisponibilidad')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteDisponibilidad')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteDisponibilidad', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:24:38 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteDisponibilidad.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteDisponibilidad')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteDisponibilidad')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteDisponibilidad', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:24:43 --> Undefined variable $miperfil
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 30.
+ 1 APPPATH\Controllers\DocenteDisponibilidad.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $miperfil', 'APPPATH\\Controllers\\DocenteDisponibilidad.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:24:44 --> Undefined variable $miperfil
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 30.
+ 1 APPPATH\Controllers\DocenteDisponibilidad.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $miperfil', 'APPPATH\\Controllers\\DocenteDisponibilidad.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:24:44 --> Undefined variable $miperfil
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 30.
+ 1 APPPATH\Controllers\DocenteDisponibilidad.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $miperfil', 'APPPATH\\Controllers\\DocenteDisponibilidad.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:24:44 --> Undefined variable $miperfil
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 30.
+ 1 APPPATH\Controllers\DocenteDisponibilidad.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $miperfil', 'APPPATH\\Controllers\\DocenteDisponibilidad.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:24:44 --> Undefined variable $miperfil
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 30.
+ 1 APPPATH\Controllers\DocenteDisponibilidad.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $miperfil', 'APPPATH\\Controllers\\DocenteDisponibilidad.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-09 13:28:27 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`pruebaeventos`, CONSTRAINT `usuario` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteDisponibilidad.php(59): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-09 13:28:27 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`pruebaeventos`, CONSTRAINT `usuario` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pruebaeventos` (`title`, `start`, `end`, `color`, `fecha_crea`) VALUES (:title:, :start:, :end:, :color:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\DocenteDisponibilidad.php(59): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-09 13:30:14 --> mysqli_sql_exception: Column 'usuario_crea' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteDisponibilidad.php(59): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-09 13:30:14 --> Column 'usuario_crea' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pruebaeventos` (`title`, `start`, `end`, `color`, `usuario_crea`, `fecha_crea`) VALUES (:title:, :start:, :end:, :color:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\DocenteDisponibilidad.php(59): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-09 13:31:03 --> mysqli_sql_exception: Column 'usuario_crea' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteDisponibilidad.php(59): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-09 13:31:03 --> Column 'usuario_crea' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pruebaeventos` (`title`, `start`, `end`, `color`, `usuario_crea`, `fecha_crea`) VALUES (:title:, :start:, :end:, :color:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\DocenteDisponibilidad.php(59): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:31:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Models\AdministradorModels\UsuariosModel.php on line 161.
+ 1 APPPATH\Controllers\Perfiles.php(190): App\Models\AdministradorModels\UsuariosModel->verificarContraseña('30', '991109jdrc')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->cambiarContraseña()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-09 13:32:26 --> mysqli_sql_exception: Column 'usuario_crea' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteDisponibilidad.php(59): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->insertar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-09 13:32:26 --> Column 'usuario_crea' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pruebaeventos` (`title`, `start`, `end`, `color`, `usuario_crea`, `fecha_crea`) VALUES (:title:, :start:, :end:, :color:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\DocenteDisponibilidad.php(59): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:35:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Models\AdministradorModels\UsuariosModel.php on line 161.
+ 1 APPPATH\Controllers\Perfiles.php(193): App\Models\AdministradorModels\UsuariosModel->verificarContraseña('30', '991109jdrc')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->cambiarContraseña()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:38:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Models\AdministradorModels\UsuariosModel.php on line 161.
+ 1 APPPATH\Controllers\Perfiles.php(196): App\Models\AdministradorModels\UsuariosModel->verificarContraseña('30', '991109jdrc')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->cambiarContraseña()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:48:42 --> syntax error, unexpected variable "$idUsuario", expecting "function" or "const"
+in APPPATH\Controllers\Perfiles.php on line 171.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Perfiles.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Perfiles')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Perfiles')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Perfiles', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:48:51 --> syntax error, unexpected variable "$idUsuario", expecting "function" or "const"
+in APPPATH\Controllers\Perfiles.php on line 171.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Perfiles.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Perfiles')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Perfiles')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Perfiles', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:48:53 --> syntax error, unexpected variable "$idUsuario", expecting "function" or "const"
+in APPPATH\Controllers\Perfiles.php on line 171.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Perfiles.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Perfiles')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Perfiles')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Perfiles', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:50:46 --> Undefined variable $sesion
+in APPPATH\Controllers\Perfiles.php on line 174.
+ 1 APPPATH\Controllers\Perfiles.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sesion', 'APPPATH\\Controllers\\Perfiles.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->cambiarContraseña()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:51:18 --> Undefined property: App\Controllers\Perfiles::$input
+in APPPATH\Controllers\Perfiles.php on line 179.
+ 1 APPPATH\Controllers\Perfiles.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Perfiles::$input', 'APPPATH\\Controllers\\Perfiles.php', 179)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->cambiarContraseña()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:52:47 --> Undefined property: App\Controllers\Perfiles::$input
+in APPPATH\Controllers\Perfiles.php on line 181.
+ 1 APPPATH\Controllers\Perfiles.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Perfiles::$input', 'APPPATH\\Controllers\\Perfiles.php', 181)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->cambiarContraseña()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:53:05 --> Undefined variable $sesion
+in APPPATH\Controllers\Perfiles.php on line 185.
+ 1 APPPATH\Controllers\Perfiles.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sesion', 'APPPATH\\Controllers\\Perfiles.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->cambiarContraseña()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:53:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\AdministradorModels\UsuariosModel.php on line 156.
+ 1 APPPATH\Controllers\Perfiles.php(189): App\Models\AdministradorModels\UsuariosModel->verificarContraseña('30', '991109jdrc')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->cambiarContraseña()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:53:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\AdministradorModels\UsuariosModel.php on line 156.
+ 1 APPPATH\Controllers\Perfiles.php(189): App\Models\AdministradorModels\UsuariosModel->verificarContraseña('30', '991109jdrc')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->cambiarContraseña()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:54:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Models\AdministradorModels\UsuariosModel.php on line 157.
+ 1 APPPATH\Controllers\Perfiles.php(189): App\Models\AdministradorModels\UsuariosModel->verificarContraseña('30', '991109jdrc')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->cambiarContraseña()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:54:31 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\Agendamiento-Citas\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1608.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get('usuarios')
+ 2 APPPATH\Models\AdministradorModels\UsuariosModel.php(159): CodeIgniter\Model->__call('get', [...])
+ 3 APPPATH\Controllers\Perfiles.php(189): App\Models\AdministradorModels\UsuariosModel->verificarContraseña('30', '991109jdrc')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->cambiarContraseña()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:55:00 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\Agendamiento-Citas\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1608.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get('usuarios')
+ 2 APPPATH\Models\AdministradorModels\UsuariosModel.php(159): CodeIgniter\Model->__call('get', [...])
+ 3 APPPATH\Controllers\Perfiles.php(189): App\Models\AdministradorModels\UsuariosModel->verificarContraseña('30', '991109jdrc')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->cambiarContraseña()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:55:41 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\Agendamiento-Citas\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1608.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get('usuarios.*')
+ 2 APPPATH\Models\AdministradorModels\UsuariosModel.php(160): CodeIgniter\Model->__call('get', [...])
+ 3 APPPATH\Controllers\Perfiles.php(189): App\Models\AdministradorModels\UsuariosModel->verificarContraseña('30', '991109jdrc')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->cambiarContraseña()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 13:57:57 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\Agendamiento-Citas\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1608.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get('usuarios')
+ 2 APPPATH\Models\AdministradorModels\UsuariosModel.php(160): CodeIgniter\Model->__call('get', [...])
+ 3 APPPATH\Controllers\Perfiles.php(189): App\Models\AdministradorModels\UsuariosModel->verificarContraseña('30', '991109jdrc')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->cambiarContraseña()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 14:01:43 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\Agendamiento-Citas\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1608.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get('usuarios')
+ 2 APPPATH\Models\AdministradorModels\UsuariosModel.php(160): CodeIgniter\Model->__call('get', [...])
+ 3 APPPATH\Controllers\Perfiles.php(189): App\Models\AdministradorModels\UsuariosModel->verificarContraseña('30', '991109jdrc')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->cambiarContraseña()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 14:02:04 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\Agendamiento-Citas\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1608.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get('usuarios')
+ 2 APPPATH\Models\AdministradorModels\UsuariosModel.php(160): CodeIgniter\Model->__call('get', [...])
+ 3 APPPATH\Controllers\Perfiles.php(189): App\Models\AdministradorModels\UsuariosModel->verificarContraseña('30', '991109jdrc')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->cambiarContraseña()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 14:10:56 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\Agendamiento-Citas\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1608.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get('usuarios')
+ 2 APPPATH\Models\AdministradorModels\UsuariosModel.php(160): CodeIgniter\Model->__call('get', [...])
+ 3 APPPATH\Controllers\Perfiles.php(190): App\Models\AdministradorModels\UsuariosModel->verificarContraseña('30', '991109jdrc')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->cambiarContraseña()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 14:11:19 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\Agendamiento-Citas\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1608.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get('contrasena')
+ 2 APPPATH\Models\AdministradorModels\UsuariosModel.php(160): CodeIgniter\Model->__call('get', [...])
+ 3 APPPATH\Controllers\Perfiles.php(190): App\Models\AdministradorModels\UsuariosModel->verificarContraseña('30', '991109jdrc')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->cambiarContraseña()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-09 14:20:54 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Sexo_Usuarios` FOREIGN KEY (`sexo`) REFERENCES `detalles` (`id_detalles`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(61): CodeIgniter\Model->update('12', Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->actualizar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-09 14:20:54 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Sexo_Usuarios` FOREIGN KEY (`sexo`) REFERENCES `detalles` (`id_detalles`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre_corto` = :nombre_corto:, `nombre_p` = :nombre_p:, `nombre_s` = :nombre_s:, `apellido_p` = :apellido_p:, `apellido_s` = :apellido_s:, `sexo` = :sexo:, `direccion` = :direccion:, `numero_de_documento` = :numero_de_documento:, `tipo_de_documento` = :tipo_de_documento:, `contrasena` = :contrasena:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Perfiles.php(61): CodeIgniter\Model->update('12', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->actualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-09 14:21:18 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Sexo_Usuarios` FOREIGN KEY (`sexo`) REFERENCES `detalles` (`id_detalles`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(61): CodeIgniter\Model->update('12', Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->actualizar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-09 14:21:18 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Sexo_Usuarios` FOREIGN KEY (`sexo`) REFERENCES `detalles` (`id_detalles`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre_corto` = :nombre_corto:, `nombre_p` = :nombre_p:, `nombre_s` = :nombre_s:, `apellido_p` = :apellido_p:, `apellido_s` = :apellido_s:, `sexo` = :sexo:, `direccion` = :direccion:, `numero_de_documento` = :numero_de_documento:, `tipo_de_documento` = :tipo_de_documento:, `contrasena` = :contrasena:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Perfiles.php(61): CodeIgniter\Model->update('12', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->actualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

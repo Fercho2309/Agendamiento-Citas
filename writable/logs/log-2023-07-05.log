@@ -1,0 +1,1199 @@
+ERROR - 2023-07-05 14:20:23 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_citas', 3307, '', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(126): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(40): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('ragde')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(126): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(40): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('ragde')
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-05 14:20:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*
+FROM `usuarios`
+WHERE `nombre_corto` = :nombre_corto:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\AdministradorModels\UsuariosModel.php(126): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\LoginSignin.php(40): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('ragde')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 14:26:42 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_citas', 3307, '', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(126): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(40): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('ragde')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(126): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(40): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('ragde')
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-05 14:26:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*
+FROM `usuarios`
+WHERE `nombre_corto` = :nombre_corto:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\AdministradorModels\UsuariosModel.php(126): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\LoginSignin.php(40): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('ragde')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 14:33:06 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_citas', 3307, '', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(126): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(40): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('ragde')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(126): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(40): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('ragde')
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-05 14:33:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*
+FROM `usuarios`
+WHERE `nombre_corto` = :nombre_corto:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\AdministradorModels\UsuariosModel.php(126): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\LoginSignin.php(40): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('ragde')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 14:47:29 --> Undefined variable $citas
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 42.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $citas', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(29): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 14:47:30 --> Undefined variable $citas
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 42.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $citas', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(29): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 14:47:30 --> Undefined variable $citas
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 42.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $citas', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(29): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 14:50:26 --> Undefined variable $usu
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 173.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usu', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 173)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(61): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 14:50:47 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`citas`, CONSTRAINT `Disponibilidad_Citas` FOREIGN KEY (`disponibilidad`) REFERENCES `disponibilidad` (`id_disponibilidad`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ci...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\EstudiantesSolicitarCita.php(103): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->crear_Cita()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 14:50:47 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`citas`, CONSTRAINT `Disponibilidad_Citas` FOREIGN KEY (`disponibilidad`) REFERENCES `disponibilidad` (`id_disponibilidad`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `citas` (`title`, `aula`, `id_asunto`, `disponibilidad`, `hora_de_inicio`, `hora_de_finalizacion`, `estado`, `usuario_crea`, `fecha_crea`) VALUES (:title:, :aula:, :id_asunto:, :disponibilidad:, :hora_de_inicio:, :hora_de_finalizacion:, :estado:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(103): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->crear_Cita()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 14:58:06 --> Undefined variable $citas
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 25.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $citas', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(29): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:24:51 --> Cannot access offset of type string on string
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 60.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 4 APPPATH\Controllers\DocenteBuzonEntrada.php(29): view('docentes/buzonEntrada/buzon', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:24:59 --> Array to string conversion
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 60.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(29): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:25:22 --> Undefined array key "nombre_p nombre_s"
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 60.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_p nombre_s"', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(29): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:25:22 --> Undefined array key "nombre_p nombre_s"
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 60.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_p nombre_s"', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(29): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:25:22 --> Undefined array key "nombre_p nombre_s"
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 60.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_p nombre_s"', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(29): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:25:23 --> Undefined array key "nombre_p nombre_s"
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 60.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_p nombre_s"', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(29): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:25:23 --> Undefined array key "nombre_p nombre_s"
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 60.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_p nombre_s"', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(29): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:25:23 --> Undefined array key "nombre_p nombre_s"
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 60.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_p nombre_s"', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(29): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:25:23 --> Undefined array key "nombre_p nombre_s"
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 60.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_p nombre_s"', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(29): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:25:23 --> Undefined array key "nombre_p nombre_s"
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 60.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_p nombre_s"', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(29): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:25:24 --> Undefined array key "nombre_p nombre_s"
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 60.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_p nombre_s"', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(29): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:25:24 --> Undefined array key "nombre_p nombre_s"
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 60.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_p nombre_s"', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(29): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:25:24 --> Undefined array key "nombre_p nombre_s"
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 60.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_p nombre_s"', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(29): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 16:17:56 --> mysqli_sql_exception: Unknown column 'pruebaeventos.usuarioDueño' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `citas`....', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `citas`....')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `citas`....')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`....', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\EstudiantesModels\SolicitarCItaModel.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteBuzonEntrada.php(25): App\Models\EstudiantesModels\SolicitarCitaModel->AllCitas('D')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 16:17:56 --> Unknown column 'pruebaeventos.usuarioDueño' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`.*, `asunto`.`asunto` as `asuntos`, CONCAT(usuarios.nombre_p, " ", `usuarios`.`nombre_s`, " ", `usuarios`.`apellido_p`, " ", usuarios.apellido_s) as usuarios, `pruebaeventos`.`usuarioDueño` as `Dueño`
+FROM `citas`
+JOIN `asunto` ON `asunto`.`id_asunto` = `citas`.`id_asunto`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `citas`.`usuario_crea`
+JOIN `pruebaeventos` ON `pruebaeventos`.`id` = `citas`.`usuario_Dueño`
+WHERE `citas`.`estado` = :citas.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(33): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(25): App\Models\EstudiantesModels\SolicitarCitaModel->AllCitas('D')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 16:17:57 --> mysqli_sql_exception: Unknown column 'pruebaeventos.usuarioDueño' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `citas`....', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `citas`....')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `citas`....')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`....', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\EstudiantesModels\SolicitarCItaModel.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteBuzonEntrada.php(25): App\Models\EstudiantesModels\SolicitarCitaModel->AllCitas('D')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 16:17:57 --> Unknown column 'pruebaeventos.usuarioDueño' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`.*, `asunto`.`asunto` as `asuntos`, CONCAT(usuarios.nombre_p, " ", `usuarios`.`nombre_s`, " ", `usuarios`.`apellido_p`, " ", usuarios.apellido_s) as usuarios, `pruebaeventos`.`usuarioDueño` as `Dueño`
+FROM `citas`
+JOIN `asunto` ON `asunto`.`id_asunto` = `citas`.`id_asunto`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `citas`.`usuario_crea`
+JOIN `pruebaeventos` ON `pruebaeventos`.`id` = `citas`.`usuario_Dueño`
+WHERE `citas`.`estado` = :citas.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(33): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(25): App\Models\EstudiantesModels\SolicitarCitaModel->AllCitas('D')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 16:17:57 --> mysqli_sql_exception: Unknown column 'pruebaeventos.usuarioDueño' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `citas`....', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `citas`....')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `citas`....')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`....', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\EstudiantesModels\SolicitarCItaModel.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteBuzonEntrada.php(25): App\Models\EstudiantesModels\SolicitarCitaModel->AllCitas('D')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 16:17:57 --> Unknown column 'pruebaeventos.usuarioDueño' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`.*, `asunto`.`asunto` as `asuntos`, CONCAT(usuarios.nombre_p, " ", `usuarios`.`nombre_s`, " ", `usuarios`.`apellido_p`, " ", usuarios.apellido_s) as usuarios, `pruebaeventos`.`usuarioDueño` as `Dueño`
+FROM `citas`
+JOIN `asunto` ON `asunto`.`id_asunto` = `citas`.`id_asunto`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `citas`.`usuario_crea`
+JOIN `pruebaeventos` ON `pruebaeventos`.`id` = `citas`.`usuario_Dueño`
+WHERE `citas`.`estado` = :citas.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(33): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(25): App\Models\EstudiantesModels\SolicitarCitaModel->AllCitas('D')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 16:17:58 --> mysqli_sql_exception: Unknown column 'pruebaeventos.usuarioDueño' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `citas`....', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `citas`....')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `citas`....')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`....', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\EstudiantesModels\SolicitarCItaModel.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteBuzonEntrada.php(25): App\Models\EstudiantesModels\SolicitarCitaModel->AllCitas('D')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 16:17:58 --> Unknown column 'pruebaeventos.usuarioDueño' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`.*, `asunto`.`asunto` as `asuntos`, CONCAT(usuarios.nombre_p, " ", `usuarios`.`nombre_s`, " ", `usuarios`.`apellido_p`, " ", usuarios.apellido_s) as usuarios, `pruebaeventos`.`usuarioDueño` as `Dueño`
+FROM `citas`
+JOIN `asunto` ON `asunto`.`id_asunto` = `citas`.`id_asunto`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `citas`.`usuario_crea`
+JOIN `pruebaeventos` ON `pruebaeventos`.`id` = `citas`.`usuario_Dueño`
+WHERE `citas`.`estado` = :citas.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(33): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(25): App\Models\EstudiantesModels\SolicitarCitaModel->AllCitas('D')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 16:17:58 --> mysqli_sql_exception: Unknown column 'pruebaeventos.usuarioDueño' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `citas`....', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `citas`....')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `citas`....')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`....', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\EstudiantesModels\SolicitarCItaModel.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteBuzonEntrada.php(25): App\Models\EstudiantesModels\SolicitarCitaModel->AllCitas('D')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 16:17:58 --> Unknown column 'pruebaeventos.usuarioDueño' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`.*, `asunto`.`asunto` as `asuntos`, CONCAT(usuarios.nombre_p, " ", `usuarios`.`nombre_s`, " ", `usuarios`.`apellido_p`, " ", usuarios.apellido_s) as usuarios, `pruebaeventos`.`usuarioDueño` as `Dueño`
+FROM `citas`
+JOIN `asunto` ON `asunto`.`id_asunto` = `citas`.`id_asunto`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `citas`.`usuario_crea`
+JOIN `pruebaeventos` ON `pruebaeventos`.`id` = `citas`.`usuario_Dueño`
+WHERE `citas`.`estado` = :citas.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(33): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(25): App\Models\EstudiantesModels\SolicitarCitaModel->AllCitas('D')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 16:17:58 --> mysqli_sql_exception: Unknown column 'pruebaeventos.usuarioDueño' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `citas`....', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `citas`....')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `citas`....')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`....', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\EstudiantesModels\SolicitarCItaModel.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteBuzonEntrada.php(25): App\Models\EstudiantesModels\SolicitarCitaModel->AllCitas('D')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 16:17:58 --> Unknown column 'pruebaeventos.usuarioDueño' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`.*, `asunto`.`asunto` as `asuntos`, CONCAT(usuarios.nombre_p, " ", `usuarios`.`nombre_s`, " ", `usuarios`.`apellido_p`, " ", usuarios.apellido_s) as usuarios, `pruebaeventos`.`usuarioDueño` as `Dueño`
+FROM `citas`
+JOIN `asunto` ON `asunto`.`id_asunto` = `citas`.`id_asunto`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `citas`.`usuario_crea`
+JOIN `pruebaeventos` ON `pruebaeventos`.`id` = `citas`.`usuario_Dueño`
+WHERE `citas`.`estado` = :citas.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(33): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(25): App\Models\EstudiantesModels\SolicitarCitaModel->AllCitas('D')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 16:17:58 --> mysqli_sql_exception: Unknown column 'pruebaeventos.usuarioDueño' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `citas`....', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `citas`....')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `citas`....')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`....', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\EstudiantesModels\SolicitarCItaModel.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteBuzonEntrada.php(25): App\Models\EstudiantesModels\SolicitarCitaModel->AllCitas('D')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 16:17:58 --> Unknown column 'pruebaeventos.usuarioDueño' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`.*, `asunto`.`asunto` as `asuntos`, CONCAT(usuarios.nombre_p, " ", `usuarios`.`nombre_s`, " ", `usuarios`.`apellido_p`, " ", usuarios.apellido_s) as usuarios, `pruebaeventos`.`usuarioDueño` as `Dueño`
+FROM `citas`
+JOIN `asunto` ON `asunto`.`id_asunto` = `citas`.`id_asunto`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `citas`.`usuario_crea`
+JOIN `pruebaeventos` ON `pruebaeventos`.`id` = `citas`.`usuario_Dueño`
+WHERE `citas`.`estado` = :citas.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(33): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(25): App\Models\EstudiantesModels\SolicitarCitaModel->AllCitas('D')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 16:17:58 --> mysqli_sql_exception: Unknown column 'pruebaeventos.usuarioDueño' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `citas`....', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `citas`....')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `citas`....')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`....', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\EstudiantesModels\SolicitarCItaModel.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteBuzonEntrada.php(25): App\Models\EstudiantesModels\SolicitarCitaModel->AllCitas('D')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 16:17:58 --> Unknown column 'pruebaeventos.usuarioDueño' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`.*, `asunto`.`asunto` as `asuntos`, CONCAT(usuarios.nombre_p, " ", `usuarios`.`nombre_s`, " ", `usuarios`.`apellido_p`, " ", usuarios.apellido_s) as usuarios, `pruebaeventos`.`usuarioDueño` as `Dueño`
+FROM `citas`
+JOIN `asunto` ON `asunto`.`id_asunto` = `citas`.`id_asunto`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `citas`.`usuario_crea`
+JOIN `pruebaeventos` ON `pruebaeventos`.`id` = `citas`.`usuario_Dueño`
+WHERE `citas`.`estado` = :citas.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(33): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(25): App\Models\EstudiantesModels\SolicitarCitaModel->AllCitas('D')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:47:53 --> Undefined array key "id"
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 123.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(61): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:49:15 --> Undefined array key "id"
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 123.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(61): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:49:15 --> Undefined array key "id"
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 123.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(61): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:49:16 --> Undefined array key "id"
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 123.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(61): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:49:16 --> Undefined array key "id"
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 123.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(61): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:50:33 --> Undefined array key "id"
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 123.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(61): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:50:33 --> Undefined array key "id"
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 123.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(61): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:50:34 --> Undefined array key "id"
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 123.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(61): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:50:34 --> Undefined array key "id"
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 123.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(61): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:50:34 --> Undefined array key "id"
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 123.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(61): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:50:34 --> Undefined array key "id"
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 123.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(61): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:50:34 --> Undefined array key "id"
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 123.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(61): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:50:35 --> Undefined array key "id"
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 123.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(61): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:50:35 --> Undefined array key "id"
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 123.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(61): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:50:35 --> Undefined array key "id"
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 123.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(61): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:50:35 --> Undefined array key "id"
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 123.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(61): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:50:35 --> Undefined array key "id"
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 123.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(61): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:52:08 --> Undefined array key "id"
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 123.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(61): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:05:11 --> Array to string conversion
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 128.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 128)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(61): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 17:22:02 --> mysqli_sql_exception: Column 'disponibilidad' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ci...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\EstudiantesSolicitarCita.php(103): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->crear_Cita()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 17:22:02 --> Column 'disponibilidad' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `citas` (`title`, `aula`, `id_asunto`, `disponibilidad`, `hora_de_inicio`, `hora_de_finalizacion`, `estado`, `usuario_crea`, `fecha_crea`) VALUES (:title:, :aula:, :id_asunto:, :disponibilidad:, :hora_de_inicio:, :hora_de_finalizacion:, :estado:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(103): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->crear_Cita()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 17:22:31 --> mysqli_sql_exception: Column 'disponibilidad' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ci...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\EstudiantesSolicitarCita.php(103): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->crear_Cita()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 17:22:31 --> Column 'disponibilidad' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `citas` (`title`, `aula`, `id_asunto`, `disponibilidad`, `hora_de_inicio`, `hora_de_finalizacion`, `estado`, `usuario_crea`, `fecha_crea`) VALUES (:title:, :aula:, :id_asunto:, :disponibilidad:, :hora_de_inicio:, :hora_de_finalizacion:, :estado:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(103): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->crear_Cita()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 17:22:50 --> mysqli_sql_exception: Column 'disponibilidad' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ci...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\EstudiantesSolicitarCita.php(103): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->crear_Cita()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 17:22:50 --> Column 'disponibilidad' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `citas` (`title`, `aula`, `id_asunto`, `disponibilidad`, `hora_de_inicio`, `hora_de_finalizacion`, `estado`, `usuario_crea`, `fecha_crea`) VALUES (:title:, :aula:, :id_asunto:, :disponibilidad:, :hora_de_inicio:, :hora_de_finalizacion:, :estado:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(103): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->crear_Cita()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 17:22:51 --> mysqli_sql_exception: Column 'disponibilidad' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ci...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\EstudiantesSolicitarCita.php(103): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->crear_Cita()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 17:22:51 --> Column 'disponibilidad' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `citas` (`title`, `aula`, `id_asunto`, `disponibilidad`, `hora_de_inicio`, `hora_de_finalizacion`, `estado`, `usuario_crea`, `fecha_crea`) VALUES (:title:, :aula:, :id_asunto:, :disponibilidad:, :hora_de_inicio:, :hora_de_finalizacion:, :estado:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(103): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->crear_Cita()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 17:23:56 --> mysqli_sql_exception: Column 'disponibilidad' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ci...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\EstudiantesSolicitarCita.php(103): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->crear_Cita()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 17:23:56 --> Column 'disponibilidad' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `citas` (`title`, `aula`, `id_asunto`, `disponibilidad`, `hora_de_inicio`, `hora_de_finalizacion`, `estado`, `usuario_crea`, `fecha_crea`) VALUES (:title:, :aula:, :id_asunto:, :disponibilidad:, :hora_de_inicio:, :hora_de_finalizacion:, :estado:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(103): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->crear_Cita()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:07:46 --> Undefined constant "App\Controllers\citasDeUnUsuario"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:07:47 --> Undefined constant "App\Controllers\citasDeUnUsuario"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:18:37 --> syntax error, unexpected token "endif", expecting end of file
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 31.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 3 APPPATH\Controllers\DocenteBuzonEntrada.php(38): view('docentes/buzonEntrada/buzon', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:18:38 --> syntax error, unexpected token "endif", expecting end of file
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 31.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 3 APPPATH\Controllers\DocenteBuzonEntrada.php(38): view('docentes/buzonEntrada/buzon', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 18:21:11 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_citas`.`citas`, CONSTRAINT `Disponibilidad_Citas` FOREIGN KEY (`disponibilidad`) REFERENCES `pruebaeventos` (`id`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteDisponibilidad.php(122): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->eliminar_evento('161')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-05 18:21:11 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_citas`.`citas`, CONSTRAINT `Disponibilidad_Citas` FOREIGN KEY (`disponibilidad`) REFERENCES `pruebaeventos` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pruebaeventos`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\DocenteDisponibilidad.php(122): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->eliminar_evento('161')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 18:25:34 --> mysqli_sql_exception: Unknown column 'desc' in 'order clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `citas`....', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `citas`....')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `citas`....')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`....', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\EstudiantesModels\SolicitarCItaModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteBuzonEntrada.php(26): App\Models\EstudiantesModels\SolicitarCitaModel->CitasPorIdUsuarioAgenda()
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 18:25:34 --> Unknown column 'desc' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`.*, `asunto`.`asunto` as `asuntos`, CONCAT(usuarios.nombre_p, " ", `usuarios`.`nombre_s`, " ", `usuarios`.`apellido_p`, " ", usuarios.apellido_s) as usuarios, CONCAT((SELECT CONCAT(nombre_p, " ", `nombre_s`, " ", `apellido_p`, " ", apellido_s) FROM usuarios WHERE id_usuario = pruebaeventos.usuario_crea)) as Dueño
+FROM `citas`
+JOIN `asunto` ON `asunto`.`id_asunto` = `citas`.`id_asunto`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `citas`.`usuario_crea`
+JOIN `pruebaeventos` ON `pruebaeventos`.`id` = `citas`.`disponibilidad`
+WHERE `citas`.`usuario_crea` = :citas.usuario_crea:
+ORDER BY `desc`', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(49): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(26): App\Models\EstudiantesModels\SolicitarCitaModel->CitasPorIdUsuarioAgenda()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 18:25:35 --> mysqli_sql_exception: Unknown column 'desc' in 'order clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `citas`....', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `citas`....')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `citas`....')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`....', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\EstudiantesModels\SolicitarCItaModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteBuzonEntrada.php(26): App\Models\EstudiantesModels\SolicitarCitaModel->CitasPorIdUsuarioAgenda()
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 18:25:35 --> Unknown column 'desc' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`.*, `asunto`.`asunto` as `asuntos`, CONCAT(usuarios.nombre_p, " ", `usuarios`.`nombre_s`, " ", `usuarios`.`apellido_p`, " ", usuarios.apellido_s) as usuarios, CONCAT((SELECT CONCAT(nombre_p, " ", `nombre_s`, " ", `apellido_p`, " ", apellido_s) FROM usuarios WHERE id_usuario = pruebaeventos.usuario_crea)) as Dueño
+FROM `citas`
+JOIN `asunto` ON `asunto`.`id_asunto` = `citas`.`id_asunto`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `citas`.`usuario_crea`
+JOIN `pruebaeventos` ON `pruebaeventos`.`id` = `citas`.`disponibilidad`
+WHERE `citas`.`usuario_crea` = :citas.usuario_crea:
+ORDER BY `desc`', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(49): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(26): App\Models\EstudiantesModels\SolicitarCitaModel->CitasPorIdUsuarioAgenda()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 18:25:53 --> mysqli_sql_exception: Unknown column 'fecha' in 'order clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `citas`....', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `citas`....')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `citas`....')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`....', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\EstudiantesModels\SolicitarCItaModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteBuzonEntrada.php(26): App\Models\EstudiantesModels\SolicitarCitaModel->CitasPorIdUsuarioAgenda()
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 18:25:53 --> Unknown column 'fecha' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`.*, `asunto`.`asunto` as `asuntos`, CONCAT(usuarios.nombre_p, " ", `usuarios`.`nombre_s`, " ", `usuarios`.`apellido_p`, " ", usuarios.apellido_s) as usuarios, CONCAT((SELECT CONCAT(nombre_p, " ", `nombre_s`, " ", `apellido_p`, " ", apellido_s) FROM usuarios WHERE id_usuario = pruebaeventos.usuario_crea)) as Dueño
+FROM `citas`
+JOIN `asunto` ON `asunto`.`id_asunto` = `citas`.`id_asunto`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `citas`.`usuario_crea`
+JOIN `pruebaeventos` ON `pruebaeventos`.`id` = `citas`.`disponibilidad`
+WHERE `citas`.`usuario_crea` = :citas.usuario_crea:
+ORDER BY `fecha` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(49): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(26): App\Models\EstudiantesModels\SolicitarCitaModel->CitasPorIdUsuarioAgenda()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 18:47:33 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_citas`.`citas`, CONSTRAINT `Disponibilidad_Citas` FOREIGN KEY (`disponibilidad`) REFERENCES `pruebaeventos` (`id`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteDisponibilidad.php(122): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->eliminar_evento('109')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-05 18:47:33 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_citas`.`citas`, CONSTRAINT `Disponibilidad_Citas` FOREIGN KEY (`disponibilidad`) REFERENCES `pruebaeventos` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pruebaeventos`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\DocenteDisponibilidad.php(122): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->eliminar_evento('109')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 18:47:39 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_citas`.`citas`, CONSTRAINT `Disponibilidad_Citas` FOREIGN KEY (`disponibilidad`) REFERENCES `pruebaeventos` (`id`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteDisponibilidad.php(122): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->eliminar_evento('109')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-05 18:47:39 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_citas`.`citas`, CONSTRAINT `Disponibilidad_Citas` FOREIGN KEY (`disponibilidad`) REFERENCES `pruebaeventos` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pruebaeventos`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\DocenteDisponibilidad.php(122): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->eliminar_evento('109')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 18:49:16 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_citas`.`citas`, CONSTRAINT `Disponibilidad_Citas` FOREIGN KEY (`disponibilidad`) REFERENCES `pruebaeventos` (`id`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteDisponibilidad.php(122): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->eliminar_evento('109')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-05 18:49:16 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_citas`.`citas`, CONSTRAINT `Disponibilidad_Citas` FOREIGN KEY (`disponibilidad`) REFERENCES `pruebaeventos` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pruebaeventos`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\DocenteDisponibilidad.php(122): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->eliminar_evento('109')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 18:50:18 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_citas`.`citas`, CONSTRAINT `Disponibilidad_Citas` FOREIGN KEY (`disponibilidad`) REFERENCES `pruebaeventos` (`id`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pr...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pr...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pr...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteDisponibilidad.php(122): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->eliminar_evento('109')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-05 18:50:18 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_citas`.`citas`, CONSTRAINT `Disponibilidad_Citas` FOREIGN KEY (`disponibilidad`) REFERENCES `pruebaeventos` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pruebaeventos`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\DocenteDisponibilidad.php(122): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->eliminar_evento('109')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

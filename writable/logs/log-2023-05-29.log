@@ -1,0 +1,1569 @@
+ERROR - 2023-05-29 13:42:57 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_citas', 3306, '', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(127): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(75): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(127): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(75): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-29 13:42:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*
+FROM `usuarios`
+WHERE `nombre_corto` = :nombre_corto:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\AdministradorModels\UsuariosModel.php(127): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\LoginSignin.php(75): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:00:02 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_citas', 3306, '', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(127): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(74): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(127): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(74): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-29 14:00:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*
+FROM `usuarios`
+WHERE `nombre_corto` = :nombre_corto:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\AdministradorModels\UsuariosModel.php(127): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\LoginSignin.php(74): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:04:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_citas', 3306, '', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(127): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(39): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(127): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(39): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-29 14:04:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*
+FROM `usuarios`
+WHERE `nombre_corto` = :nombre_corto:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\AdministradorModels\UsuariosModel.php(127): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\LoginSignin.php(39): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:07:11 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_citas', 3306, '', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(127): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(39): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(127): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(39): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-29 14:07:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*
+FROM `usuarios`
+WHERE `nombre_corto` = :nombre_corto:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\AdministradorModels\UsuariosModel.php(127): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\LoginSignin.php(39): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:07:28 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_citas', 3306, '', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(24): App\Models\AdministradorModels\UsuariosModel->obtenerUsuariosTodo('A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(49): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(24): App\Models\AdministradorModels\UsuariosModel->obtenerUsuariosTodo('A')
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-29 14:07:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `detalleSexo`.`nombre` as `nomSexo`, `detalleTipoDoc`.`nombre` as `nomTipoDoc`, `detalleCargo`.`nombre` as `nomCargo`
+FROM `usuarios`
+JOIN `detalles` as `detalleSexo` ON `detalleSexo`.`id_detalles` = `usuarios`.`sexo`
+JOIN `detalles` as `detalleTipoDoc` ON `detalleTipoDoc`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `detalleCargo` ON `detalleCargo`.`id_detalles` = `usuarios`.`cargo`
+WHERE `usuarios`.`estado` = :usuarios.estado:', [...], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\AdministradorModels\UsuariosModel.php(49): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LoginRegistrarUsuario.php(24): App\Models\AdministradorModels\UsuariosModel->obtenerUsuariosTodo('A')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:11:12 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_citas', 3306, '', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(24): App\Models\AdministradorModels\UsuariosModel->obtenerUsuariosTodo('A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(49): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(24): App\Models\AdministradorModels\UsuariosModel->obtenerUsuariosTodo('A')
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-29 14:11:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `detalleSexo`.`nombre` as `nomSexo`, `detalleTipoDoc`.`nombre` as `nomTipoDoc`, `detalleCargo`.`nombre` as `nomCargo`
+FROM `usuarios`
+JOIN `detalles` as `detalleSexo` ON `detalleSexo`.`id_detalles` = `usuarios`.`sexo`
+JOIN `detalles` as `detalleTipoDoc` ON `detalleTipoDoc`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `detalleCargo` ON `detalleCargo`.`id_detalles` = `usuarios`.`cargo`
+WHERE `usuarios`.`estado` = :usuarios.estado:', [...], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\AdministradorModels\UsuariosModel.php(49): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LoginRegistrarUsuario.php(24): App\Models\AdministradorModels\UsuariosModel->obtenerUsuariosTodo('A')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:13:40 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_citas', 3306, '', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(127): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(39): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(127): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginSignin.php(39): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-29 14:13:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*
+FROM `usuarios`
+WHERE `nombre_corto` = :nombre_corto:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\AdministradorModels\UsuariosModel.php(127): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\LoginSignin.php(39): App\Models\AdministradorModels\UsuariosModel->Auth_usuario('sadmin')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginSignin->auth()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginSignin))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:16:20 --> mysqli_sql_exception: Unknown column 'telefonos.id_detalles' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:16:20 --> Unknown column 'telefonos.id_detalles' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `roles`.`nombre` as `rol_nombre`, `dt_sexo`.`nombre` as `sexo_nombre`, `dt_cargo`.`nombre` as `cargo_nombre`, `dt_documento`.`nombre` as `tp_nombre`, `telefonos`.`id_detalles` as `id_detalle`, `telefonos`.`numero` as `telefono_usuario`, `correos`.`correo_electronico` as `correo_usuario`, `dt_telefo`.`nombre` as `tipo_telefono`, `usuarios`.`tipo_de_documento` as `id_documento`
+FROM `usuarios`
+JOIN `roles` ON `roles`.`id_rol` = `usuarios`.`id_rol`
+JOIN `telefonos` ON `telefonos`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_telefo` ON `dt_telefo`.`id_detalles` = `telefonos`.`id_detalles`
+JOIN `correos` ON `correos`.`id_usuarios` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_cargo` ON `dt_cargo`.`id_detalles` = `usuarios`.`cargo`
+JOIN `detalles` as `dt_documento` ON `dt_documento`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `dt_sexo` ON `dt_sexo`.`id_detalles` = `usuarios`.`sexo`
+WHERE `usuarios`.`estado` = :usuarios.estado:
+AND `usuarios`.`id_usuario` = :usuarios.id_usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:18:51 --> mysqli_sql_exception: Unknown column 'telefonos.id_detalles' in 'on clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:18:51 --> Unknown column 'telefonos.id_detalles' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `roles`.`nombre` as `rol_nombre`, `dt_sexo`.`nombre` as `sexo_nombre`, `dt_cargo`.`nombre` as `cargo_nombre`, `dt_documento`.`nombre` as `tp_nombre`, `telefonos`.`numero` as `id_detalle`, `telefonos`.`numero` as `telefono_usuario`, `correos`.`correo_electronico` as `correo_usuario`, `dt_telefo`.`nombre` as `tipo_telefono`, `usuarios`.`tipo_de_documento` as `id_documento`
+FROM `usuarios`
+JOIN `roles` ON `roles`.`id_rol` = `usuarios`.`id_rol`
+JOIN `telefonos` ON `telefonos`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_telefo` ON `dt_telefo`.`id_detalles` = `telefonos`.`id_detalles`
+JOIN `correos` ON `correos`.`id_usuarios` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_cargo` ON `dt_cargo`.`id_detalles` = `usuarios`.`cargo`
+JOIN `detalles` as `dt_documento` ON `dt_documento`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `dt_sexo` ON `dt_sexo`.`id_detalles` = `usuarios`.`sexo`
+WHERE `usuarios`.`estado` = :usuarios.estado:
+AND `usuarios`.`id_usuario` = :usuarios.id_usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:18:53 --> mysqli_sql_exception: Unknown column 'telefonos.id_detalles' in 'on clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:18:53 --> Unknown column 'telefonos.id_detalles' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `roles`.`nombre` as `rol_nombre`, `dt_sexo`.`nombre` as `sexo_nombre`, `dt_cargo`.`nombre` as `cargo_nombre`, `dt_documento`.`nombre` as `tp_nombre`, `telefonos`.`numero` as `id_detalle`, `telefonos`.`numero` as `telefono_usuario`, `correos`.`correo_electronico` as `correo_usuario`, `dt_telefo`.`nombre` as `tipo_telefono`, `usuarios`.`tipo_de_documento` as `id_documento`
+FROM `usuarios`
+JOIN `roles` ON `roles`.`id_rol` = `usuarios`.`id_rol`
+JOIN `telefonos` ON `telefonos`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_telefo` ON `dt_telefo`.`id_detalles` = `telefonos`.`id_detalles`
+JOIN `correos` ON `correos`.`id_usuarios` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_cargo` ON `dt_cargo`.`id_detalles` = `usuarios`.`cargo`
+JOIN `detalles` as `dt_documento` ON `dt_documento`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `dt_sexo` ON `dt_sexo`.`id_detalles` = `usuarios`.`sexo`
+WHERE `usuarios`.`estado` = :usuarios.estado:
+AND `usuarios`.`id_usuario` = :usuarios.id_usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:19:48 --> mysqli_sql_exception: Unknown column 'telefonos.id_detalles' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:19:48 --> Unknown column 'telefonos.id_detalles' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `roles`.`nombre` as `rol_nombre`, `dt_sexo`.`nombre` as `sexo_nombre`, `dt_cargo`.`nombre` as `cargo_nombre`, `dt_documento`.`nombre` as `tp_nombre`, `telefonos`.`id_detalles` as `id_detalle`, `telefonos`.`numero` as `telefono_usuario`, `correos`.`correo_electronico` as `correo_usuario`, `dt_telefo`.`nombre` as `tipo_telefono`, `usuarios`.`tipo_de_documento` as `id_documento`
+FROM `usuarios`
+JOIN `roles` ON `roles`.`id_rol` = `usuarios`.`id_rol`
+JOIN `telefonos` ON `telefonos`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_telefo` ON `dt_telefo`.`id_detalles` = `telefonos`.`id_tipo_telefono`
+JOIN `correos` ON `correos`.`id_usuarios` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_cargo` ON `dt_cargo`.`id_detalles` = `usuarios`.`cargo`
+JOIN `detalles` as `dt_documento` ON `dt_documento`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `dt_sexo` ON `dt_sexo`.`id_detalles` = `usuarios`.`sexo`
+WHERE `usuarios`.`estado` = :usuarios.estado:
+AND `usuarios`.`id_usuario` = :usuarios.id_usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:19:50 --> mysqli_sql_exception: Unknown column 'telefonos.id_detalles' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:19:50 --> Unknown column 'telefonos.id_detalles' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `roles`.`nombre` as `rol_nombre`, `dt_sexo`.`nombre` as `sexo_nombre`, `dt_cargo`.`nombre` as `cargo_nombre`, `dt_documento`.`nombre` as `tp_nombre`, `telefonos`.`id_detalles` as `id_detalle`, `telefonos`.`numero` as `telefono_usuario`, `correos`.`correo_electronico` as `correo_usuario`, `dt_telefo`.`nombre` as `tipo_telefono`, `usuarios`.`tipo_de_documento` as `id_documento`
+FROM `usuarios`
+JOIN `roles` ON `roles`.`id_rol` = `usuarios`.`id_rol`
+JOIN `telefonos` ON `telefonos`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_telefo` ON `dt_telefo`.`id_detalles` = `telefonos`.`id_tipo_telefono`
+JOIN `correos` ON `correos`.`id_usuarios` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_cargo` ON `dt_cargo`.`id_detalles` = `usuarios`.`cargo`
+JOIN `detalles` as `dt_documento` ON `dt_documento`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `dt_sexo` ON `dt_sexo`.`id_detalles` = `usuarios`.`sexo`
+WHERE `usuarios`.`estado` = :usuarios.estado:
+AND `usuarios`.`id_usuario` = :usuarios.id_usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:19:51 --> mysqli_sql_exception: Unknown column 'telefonos.id_detalles' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:19:51 --> Unknown column 'telefonos.id_detalles' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `roles`.`nombre` as `rol_nombre`, `dt_sexo`.`nombre` as `sexo_nombre`, `dt_cargo`.`nombre` as `cargo_nombre`, `dt_documento`.`nombre` as `tp_nombre`, `telefonos`.`id_detalles` as `id_detalle`, `telefonos`.`numero` as `telefono_usuario`, `correos`.`correo_electronico` as `correo_usuario`, `dt_telefo`.`nombre` as `tipo_telefono`, `usuarios`.`tipo_de_documento` as `id_documento`
+FROM `usuarios`
+JOIN `roles` ON `roles`.`id_rol` = `usuarios`.`id_rol`
+JOIN `telefonos` ON `telefonos`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_telefo` ON `dt_telefo`.`id_detalles` = `telefonos`.`id_tipo_telefono`
+JOIN `correos` ON `correos`.`id_usuarios` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_cargo` ON `dt_cargo`.`id_detalles` = `usuarios`.`cargo`
+JOIN `detalles` as `dt_documento` ON `dt_documento`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `dt_sexo` ON `dt_sexo`.`id_detalles` = `usuarios`.`sexo`
+WHERE `usuarios`.`estado` = :usuarios.estado:
+AND `usuarios`.`id_usuario` = :usuarios.id_usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:19:51 --> mysqli_sql_exception: Unknown column 'telefonos.id_detalles' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:19:51 --> Unknown column 'telefonos.id_detalles' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `roles`.`nombre` as `rol_nombre`, `dt_sexo`.`nombre` as `sexo_nombre`, `dt_cargo`.`nombre` as `cargo_nombre`, `dt_documento`.`nombre` as `tp_nombre`, `telefonos`.`id_detalles` as `id_detalle`, `telefonos`.`numero` as `telefono_usuario`, `correos`.`correo_electronico` as `correo_usuario`, `dt_telefo`.`nombre` as `tipo_telefono`, `usuarios`.`tipo_de_documento` as `id_documento`
+FROM `usuarios`
+JOIN `roles` ON `roles`.`id_rol` = `usuarios`.`id_rol`
+JOIN `telefonos` ON `telefonos`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_telefo` ON `dt_telefo`.`id_detalles` = `telefonos`.`id_tipo_telefono`
+JOIN `correos` ON `correos`.`id_usuarios` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_cargo` ON `dt_cargo`.`id_detalles` = `usuarios`.`cargo`
+JOIN `detalles` as `dt_documento` ON `dt_documento`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `dt_sexo` ON `dt_sexo`.`id_detalles` = `usuarios`.`sexo`
+WHERE `usuarios`.`estado` = :usuarios.estado:
+AND `usuarios`.`id_usuario` = :usuarios.id_usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:20:08 --> mysqli_sql_exception: Unknown column 'telefonos.id_detalles' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:20:08 --> Unknown column 'telefonos.id_detalles' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `roles`.`nombre` as `rol_nombre`, `dt_sexo`.`nombre` as `sexo_nombre`, `dt_cargo`.`nombre` as `cargo_nombre`, `dt_documento`.`nombre` as `tp_nombre`, `telefonos`.`id_detalles` as `id_detalle`, `telefonos`.`numero` as `telefono_usuario`, `correos`.`correo_electronico` as `correo_usuario`, `dt_telefo`.`nombre` as `tipo_telefono`, `usuarios`.`tipo_de_documento` as `id_documento`
+FROM `usuarios`
+JOIN `roles` ON `roles`.`id_rol` = `usuarios`.`id_rol`
+JOIN `telefonos` ON `telefonos`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_telefo` ON `dt_telefo`.`id_detalles` = `telefonos`.`tipo_telefono`
+JOIN `correos` ON `correos`.`id_usuarios` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_cargo` ON `dt_cargo`.`id_detalles` = `usuarios`.`cargo`
+JOIN `detalles` as `dt_documento` ON `dt_documento`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `dt_sexo` ON `dt_sexo`.`id_detalles` = `usuarios`.`sexo`
+WHERE `usuarios`.`estado` = :usuarios.estado:
+AND `usuarios`.`id_usuario` = :usuarios.id_usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:20:08 --> mysqli_sql_exception: Unknown column 'telefonos.id_detalles' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:20:08 --> Unknown column 'telefonos.id_detalles' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `roles`.`nombre` as `rol_nombre`, `dt_sexo`.`nombre` as `sexo_nombre`, `dt_cargo`.`nombre` as `cargo_nombre`, `dt_documento`.`nombre` as `tp_nombre`, `telefonos`.`id_detalles` as `id_detalle`, `telefonos`.`numero` as `telefono_usuario`, `correos`.`correo_electronico` as `correo_usuario`, `dt_telefo`.`nombre` as `tipo_telefono`, `usuarios`.`tipo_de_documento` as `id_documento`
+FROM `usuarios`
+JOIN `roles` ON `roles`.`id_rol` = `usuarios`.`id_rol`
+JOIN `telefonos` ON `telefonos`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_telefo` ON `dt_telefo`.`id_detalles` = `telefonos`.`tipo_telefono`
+JOIN `correos` ON `correos`.`id_usuarios` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_cargo` ON `dt_cargo`.`id_detalles` = `usuarios`.`cargo`
+JOIN `detalles` as `dt_documento` ON `dt_documento`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `dt_sexo` ON `dt_sexo`.`id_detalles` = `usuarios`.`sexo`
+WHERE `usuarios`.`estado` = :usuarios.estado:
+AND `usuarios`.`id_usuario` = :usuarios.id_usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:20:09 --> mysqli_sql_exception: Unknown column 'telefonos.id_detalles' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:20:09 --> Unknown column 'telefonos.id_detalles' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `roles`.`nombre` as `rol_nombre`, `dt_sexo`.`nombre` as `sexo_nombre`, `dt_cargo`.`nombre` as `cargo_nombre`, `dt_documento`.`nombre` as `tp_nombre`, `telefonos`.`id_detalles` as `id_detalle`, `telefonos`.`numero` as `telefono_usuario`, `correos`.`correo_electronico` as `correo_usuario`, `dt_telefo`.`nombre` as `tipo_telefono`, `usuarios`.`tipo_de_documento` as `id_documento`
+FROM `usuarios`
+JOIN `roles` ON `roles`.`id_rol` = `usuarios`.`id_rol`
+JOIN `telefonos` ON `telefonos`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_telefo` ON `dt_telefo`.`id_detalles` = `telefonos`.`tipo_telefono`
+JOIN `correos` ON `correos`.`id_usuarios` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_cargo` ON `dt_cargo`.`id_detalles` = `usuarios`.`cargo`
+JOIN `detalles` as `dt_documento` ON `dt_documento`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `dt_sexo` ON `dt_sexo`.`id_detalles` = `usuarios`.`sexo`
+WHERE `usuarios`.`estado` = :usuarios.estado:
+AND `usuarios`.`id_usuario` = :usuarios.id_usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:20:10 --> mysqli_sql_exception: Unknown column 'telefonos.id_detalles' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:20:10 --> Unknown column 'telefonos.id_detalles' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `roles`.`nombre` as `rol_nombre`, `dt_sexo`.`nombre` as `sexo_nombre`, `dt_cargo`.`nombre` as `cargo_nombre`, `dt_documento`.`nombre` as `tp_nombre`, `telefonos`.`id_detalles` as `id_detalle`, `telefonos`.`numero` as `telefono_usuario`, `correos`.`correo_electronico` as `correo_usuario`, `dt_telefo`.`nombre` as `tipo_telefono`, `usuarios`.`tipo_de_documento` as `id_documento`
+FROM `usuarios`
+JOIN `roles` ON `roles`.`id_rol` = `usuarios`.`id_rol`
+JOIN `telefonos` ON `telefonos`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_telefo` ON `dt_telefo`.`id_detalles` = `telefonos`.`tipo_telefono`
+JOIN `correos` ON `correos`.`id_usuarios` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_cargo` ON `dt_cargo`.`id_detalles` = `usuarios`.`cargo`
+JOIN `detalles` as `dt_documento` ON `dt_documento`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `dt_sexo` ON `dt_sexo`.`id_detalles` = `usuarios`.`sexo`
+WHERE `usuarios`.`estado` = :usuarios.estado:
+AND `usuarios`.`id_usuario` = :usuarios.id_usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:20:10 --> mysqli_sql_exception: Unknown column 'telefonos.id_detalles' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:20:10 --> Unknown column 'telefonos.id_detalles' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `roles`.`nombre` as `rol_nombre`, `dt_sexo`.`nombre` as `sexo_nombre`, `dt_cargo`.`nombre` as `cargo_nombre`, `dt_documento`.`nombre` as `tp_nombre`, `telefonos`.`id_detalles` as `id_detalle`, `telefonos`.`numero` as `telefono_usuario`, `correos`.`correo_electronico` as `correo_usuario`, `dt_telefo`.`nombre` as `tipo_telefono`, `usuarios`.`tipo_de_documento` as `id_documento`
+FROM `usuarios`
+JOIN `roles` ON `roles`.`id_rol` = `usuarios`.`id_rol`
+JOIN `telefonos` ON `telefonos`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_telefo` ON `dt_telefo`.`id_detalles` = `telefonos`.`tipo_telefono`
+JOIN `correos` ON `correos`.`id_usuarios` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_cargo` ON `dt_cargo`.`id_detalles` = `usuarios`.`cargo`
+JOIN `detalles` as `dt_documento` ON `dt_documento`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `dt_sexo` ON `dt_sexo`.`id_detalles` = `usuarios`.`sexo`
+WHERE `usuarios`.`estado` = :usuarios.estado:
+AND `usuarios`.`id_usuario` = :usuarios.id_usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:20:10 --> mysqli_sql_exception: Unknown column 'telefonos.id_detalles' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:20:10 --> Unknown column 'telefonos.id_detalles' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `roles`.`nombre` as `rol_nombre`, `dt_sexo`.`nombre` as `sexo_nombre`, `dt_cargo`.`nombre` as `cargo_nombre`, `dt_documento`.`nombre` as `tp_nombre`, `telefonos`.`id_detalles` as `id_detalle`, `telefonos`.`numero` as `telefono_usuario`, `correos`.`correo_electronico` as `correo_usuario`, `dt_telefo`.`nombre` as `tipo_telefono`, `usuarios`.`tipo_de_documento` as `id_documento`
+FROM `usuarios`
+JOIN `roles` ON `roles`.`id_rol` = `usuarios`.`id_rol`
+JOIN `telefonos` ON `telefonos`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_telefo` ON `dt_telefo`.`id_detalles` = `telefonos`.`tipo_telefono`
+JOIN `correos` ON `correos`.`id_usuarios` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_cargo` ON `dt_cargo`.`id_detalles` = `usuarios`.`cargo`
+JOIN `detalles` as `dt_documento` ON `dt_documento`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `dt_sexo` ON `dt_sexo`.`id_detalles` = `usuarios`.`sexo`
+WHERE `usuarios`.`estado` = :usuarios.estado:
+AND `usuarios`.`id_usuario` = :usuarios.id_usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:20:11 --> mysqli_sql_exception: Unknown column 'telefonos.id_detalles' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:20:11 --> Unknown column 'telefonos.id_detalles' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `roles`.`nombre` as `rol_nombre`, `dt_sexo`.`nombre` as `sexo_nombre`, `dt_cargo`.`nombre` as `cargo_nombre`, `dt_documento`.`nombre` as `tp_nombre`, `telefonos`.`id_detalles` as `id_detalle`, `telefonos`.`numero` as `telefono_usuario`, `correos`.`correo_electronico` as `correo_usuario`, `dt_telefo`.`nombre` as `tipo_telefono`, `usuarios`.`tipo_de_documento` as `id_documento`
+FROM `usuarios`
+JOIN `roles` ON `roles`.`id_rol` = `usuarios`.`id_rol`
+JOIN `telefonos` ON `telefonos`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_telefo` ON `dt_telefo`.`id_detalles` = `telefonos`.`tipo_telefono`
+JOIN `correos` ON `correos`.`id_usuarios` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_cargo` ON `dt_cargo`.`id_detalles` = `usuarios`.`cargo`
+JOIN `detalles` as `dt_documento` ON `dt_documento`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `dt_sexo` ON `dt_sexo`.`id_detalles` = `usuarios`.`sexo`
+WHERE `usuarios`.`estado` = :usuarios.estado:
+AND `usuarios`.`id_usuario` = :usuarios.id_usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:22:43 --> mysqli_sql_exception: Unknown column 'telefonos.id_detalles' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:22:43 --> Unknown column 'telefonos.id_detalles' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `roles`.`nombre` as `rol_nombre`, `dt_sexo`.`nombre` as `sexo_nombre`, `dt_cargo`.`nombre` as `cargo_nombre`, `dt_documento`.`nombre` as `tp_nombre`, `telefonos`.`id_detalles` as `id_detalle`, `telefonos`.`numero` as `telefono_usuario`, `correos`.`correo_electronico` as `correo_usuario`, `dt_telefo`.`nombre` as `tipo_telefono`, `usuarios`.`tipo_de_documento` as `id_documento`
+FROM `usuarios`
+JOIN `roles` ON `roles`.`id_rol` = `usuarios`.`id_rol`
+JOIN `telefonos` ON `telefonos`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_telefo` ON `dt_telefo`.`id_detalles` = `telefonos`.`tipo_telefono`
+JOIN `correos` ON `correos`.`id_usuarios` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_cargo` ON `dt_cargo`.`id_detalles` = `usuarios`.`cargo`
+JOIN `detalles` as `dt_documento` ON `dt_documento`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `dt_sexo` ON `dt_sexo`.`id_detalles` = `usuarios`.`sexo`
+WHERE `usuarios`.`estado` = :usuarios.estado:
+AND `usuarios`.`id_usuario` = :usuarios.id_usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:22:59 --> mysqli_sql_exception: Unknown column 'usuarios.cargo' in 'on clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:22:59 --> Unknown column 'usuarios.cargo' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `roles`.`nombre` as `rol_nombre`, `dt_sexo`.`nombre` as `sexo_nombre`, `dt_cargo`.`nombre` as `cargo_nombre`, `dt_documento`.`nombre` as `tp_nombre`, `telefonos`.`tipo_telefono` as `id_detalle`, `telefonos`.`numero` as `telefono_usuario`, `correos`.`correo_electronico` as `correo_usuario`, `dt_telefo`.`nombre` as `tipo_telefono`, `usuarios`.`tipo_de_documento` as `id_documento`
+FROM `usuarios`
+JOIN `roles` ON `roles`.`id_rol` = `usuarios`.`id_rol`
+JOIN `telefonos` ON `telefonos`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_telefo` ON `dt_telefo`.`id_detalles` = `telefonos`.`tipo_telefono`
+JOIN `correos` ON `correos`.`id_usuarios` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_cargo` ON `dt_cargo`.`id_detalles` = `usuarios`.`cargo`
+JOIN `detalles` as `dt_documento` ON `dt_documento`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `dt_sexo` ON `dt_sexo`.`id_detalles` = `usuarios`.`sexo`
+WHERE `usuarios`.`estado` = :usuarios.estado:
+AND `usuarios`.`id_usuario` = :usuarios.id_usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(76): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:23:32 --> mysqli_sql_exception: Unknown column 'dt_cargo.nombre' in 'field list' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(75): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:23:32 --> Unknown column 'dt_cargo.nombre' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `roles`.`nombre` as `rol_nombre`, `dt_sexo`.`nombre` as `sexo_nombre`, `dt_cargo`.`nombre` as `cargo_nombre`, `dt_documento`.`nombre` as `tp_nombre`, `telefonos`.`tipo_telefono` as `id_detalle`, `telefonos`.`numero` as `telefono_usuario`, `correos`.`correo_electronico` as `correo_usuario`, `dt_telefo`.`nombre` as `tipo_telefono`, `usuarios`.`tipo_de_documento` as `id_documento`
+FROM `usuarios`
+JOIN `roles` ON `roles`.`id_rol` = `usuarios`.`id_rol`
+JOIN `telefonos` ON `telefonos`.`id_usuario` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_telefo` ON `dt_telefo`.`id_detalles` = `telefonos`.`tipo_telefono`
+JOIN `correos` ON `correos`.`id_usuarios` = `usuarios`.`id_usuario`
+JOIN `detalles` as `dt_documento` ON `dt_documento`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `dt_sexo` ON `dt_sexo`.`id_detalles` = `usuarios`.`sexo`
+WHERE `usuarios`.`estado` = :usuarios.estado:
+AND `usuarios`.`id_usuario` = :usuarios.id_usuario:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(75): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Perfiles.php(64): App\Models\AdministradorModels\UsuariosModel->traer_usuario('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 14:25:10 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Perfiles.php(78): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->actualizar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:26:09 --> mysqli_sql_exception: Unknown column 'usuarios.cargo' in 'on clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(24): App\Models\AdministradorModels\UsuariosModel->obtenerUsuariosTodo('A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:26:09 --> Unknown column 'usuarios.cargo' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `detalleSexo`.`nombre` as `nomSexo`, `detalleTipoDoc`.`nombre` as `nomTipoDoc`, `detalleCargo`.`nombre` as `nomCargo`
+FROM `usuarios`
+JOIN `detalles` as `detalleSexo` ON `detalleSexo`.`id_detalles` = `usuarios`.`sexo`
+JOIN `detalles` as `detalleTipoDoc` ON `detalleTipoDoc`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `detalleCargo` ON `detalleCargo`.`id_detalles` = `usuarios`.`cargo`
+WHERE `usuarios`.`estado` = :usuarios.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(49): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\LoginRegistrarUsuario.php(24): App\Models\AdministradorModels\UsuariosModel->obtenerUsuariosTodo('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:26:40 --> mysqli_sql_exception: Unknown column 'usuarios.cargo' in 'on clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(24): App\Models\AdministradorModels\UsuariosModel->obtenerUsuariosTodo('A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:26:40 --> Unknown column 'usuarios.cargo' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `detalleSexo`.`nombre` as `nomSexo`, `detalleTipoDoc`.`nombre` as `nomTipoDoc`, `detalleCargo`.`nombre` as `nomCargo`
+FROM `usuarios`
+JOIN `detalles` as `detalleSexo` ON `detalleSexo`.`id_detalles` = `usuarios`.`sexo`
+JOIN `detalles` as `detalleTipoDoc` ON `detalleTipoDoc`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `detalleCargo` ON `detalleCargo`.`id_detalles` = `usuarios`.`cargo`
+WHERE `usuarios`.`estado` = :usuarios.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(49): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\LoginRegistrarUsuario.php(24): App\Models\AdministradorModels\UsuariosModel->obtenerUsuariosTodo('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:26:47 --> mysqli_sql_exception: Unknown column 'usuarios.cargo' in 'on clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(24): App\Models\AdministradorModels\UsuariosModel->obtenerUsuariosTodo('A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:26:47 --> Unknown column 'usuarios.cargo' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `detalleSexo`.`nombre` as `nomSexo`, `detalleTipoDoc`.`nombre` as `nomTipoDoc`, `detalleCargo`.`nombre` as `nomCargo`
+FROM `usuarios`
+JOIN `detalles` as `detalleSexo` ON `detalleSexo`.`id_detalles` = `usuarios`.`sexo`
+JOIN `detalles` as `detalleTipoDoc` ON `detalleTipoDoc`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `detalleCargo` ON `detalleCargo`.`id_detalles` = `usuarios`.`cargo`
+WHERE `usuarios`.`estado` = :usuarios.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(49): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\LoginRegistrarUsuario.php(24): App\Models\AdministradorModels\UsuariosModel->obtenerUsuariosTodo('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:27:23 --> mysqli_sql_exception: Unknown column 'usuarios.cargo' in 'on clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(24): App\Models\AdministradorModels\UsuariosModel->obtenerUsuariosTodo('A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:27:23 --> Unknown column 'usuarios.cargo' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `detalleSexo`.`nombre` as `nomSexo`, `detalleTipoDoc`.`nombre` as `nomTipoDoc`, `detalleCargo`.`nombre` as `nomCargo`
+FROM `usuarios`
+JOIN `detalles` as `detalleSexo` ON `detalleSexo`.`id_detalles` = `usuarios`.`sexo`
+JOIN `detalles` as `detalleTipoDoc` ON `detalleTipoDoc`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `detalleCargo` ON `detalleCargo`.`id_detalles` = `usuarios`.`cargo`
+WHERE `usuarios`.`estado` = :usuarios.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(49): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\LoginRegistrarUsuario.php(24): App\Models\AdministradorModels\UsuariosModel->obtenerUsuariosTodo('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:27:25 --> mysqli_sql_exception: Unknown column 'usuarios.cargo' in 'on clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(24): App\Models\AdministradorModels\UsuariosModel->obtenerUsuariosTodo('A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 14:27:25 --> Unknown column 'usuarios.cargo' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `detalleSexo`.`nombre` as `nomSexo`, `detalleTipoDoc`.`nombre` as `nomTipoDoc`, `detalleCargo`.`nombre` as `nomCargo`
+FROM `usuarios`
+JOIN `detalles` as `detalleSexo` ON `detalleSexo`.`id_detalles` = `usuarios`.`sexo`
+JOIN `detalles` as `detalleTipoDoc` ON `detalleTipoDoc`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `detalles` as `detalleCargo` ON `detalleCargo`.`id_detalles` = `usuarios`.`cargo`
+WHERE `usuarios`.`estado` = :usuarios.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(49): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\LoginRegistrarUsuario.php(24): App\Models\AdministradorModels\UsuariosModel->obtenerUsuariosTodo('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 14:33:00 --> Undefined variable $nomTipoDoc
+in APPPATH\Views\login\registrarUsuario\registrarUsuario.php on line 155.
+ 1 APPPATH\Views\login\registrarUsuario\registrarUsuario.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nomTipoDoc', 'APPPATH\\Views\\login\\registrarUsuario\\registrarUsuario.php', 155)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login\\registrarUsuario\\registrarUsuario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/login/registrarUsuario/registrarUsuario', [], true)
+ 5 APPPATH\Controllers\LoginRegistrarUsuario.php(32): view('/login/registrarUsuario/registrarUsuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 14:35:55 --> Undefined variable $detallecargo
+in APPPATH\Views\login\registrarUsuario\registrarUsuario.php on line 197.
+ 1 APPPATH\Views\login\registrarUsuario\registrarUsuario.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detallecargo', 'APPPATH\\Views\\login\\registrarUsuario\\registrarUsuario.php', 197)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login\\registrarUsuario\\registrarUsuario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/login/registrarUsuario/registrarUsuario', [], true)
+ 5 APPPATH\Controllers\LoginRegistrarUsuario.php(31): view('/login/registrarUsuario/registrarUsuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:37:45 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Rol_Usuarios` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(45): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-29 14:37:45 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Rol_Usuarios` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre_p`, `nombre_s`, `apellido_p`, `apellido_s`, `nombre_corto`, `direccion`, `sexo`, `tipo_de_documento`, `numero_de_documento`, `id_rol`, `contrasena`, `fecha_crea`) VALUES (:nombre_p:, :nombre_s:, :apellido_p:, :apellido_s:, :nombre_corto:, :direccion:, :sexo:, :tipo_de_documento:, :numero_de_documento:, :id_rol:, :contrasena:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\LoginRegistrarUsuario.php(45): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:41:09 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Rol_Usuarios` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(45): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-29 14:41:09 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Rol_Usuarios` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre_p`, `nombre_s`, `apellido_p`, `apellido_s`, `nombre_corto`, `direccion`, `sexo`, `tipo_de_documento`, `numero_de_documento`, `id_rol`, `contrasena`, `fecha_crea`) VALUES (:nombre_p:, :nombre_s:, :apellido_p:, :apellido_s:, :nombre_corto:, :direccion:, :sexo:, :tipo_de_documento:, :numero_de_documento:, :id_rol:, :contrasena:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\LoginRegistrarUsuario.php(45): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 14:41:15 --> Undefined array key "id_detalles"
+in APPPATH\Views\login\registrarUsuario\registrarUsuario.php on line 200.
+ 1 APPPATH\Views\login\registrarUsuario\registrarUsuario.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_detalles"', 'APPPATH\\Views\\login\\registrarUsuario\\registrarUsuario.php', 200)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login\\registrarUsuario\\registrarUsuario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/login/registrarUsuario/registrarUsuario', [], true)
+ 5 APPPATH\Controllers\LoginRegistrarUsuario.php(31): view('/login/registrarUsuario/registrarUsuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 14:41:22 --> Undefined array key "id_detalles"
+in APPPATH\Views\login\registrarUsuario\registrarUsuario.php on line 200.
+ 1 APPPATH\Views\login\registrarUsuario\registrarUsuario.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_detalles"', 'APPPATH\\Views\\login\\registrarUsuario\\registrarUsuario.php', 200)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login\\registrarUsuario\\registrarUsuario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/login/registrarUsuario/registrarUsuario', [], true)
+ 5 APPPATH\Controllers\LoginRegistrarUsuario.php(31): view('/login/registrarUsuario/registrarUsuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:42:21 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Usuario_Crea_Usuarios` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(45): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-29 14:42:21 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Usuario_Crea_Usuarios` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre_p`, `nombre_s`, `apellido_p`, `apellido_s`, `nombre_corto`, `direccion`, `sexo`, `tipo_de_documento`, `numero_de_documento`, `id_rol`, `contrasena`, `fecha_crea`) VALUES (:nombre_p:, :nombre_s:, :apellido_p:, :apellido_s:, :nombre_corto:, :direccion:, :sexo:, :tipo_de_documento:, :numero_de_documento:, :id_rol:, :contrasena:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\LoginRegistrarUsuario.php(45): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:53:36 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Usuario_Crea_Usuarios` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(45): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-29 14:53:36 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Usuario_Crea_Usuarios` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre_p`, `nombre_s`, `apellido_p`, `apellido_s`, `nombre_corto`, `direccion`, `sexo`, `tipo_de_documento`, `numero_de_documento`, `contrasena`, `fecha_crea`) VALUES (:nombre_p:, :nombre_s:, :apellido_p:, :apellido_s:, :nombre_corto:, :direccion:, :sexo:, :tipo_de_documento:, :numero_de_documento:, :contrasena:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\LoginRegistrarUsuario.php(45): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:53:46 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Usuario_Crea_Usuarios` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(45): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-29 14:53:46 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Usuario_Crea_Usuarios` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre_p`, `nombre_s`, `apellido_p`, `apellido_s`, `nombre_corto`, `direccion`, `sexo`, `tipo_de_documento`, `numero_de_documento`, `contrasena`, `fecha_crea`) VALUES (:nombre_p:, :nombre_s:, :apellido_p:, :apellido_s:, :nombre_corto:, :direccion:, :sexo:, :tipo_de_documento:, :numero_de_documento:, :contrasena:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\LoginRegistrarUsuario.php(45): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:58:30 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Usuario_Crea_Usuarios` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(45): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-29 14:58:30 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Usuario_Crea_Usuarios` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre_p`, `nombre_s`, `apellido_p`, `apellido_s`, `nombre_corto`, `direccion`, `sexo`, `tipo_de_documento`, `numero_de_documento`, `contrasena`, `fecha_crea`) VALUES (:nombre_p:, :nombre_s:, :apellido_p:, :apellido_s:, :nombre_corto:, :direccion:, :sexo:, :tipo_de_documento:, :numero_de_documento:, :contrasena:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\LoginRegistrarUsuario.php(45): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 14:59:15 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Usuario_Crea_Usuarios` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(45): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-29 14:59:15 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Usuario_Crea_Usuarios` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre_p`, `nombre_s`, `apellido_p`, `apellido_s`, `nombre_corto`, `direccion`, `sexo`, `tipo_de_documento`, `numero_de_documento`, `contrasena`, `fecha_crea`) VALUES (:nombre_p:, :nombre_s:, :apellido_p:, :apellido_s:, :nombre_corto:, :direccion:, :sexo:, :tipo_de_documento:, :numero_de_documento:, :contrasena:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\LoginRegistrarUsuario.php(45): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 15:03:40 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Usuario_Crea_Usuarios` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(45): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-29 15:03:40 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Usuario_Crea_Usuarios` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre_p`, `nombre_s`, `apellido_p`, `apellido_s`, `nombre_corto`, `direccion`, `sexo`, `tipo_de_documento`, `numero_de_documento`, `contrasena`, `fecha_crea`) VALUES (:nombre_p:, :nombre_s:, :apellido_p:, :apellido_s:, :nombre_corto:, :direccion:, :sexo:, :tipo_de_documento:, :numero_de_documento:, :contrasena:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\LoginRegistrarUsuario.php(45): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->registrar()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 15:07:04 --> mysqli_sql_exception: Not unique table/alias: 'usuarios' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(50): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(24): App\Models\AdministradorModels\UsuariosModel->obtenerUsuariosTodo('A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 15:07:04 --> Not unique table/alias: 'usuarios'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `detalleSexo`.`nombre` as `nomSexo`, `detalleTipoDoc`.`nombre` as `nomTipoDoc`, `roles`.`nombre` as `nRol`, `usuarios`.`usuario_crea` as `usu_crea`
+FROM `usuarios`
+JOIN `detalles` as `detalleSexo` ON `detalleSexo`.`id_detalles` = `usuarios`.`sexo`
+JOIN `detalles` as `detalleTipoDoc` ON `detalleTipoDoc`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `roles` ON `roles`.`id_rol` = `usuarios`.`id_rol`
+JOIN `usuarios` ON `usuario`.`id_usuario` = `usuarios`.`usuario_crea`
+WHERE `usuarios`.`estado` = :usuarios.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(50): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\LoginRegistrarUsuario.php(24): App\Models\AdministradorModels\UsuariosModel->obtenerUsuariosTodo('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 15:07:21 --> mysqli_sql_exception: Not unique table/alias: 'usuarios' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Agendamiento-Citas\app\Models\AdministradorModels\UsuariosModel.php(50): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\LoginRegistrarUsuario.php(24): App\Models\AdministradorModels\UsuariosModel->obtenerUsuariosTodo('A')
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 15:07:21 --> Not unique table/alias: 'usuarios'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `detalleSexo`.`nombre` as `nomSexo`, `detalleTipoDoc`.`nombre` as `nomTipoDoc`, `roles`.`nombre` as `nRol`, `usuarios`.`usuario_crea` as `usu_crea`
+FROM `usuarios`
+JOIN `detalles` as `detalleSexo` ON `detalleSexo`.`id_detalles` = `usuarios`.`sexo`
+JOIN `detalles` as `detalleTipoDoc` ON `detalleTipoDoc`.`id_detalles` = `usuarios`.`tipo_de_documento`
+JOIN `roles` ON `roles`.`id_rol` = `usuarios`.`id_rol`
+JOIN `usuarios` ON `usuario`.`id_usuario` = `usuarios`.`usuario_crea`
+WHERE `usuarios`.`estado` = :usuarios.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdministradorModels\UsuariosModel.php(50): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\LoginRegistrarUsuario.php(24): App\Models\AdministradorModels\UsuariosModel->obtenerUsuariosTodo('A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginRegistrarUsuario->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRegistrarUsuario))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 16:22:20 --> Trying to access array offset on value of type null
+in APPPATH\Views\docentes\perfil\perfil.php on line 26.
+ 1 APPPATH\Views\docentes\perfil\perfil.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\docentes\\perfil\\perfil.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\perfil\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/perfil/perfil', [], true)
+ 5 APPPATH\Controllers\Perfiles.php(72): view('docentes/perfil/perfil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Docentes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 16:26:46 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Perfiles.php(78): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->actualizar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 16:29:18 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Perfiles.php(78): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->actualizar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 16:33:21 --> syntax error, unexpected token "]"
+in APPPATH\Controllers\Perfiles.php on line 100.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Perfiles.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Perfiles')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Perfiles')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Perfiles', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 16:37:12 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Perfiles.php(81): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->actualizar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 16:39:56 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Perfiles.php(81): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->actualizar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 16:39:56 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Perfiles.php(81): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->actualizar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 16:40:01 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Sexo_Usuarios` FOREIGN KEY (`sexo`) REFERENCES `detalles` (`id_detalles`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(81): CodeIgniter\Model->update('16', Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->actualizar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 16:40:01 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Sexo_Usuarios` FOREIGN KEY (`sexo`) REFERENCES `detalles` (`id_detalles`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre_corto` = :nombre_corto:, `nombre_p` = :nombre_p:, `nombre_s` = :nombre_s:, `apellido_p` = :apellido_p:, `apellido_s` = :apellido_s:, `sexo` = :sexo:, `direccion` = :direccion:, `id_rol` = :id_rol:, `contrasena` = :contrasena:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Perfiles.php(81): CodeIgniter\Model->update('16', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->actualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-29 16:51:11 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Sexo_Usuarios` FOREIGN KEY (`sexo`) REFERENCES `detalles` (`id_detalles`)) in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `usuario...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(82): CodeIgniter\Model->update('16', Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->actualizar()
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-29 16:51:11 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`usuarios`, CONSTRAINT `Sexo_Usuarios` FOREIGN KEY (`sexo`) REFERENCES `detalles` (`id_detalles`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre_corto` = :nombre_corto:, `nombre_p` = :nombre_p:, `nombre_s` = :nombre_s:, `apellido_p` = :apellido_p:, `apellido_s` = :apellido_s:, `sexo` = :sexo:, `direccion` = :direccion:, `id_rol` = :id_rol:, `contrasena` = :contrasena:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Perfiles.php(82): CodeIgniter\Model->update('16', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->actualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

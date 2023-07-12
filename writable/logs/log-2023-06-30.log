@@ -1,0 +1,292 @@
+CRITICAL - 2023-06-30 15:26:06 --> Undefined variable $id
+in APPPATH\Models\PruebaCalendar\CalendarioModel.php on line 65.
+ 1 APPPATH\Models\PruebaCalendar\CalendarioModel.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\PruebaCalendar\\CalendarioModel.php', 65)
+ 2 APPPATH\Controllers\EstudiantesSolicitarCita.php(44): App\Models\PruebaCalendar\CalendarioModel->traer_profe()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 15:26:18 --> Undefined variable $id
+in APPPATH\Models\PruebaCalendar\CalendarioModel.php on line 65.
+ 1 APPPATH\Models\PruebaCalendar\CalendarioModel.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\PruebaCalendar\\CalendarioModel.php', 65)
+ 2 APPPATH\Controllers\EstudiantesSolicitarCita.php(44): App\Models\PruebaCalendar\CalendarioModel->traer_profe()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 15:27:11 --> Undefined variable $id
+in APPPATH\Models\PruebaCalendar\CalendarioModel.php on line 65.
+ 1 APPPATH\Models\PruebaCalendar\CalendarioModel.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\PruebaCalendar\\CalendarioModel.php', 65)
+ 2 APPPATH\Controllers\EstudiantesSolicitarCita.php(44): App\Models\PruebaCalendar\CalendarioModel->traer_profe()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 15:28:26 --> Undefined variable $id
+in APPPATH\Models\PruebaCalendar\CalendarioModel.php on line 65.
+ 1 APPPATH\Models\PruebaCalendar\CalendarioModel.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\PruebaCalendar\\CalendarioModel.php', 65)
+ 2 APPPATH\Controllers\EstudiantesSolicitarCita.php(44): App\Models\PruebaCalendar\CalendarioModel->traer_profe()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 15:29:12 --> Undefined variable $id
+in APPPATH\Models\PruebaCalendar\CalendarioModel.php on line 65.
+ 1 APPPATH\Models\PruebaCalendar\CalendarioModel.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\PruebaCalendar\\CalendarioModel.php', 65)
+ 2 APPPATH\Controllers\EstudiantesSolicitarCita.php(44): App\Models\PruebaCalendar\CalendarioModel->traer_profe()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 15:31:15 --> Undefined variable $id
+in APPPATH\Models\PruebaCalendar\CalendarioModel.php on line 64.
+ 1 APPPATH\Models\PruebaCalendar\CalendarioModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\PruebaCalendar\\CalendarioModel.php', 64)
+ 2 APPPATH\Controllers\EstudiantesSolicitarCita.php(44): App\Models\PruebaCalendar\CalendarioModel->traer_profe()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 15:31:18 --> Undefined variable $id
+in APPPATH\Models\PruebaCalendar\CalendarioModel.php on line 64.
+ 1 APPPATH\Models\PruebaCalendar\CalendarioModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\PruebaCalendar\\CalendarioModel.php', 64)
+ 2 APPPATH\Controllers\EstudiantesSolicitarCita.php(44): App\Models\PruebaCalendar\CalendarioModel->traer_profe()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 15:42:46 --> Undefined variable $obtenerid
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 55.
+ 1 APPPATH\Controllers\EstudiantesSolicitarCita.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $obtenerid', 'APPPATH\\Controllers\\EstudiantesSolicitarCita.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 15:42:53 --> Undefined variable $obtenerid
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 55.
+ 1 APPPATH\Controllers\EstudiantesSolicitarCita.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $obtenerid', 'APPPATH\\Controllers\\EstudiantesSolicitarCita.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 15:42:58 --> Undefined variable $s
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 55.
+ 1 APPPATH\Controllers\EstudiantesSolicitarCita.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $s', 'APPPATH\\Controllers\\EstudiantesSolicitarCita.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 15:43:00 --> Undefined variable $s
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 55.
+ 1 APPPATH\Controllers\EstudiantesSolicitarCita.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $s', 'APPPATH\\Controllers\\EstudiantesSolicitarCita.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 15:58:08 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 71.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\EstudiantesSolicitarCita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudiantesSolicitarCita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudiantesSolicitarCita')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\EstudiantesSolicitarCita', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 15:58:30 --> syntax error, unexpected token "echo"
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 71.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\EstudiantesSolicitarCita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudiantesSolicitarCita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudiantesSolicitarCita')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\EstudiantesSolicitarCita', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 15:59:26 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 76.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\EstudiantesSolicitarCita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudiantesSolicitarCita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudiantesSolicitarCita')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\EstudiantesSolicitarCita', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 16:00:14 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 76.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\EstudiantesSolicitarCita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudiantesSolicitarCita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudiantesSolicitarCita')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\EstudiantesSolicitarCita', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 16:00:42 --> Undefined variable $eventos
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 215.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventos', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 215)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(57): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 16:00:46 --> Undefined variable $eventos
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 215.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventos', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 215)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(57): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 16:01:29 --> Undefined variable $eventos
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 215.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventos', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 215)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(57): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 16:01:29 --> Undefined variable $eventos
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 215.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventos', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 215)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(57): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 16:01:36 --> Undefined variable $eventos
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 215.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventos', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 215)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(57): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 16:01:37 --> Undefined variable $eventos
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 215.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventos', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 215)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(57): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 16:02:08 --> Undefined variable $eventos
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 215.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventos', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 215)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(57): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 16:03:04 --> Undefined variable $eventos
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 215.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventos', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 215)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(57): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 16:04:07 --> Undefined variable $eventos
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 215.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventos', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 215)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(57): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 16:04:27 --> Undefined variable $eventos
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 215.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventos', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 215)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(57): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 16:04:47 --> Undefined variable $eventos
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 215.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventos', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 215)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(57): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 16:04:54 --> Undefined variable $eventos
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 215.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventos', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 215)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(57): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 16:06:31 --> Undefined variable $eventos
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 215.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventos', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 215)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(57): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 16:07:40 --> Undefined variable $eventos
+in APPPATH\Views\estudiantes\solicitar\solicitar.php on line 215.
+ 1 APPPATH\Views\estudiantes\solicitar\solicitar.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventos', 'APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php', 215)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\solicitar\\solicitar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/Solicitar/solicitar', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(57): view('estudiantes/Solicitar/solicitar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 16:07:47 --> Undefined variable $datosEventos
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 55.
+ 1 APPPATH\Controllers\EstudiantesSolicitarCita.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datosEventos', 'APPPATH\\Controllers\\EstudiantesSolicitarCita.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 16:26:16 --> Trying to access array offset on value of type null
+in APPPATH\Views\principal\menu\menu.php on line 108.
+ 1 APPPATH\Views\principal\menu\menu.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\principal\\menu\\menu.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\EstudiantesSolicitarCita.php(56): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

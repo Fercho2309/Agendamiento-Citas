@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#contenedorTitle {
+    /* text-align: center; */
+     border-radius: 20px 20px 0px 0px;
+    background-color: #094067;
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+    padding: 5px 0px;
+    /* border: 1px solid blue; */
+}
+

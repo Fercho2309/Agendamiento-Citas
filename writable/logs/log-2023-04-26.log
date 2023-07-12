@@ -1,0 +1,126 @@
+CRITICAL - 2023-04-26 12:57:27 --> Invalid file: "estudiantes/perfil/eliminarCita.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estudiantes/perfil/eliminarCita.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/perfil/eliminarCita', [], true)
+ 3 APPPATH\Controllers\PerfilEstudiantes.php(21): view('estudiantes/perfil/eliminarCita', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PerfilEstudiantes->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerfilEstudiantes))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:56:42 --> Invalid file: "estudiantes/login/recuperar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estudiantes/login/recuperar.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/login/recuperar', [], true)
+ 3 APPPATH\Controllers\RecuperarContraseña.php(21): view('estudiantes/login/recuperar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecuperarContraseña->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecuperarContraseña))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:57:52 --> Invalid file: "estudiantes/login/recuperar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estudiantes/login/recuperar.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/login/recuperar', [], true)
+ 3 APPPATH\Controllers\RecuperarContraseña.php(21): view('estudiantes/login/recuperar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecuperarContraseña->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecuperarContraseña))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:58:15 --> Invalid file: "estudiantes/login/recuperar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estudiantes/login/recuperar.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/login/recuperar', [], true)
+ 3 APPPATH\Controllers\RecuperarContraseña.php(21): view('estudiantes/login/recuperar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecuperarContraseña->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecuperarContraseña))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 14:35:12 --> Invalid file: "/principal/headercopy.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/principal/headercopy.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/headercopy', [], true)
+ 3 APPPATH\Controllers\RecuperarContraseña.php(20): view('/principal/headercopy', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecuperarContraseña->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecuperarContraseña))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 14:35:16 --> Invalid file: "/principal/headercopy.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/principal/headercopy.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/headercopy', [], true)
+ 3 APPPATH\Controllers\RecuperarContraseña.php(20): view('/principal/headercopy', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecuperarContraseña->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecuperarContraseña))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 14:35:17 --> Invalid file: "/principal/headercopy.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/principal/headercopy.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/headercopy', [], true)
+ 3 APPPATH\Controllers\RecuperarContraseña.php(20): view('/principal/headercopy', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecuperarContraseña->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecuperarContraseña))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 14:35:17 --> Invalid file: "/principal/headercopy.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/principal/headercopy.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/headercopy', [], true)
+ 3 APPPATH\Controllers\RecuperarContraseña.php(20): view('/principal/headercopy', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecuperarContraseña->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecuperarContraseña))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 14:35:18 --> Invalid file: "/principal/headercopy.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/principal/headercopy.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/headercopy', [], true)
+ 3 APPPATH\Controllers\RecuperarContraseña.php(20): view('/principal/headercopy', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecuperarContraseña->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecuperarContraseña))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 14:35:18 --> Invalid file: "/principal/headercopy.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/principal/headercopy.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/headercopy', [], true)
+ 3 APPPATH\Controllers\RecuperarContraseña.php(20): view('/principal/headercopy', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecuperarContraseña->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecuperarContraseña))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 14:35:18 --> Invalid file: "/principal/headercopy.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/principal/headercopy.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/headercopy', [], true)
+ 3 APPPATH\Controllers\RecuperarContraseña.php(20): view('/principal/headercopy', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecuperarContraseña->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecuperarContraseña))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 14:36:04 --> Invalid file: "/principal/headercopy.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/principal/headercopy.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/headercopy', [], true)
+ 3 APPPATH\Controllers\RecuperarContraseña.php(20): view('/principal/headercopy', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecuperarContraseña->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecuperarContraseña))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 14:36:21 --> Invalid file: "/login/headercopy.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/login/headercopy.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/login/headercopy', [], true)
+ 3 APPPATH\Controllers\RecuperarContraseña.php(20): view('/login/headercopy', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecuperarContraseña->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecuperarContraseña))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 14:36:53 --> Invalid file: "/principal/interfazH eader.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/principal/interfazH eader.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/interfazH eader', [], true)
+ 3 APPPATH\Controllers\RecuperarContraseña.php(20): view('/principal/interfazH eader', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecuperarContraseña->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecuperarContraseña))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

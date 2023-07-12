@@ -1,0 +1,44 @@
+CRITICAL - 2023-04-25 12:25:21 --> Undefined variable $empleados
+in APPPATH\Views\administradores\usuarios\usuario.php on line 60.
+ 1 APPPATH\Views\administradores\usuarios\usuario.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'APPPATH\\Views\\administradores\\usuarios\\usuario.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\usuarios\\usuario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/usuarios/usuario.php', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(20): view('administradores/usuarios/usuario.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 12:25:45 --> Undefined variable $empleados
+in APPPATH\Views\administradores\usuarios\usuario.php on line 60.
+ 1 APPPATH\Views\administradores\usuarios\usuario.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'APPPATH\\Views\\administradores\\usuarios\\usuario.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\usuarios\\usuario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/usuarios/usuario.php', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(20): view('administradores/usuarios/usuario.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 12:26:40 --> Undefined variable $empleados
+in APPPATH\Views\administradores\usuarios\usuario.php on line 60.
+ 1 APPPATH\Views\administradores\usuarios\usuario.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'APPPATH\\Views\\administradores\\usuarios\\usuario.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\usuarios\\usuario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/usuarios/usuario.php', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(20): view('administradores/usuarios/usuario.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 12:28:25 --> Undefined variable $empleados
+in APPPATH\Views\administradores\usuarios\usuario.php on line 60.
+ 1 APPPATH\Views\administradores\usuarios\usuario.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'APPPATH\\Views\\administradores\\usuarios\\usuario.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\usuarios\\usuario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/usuarios/usuario.php', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(20): view('administradores/usuarios/usuario.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

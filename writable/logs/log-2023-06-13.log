@@ -1,0 +1,126 @@
+CRITICAL - 2023-06-13 15:48:07 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\Agendamiento-Citas\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 1608.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get('ROOTPATH\\public')
+ 2 APPPATH\Models\AdministradorModels\UsuariosModel.php(160): CodeIgniter\Model->__call('get', [...])
+ 3 APPPATH\Controllers\Perfiles.php(190): App\Models\AdministradorModels\UsuariosModel->verificarContraseña('30', '991109jdrc')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->cambiarContraseña()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 15:54:43 --> Trying to access array offset on value of type null
+in APPPATH\Views\principal\menu\menu.php on line 105.
+ 1 APPPATH\Views\principal\menu\menu.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\principal\\menu\\menu.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\Perfiles.php(50): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 16:06:07 --> Invalid file: "AdminInicio.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AdminInicio.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AdminInicio', [], true)
+ 3 APPPATH\Controllers\Perfiles.php(203): view('AdminInicio', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->changePassword()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 16:06:49 --> Invalid file: "AdminInicio.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AdminInicio.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AdminInicio.php', [], true)
+ 3 APPPATH\Controllers\Perfiles.php(203): view('AdminInicio.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->changePassword()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 16:07:01 --> Invalid file: "/AdminInicio.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/AdminInicio.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/AdminInicio', [], true)
+ 3 APPPATH\Controllers\Perfiles.php(203): view('/AdminInicio', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->changePassword()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 16:07:30 --> Invalid file: "AdminPerfil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AdminPerfil.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AdminPerfil', [], true)
+ 3 APPPATH\Controllers\Perfiles.php(203): view('AdminPerfil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->changePassword()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 16:17:14 --> Invalid file: "AdminPerfil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AdminPerfil.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AdminPerfil', [], true)
+ 3 APPPATH\Controllers\Perfiles.php(203): view('AdminPerfil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->changePassword()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 16:17:27 --> Invalid file: "/AdminPerfil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/AdminPerfil.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/AdminPerfil', [], true)
+ 3 APPPATH\Controllers\Perfiles.php(203): view('/AdminPerfil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->changePassword()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 16:18:05 --> Invalid file: "/AdminPerfil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/AdminPerfil.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/AdminPerfil', [], true)
+ 3 APPPATH\Controllers\Perfiles.php(203): view('/AdminPerfil')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->changePassword()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 16:18:15 --> Invalid file: "/AdminPerfil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/AdminPerfil.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/AdminPerfil', [], true)
+ 3 APPPATH\Controllers\Perfiles.php(203): view('/AdminPerfil')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->changePassword()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 16:19:29 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Perfiles.php on line 205.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Perfiles.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Perfiles')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Perfiles')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Perfiles', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 16:25:21 --> Invalid file: "AdminPerfil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AdminPerfil.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AdminPerfil', [], true)
+ 3 APPPATH\Controllers\Perfiles.php(203): view('AdminPerfil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->changePassword()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 16:27:30 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, array given, called in C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php on line 203
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Perfiles.php(203): CodeIgniter\HTTP\RedirectResponse->to('/AdminInicio', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->changePassword()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 16:35:17 --> Invalid file: "AdminPerfil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AdminPerfil.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AdminPerfil', [], true)
+ 3 APPPATH\Controllers\Perfiles.php(203): view('AdminPerfil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->changePassword()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

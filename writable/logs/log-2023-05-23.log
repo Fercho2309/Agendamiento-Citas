@@ -1,0 +1,42 @@
+CRITICAL - 2023-05-23 16:08:17 --> syntax error, unexpected identifier "base_url"
+in APPPATH\Views\administradores\perfil\perfil.php on line 24.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/perfil/perfil', [], true)
+ 3 APPPATH\Controllers\Perfiles.php(34): view('administradores/perfil/perfil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Admin()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 16:12:35 --> Undefined variable $dato
+in APPPATH\Views\administradores\perfil\perfil.php on line 124.
+ 1 APPPATH\Views\administradores\perfil\perfil.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'APPPATH\\Views\\administradores\\perfil\\perfil.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\perfil\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/perfil/perfil', [], true)
+ 5 APPPATH\Controllers\Perfiles.php(34): view('administradores/perfil/perfil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 16:13:17 --> Undefined variable $dato
+in APPPATH\Views\administradores\perfil\perfil.php on line 124.
+ 1 APPPATH\Views\administradores\perfil\perfil.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'APPPATH\\Views\\administradores\\perfil\\perfil.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\perfil\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/perfil/perfil', [], true)
+ 5 APPPATH\Controllers\Perfiles.php(34): view('administradores/perfil/perfil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 16:13:32 --> Undefined variable $dato
+in APPPATH\Views\administradores\perfil\perfil.php on line 123.
+ 1 APPPATH\Views\administradores\perfil\perfil.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'APPPATH\\Views\\administradores\\perfil\\perfil.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\perfil\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/perfil/perfil', [], true)
+ 5 APPPATH\Controllers\Perfiles.php(34): view('administradores/perfil/perfil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

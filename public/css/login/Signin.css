@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form-signin {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.cont-form {
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 20px;
+    margin: 60px 0px 7.1%;
+    box-shadow: 0px 0px 15px 5px #5f6c7b;
+}
+
+#contenedorTitle {
+    padding: 20px;
+}
+
+#loginImg {
+    width: 50%;
+}
+
+#form-group {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#invalido {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: start;
+}
+
+#contraseña,
+#usuario {
+    width: 400px;
+}
+
+#form-group label {
+    margin: 10px 0px 0px 14%;
+    font-weight: bold;
+    text-align: start;
+}
+
+#btnSesion {
+    padding: 15px;
+}
+
+#iniciarSesion {
+    padding: 15px 25px;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    padding: 10px 25% 10px 25%;
+    background-color: #094067;
+    border-radius: 15px;
+    transition: all 0.9s ease;
+}
+
+#iniciarSesion:hover {
+    transform: translateY(-5px);
+    background-color: #5f6c7b;
+    color: white;
+    box-shadow: 0 5px 10px #094067;
+}
+
+#acciones {
+    padding: 10px 0px 0px 0px;
+}
+
+#acciones h6,
+#acciones h6 a {
+    padding: 0px 0px 10px 0px;
+    font-weight: bold;
+}
+
+#acciones h6 {
+    padding: 0px 0px 20px 0px;
+}
+
+#alert-container{
+    color:red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#alert-container .alert{
+    background-color: #EE462F;
+    padding: 5px;
+    color: white;
+    margin: 0px 18%;
+}

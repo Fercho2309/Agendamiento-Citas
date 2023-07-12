@@ -1,0 +1,1594 @@
+CRITICAL - 2023-05-04 12:24:08 --> Too few arguments to function App\Models\AdministradorModels\UsuariosModel::obtenerUsuarios(), 1 passed in C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarUsuarios.php on line 22 and exactly 2 expected
+in APPPATH\Models\AdministradorModels\UsuariosModel.php on line 27.
+ 1 APPPATH\Controllers\AdministrarUsuarios.php(22): App\Models\AdministradorModels\UsuariosModel->obtenerUsuarios('A')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarUsuarios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarUsuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 12:30:10 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Controllers\AdministrarAcciones.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdministrarAcciones.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdministrarAcciones')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdministrarAcciones')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\AdministrarAcciones', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 12:32:49 --> Too few arguments to function App\Models\AdministradorModels\UsuariosModel::obtenerUsuarios(), 1 passed in C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarUsuarios.php on line 21 and exactly 2 expected
+in APPPATH\Models\AdministradorModels\UsuariosModel.php on line 27.
+ 1 APPPATH\Controllers\AdministrarUsuarios.php(21): App\Models\AdministradorModels\UsuariosModel->obtenerUsuarios('A')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarUsuarios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarUsuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 12:42:07 --> syntax error, unexpected single-quoted string "descripcion", expecting "]"
+in APPPATH\Controllers\AdministrarAcciones.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdministrarAcciones.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdministrarAcciones')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdministrarAcciones')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\AdministrarAcciones', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:01:47 --> Undefined variable $accion
+in APPPATH\Views\administradores\permiso\permisos.php on line 99.
+ 1 APPPATH\Views\administradores\permiso\permisos.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $accion', 'APPPATH\\Views\\administradores\\permiso\\permisos.php', 99)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\permiso\\permisos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/permiso/permisos', [], true)
+ 5 APPPATH\Controllers\AdministrarPermisos.php(33): view('administradores/permiso/permisos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:07:13 --> Too few arguments to function App\Controllers\AdministrarRoles::buscar_Roles(), 0 passed in C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\AdministrarRoles.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->buscar_Roles()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:07:29 --> Call to undefined method App\Models\AdministradorModels\RolesModel::obtenerAcciones
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdministrarPermisos.php(30): CodeIgniter\Model->__call('obtenerAcciones', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:07:39 --> Call to undefined method App\Models\AdministradorModels\RolesModel::obtenerAcciones
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdministrarPermisos.php(30): CodeIgniter\Model->__call('obtenerAcciones', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:10:12 --> Call to undefined method App\Models\AdministradorModels\RolesModel::obtenerRoles
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdministrarPermisos.php(31): CodeIgniter\Model->__call('obtenerRoles', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:18:14 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:18:26 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:20:19 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:22:54 --> Too few arguments to function App\Models\AdministradorModels\UsuariosModel::obtenerUsuarios(), 1 passed in C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarUsuarios.php on line 21 and exactly 2 expected
+in APPPATH\Models\AdministradorModels\UsuariosModel.php on line 27.
+ 1 APPPATH\Controllers\AdministrarUsuarios.php(21): App\Models\AdministradorModels\UsuariosModel->obtenerUsuarios('A')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarUsuarios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarUsuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:23:22 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:23:32 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:26:23 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:26:27 --> Call to undefined method App\Models\AdministradorModels\RolesModel::Colocarinfo_rol
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdministrarRoles.php(57): CodeIgniter\Model->__call('Colocarinfo_rol', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->buscar_Roles('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:27:16 --> Call to undefined method App\Models\AdministradorModels\RolesModel::Colocarinfo_rol
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdministrarRoles.php(57): CodeIgniter\Model->__call('Colocarinfo_rol', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->buscar_Roles('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:28:01 --> Call to undefined method App\Models\AdministradorModels\RolesModel::Colocarinfo_rol
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AdministrarRoles.php(57): CodeIgniter\Model->__call('Colocarinfo_rol', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->buscar_Roles('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:29:27 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:30:54 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:31:11 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 13:31:14 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `roles`....', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `roles`....')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `roles`....')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `roles`....', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\AgendamientoCitas\app\Models\AdministradorModels\RolesModel.php(39): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarRoles.php(57): App\Models\AdministradorModels\RolesModel->colocarRoles('1', 'A')
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarRoles->buscar_Roles('1')
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 13:31:14 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `roles`.*, `roles`.`usuario_crea` as `usuario_crea`
+FROM `roles`
+JOIN `usuarios` ON `roles`.`usuario_crea` = `usuarios`.`id_usuario`
+WHERE `id` = :id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\RolesModel.php(39): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarRoles.php(57): App\Models\AdministradorModels\RolesModel->colocarRoles('1', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->buscar_Roles('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:31:33 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:32:03 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:34:37 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:36:02 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:40:19 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:41:31 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:41:45 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:42:33 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:42:33 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:42:34 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:42:34 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:42:34 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:42:59 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:44:01 --> syntax error, unexpected identifier "y"
+in APPPATH\Controllers\AdministrarUsuarios.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdministrarUsuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdministrarUsuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdministrarUsuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\AdministrarUsuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:44:08 --> syntax error, unexpected identifier "y"
+in APPPATH\Controllers\AdministrarUsuarios.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdministrarUsuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdministrarUsuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdministrarUsuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\AdministrarUsuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:44:26 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::get()
+in APPPATH\Controllers\AdministrarRoles.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:44:48 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:45:53 --> syntax error, unexpected identifier "y"
+in APPPATH\Controllers\AdministrarUsuarios.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdministrarUsuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdministrarUsuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdministrarUsuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\AdministrarUsuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:46:01 --> syntax error, unexpected identifier "y"
+in APPPATH\Controllers\AdministrarUsuarios.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdministrarUsuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdministrarUsuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdministrarUsuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\AdministrarUsuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:46:15 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarRoles.php(44): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarRoles->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarRoles))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:47:46 --> Undefined array key "id_detalle"
+in APPPATH\Views\administradores\usuarios\usuario.php on line 220.
+ 1 APPPATH\Views\administradores\usuarios\usuario.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_detalle"', 'APPPATH\\Views\\administradores\\usuarios\\usuario.php', 220)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\usuarios\\usuario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/usuarios/usuario.php', [], true)
+ 5 APPPATH\Controllers\AdministrarUsuarios.php(32): view('administradores/usuarios/usuario.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarUsuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarUsuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 13:48:51 --> Undefined array key "id_detalle"
+in APPPATH\Views\administradores\usuarios\usuario.php on line 220.
+ 1 APPPATH\Views\administradores\usuarios\usuario.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_detalle"', 'APPPATH\\Views\\administradores\\usuarios\\usuario.php', 220)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\usuarios\\usuario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/usuarios/usuario.php', [], true)
+ 5 APPPATH\Controllers\AdministrarUsuarios.php(32): view('administradores/usuarios/usuario.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarUsuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarUsuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 14:12:58 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\LoginSignin.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 14:15:25 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\LoginSignin.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 14:17:17 --> Class "App\Controllers\UsuariosModel" not found
+in APPPATH\Controllers\LoginRegistrarUsuario.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\LoginRegistrarUsuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 14:22:41 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\LoginSignin.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LoginSignin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginSignin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginSignin')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LoginSignin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 14:28:30 --> Too few arguments to function App\Models\AdministradorModels\UsuariosModel::obtenerUsuarios(), 1 passed in C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarUsuarios.php on line 40 and exactly 2 expected
+in APPPATH\Models\AdministradorModels\UsuariosModel.php on line 37.
+ 1 APPPATH\Controllers\AdministrarUsuarios.php(40): App\Models\AdministradorModels\UsuariosModel->obtenerUsuarios('E')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarUsuarios->eliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarUsuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 14:36:32 --> mysqli_sql_exception: Column 'usuario_crea' cannot be null in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarAsuntos.php(39): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 14:36:32 --> Column 'usuario_crea' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asunto` (`asunto`, `usuario_crea`, `fecha_crea`) VALUES (:asunto:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(39): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 14:39:20 --> mysqli_sql_exception: Column 'usuario_crea' cannot be null in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarAsuntos.php(39): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 14:39:20 --> Column 'usuario_crea' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asunto` (`asunto`, `usuario_crea`, `fecha_crea`) VALUES (:asunto:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(39): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 14:39:31 --> mysqli_sql_exception: Column 'usuario_crea' cannot be null in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarAsuntos.php(39): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 14:39:31 --> Column 'usuario_crea' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asunto` (`asunto`, `usuario_crea`, `fecha_crea`) VALUES (:asunto:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(39): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 14:40:22 --> mysqli_sql_exception: Column 'usuario_crea' cannot be null in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarAsuntos.php(39): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 14:40:22 --> Column 'usuario_crea' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asunto` (`asunto`, `usuario_crea`, `fecha_crea`) VALUES (:asunto:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(39): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 14:40:28 --> mysqli_sql_exception: Column 'usuario_crea' cannot be null in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarAsuntos.php(39): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 14:40:28 --> Column 'usuario_crea' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asunto` (`asunto`, `usuario_crea`, `fecha_crea`) VALUES (:asunto:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(39): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 14:41:20 --> mysqli_sql_exception: Column 'usuario_crea' cannot be null in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarAsuntos.php(39): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 14:41:20 --> Column 'usuario_crea' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asunto` (`asunto`, `usuario_crea`, `fecha_crea`) VALUES (:asunto:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(39): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 14:42:23 --> mysqli_sql_exception: Column 'usuario_crea' cannot be null in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `en...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarEncabezado.php(39): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarEncabezado->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarEncabezado))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 14:42:23 --> Column 'usuario_crea' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `encabezado` (`nombre`, `usuario_crea`, `fecha_crea`) VALUES (:nombre:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarEncabezado.php(39): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarEncabezado->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarEncabezado))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 14:43:05 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`asunto`, CONSTRAINT `asunto_usuarioscrea` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `asunto`...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `asunto`...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `asunto`...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `asunto`...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 14:43:05 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`asunto`, CONSTRAINT `asunto_usuarioscrea` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `asunto` SET `asunto` = :asunto:, `usuario_crea` = :usuario_crea:
+WHERE `asunto`.`id_asunto` IN :asunto.id_asunto:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 14:43:11 --> mysqli_sql_exception: Column 'id_encabezado' cannot be null in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarDetalles.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarDetalles->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarDetalles))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 14:43:11 --> Column 'id_encabezado' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `detalles` (`id_encabezado`, `nombre`, `resumen`, `usuario_crea`, `fecha_crea`) VALUES (:id_encabezado:, :nombre:, :resumen:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarDetalles.php(43): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarDetalles->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarDetalles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 14:45:12 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`asunto`, CONSTRAINT `asunto_usuarioscrea` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `asunto`...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `asunto`...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `asunto`...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `asunto`...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 14:45:12 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`asunto`, CONSTRAINT `asunto_usuarioscrea` FOREIGN KEY (`usuario_crea`) REFERENCES `usuarios` (`id_usuario`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `asunto` SET `asunto` = :asunto:, `usuario_crea` = :usuario_crea:
+WHERE `asunto`.`id_asunto` IN :asunto.id_asunto:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\AdministrarAsuntos.php(45): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarAsuntos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarAsuntos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:02:27 --> mysqli_sql_exception: Table 'db_citas.rol' doesn't exist in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `permiso...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `permiso...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `permiso...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `permiso...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\AgendamientoCitas\app\Models\AdministradorModels\PermisosModel.php(44): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(71): App\Models\AdministradorModels\PermisosModel->colocarPermisos('1', 'A')
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->buscar_Permisos('1')
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:02:27 --> Table 'db_citas.rol' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `permisos`.*, `permisos`.`usuario_crea` as `usuario_crea`, `permisos`.`id_rol` as `id_rol`, `permisos`.`id_acciones` as `id_acciones`
+FROM `permisos`
+JOIN `usuarios` ON `permisos`.`usuario_crea` = `usuarios`.`id_usuario`
+JOIN `rol` ON `permisos`.`id_rol` = `rol`.`id_rol`
+JOIN `acciones` ON `permisos`.`id_acciones` = `acciones`.`id_acciones`
+WHERE `permisos`.`id_rol` = :permisos.id_rol:
+AND `permisos`.`estado` = :permisos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\PermisosModel.php(44): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarPermisos.php(71): App\Models\AdministradorModels\PermisosModel->colocarPermisos('1', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->buscar_Permisos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:03:11 --> mysqli_sql_exception: Table 'db_citas.rol' doesn't exist in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `permiso...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `permiso...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `permiso...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `permiso...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\AgendamientoCitas\app\Models\AdministradorModels\PermisosModel.php(44): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(71): App\Models\AdministradorModels\PermisosModel->colocarPermisos('1', 'A')
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->buscar_Permisos('1')
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:03:11 --> Table 'db_citas.rol' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `permisos`.*, `permisos`.`usuario_crea` as `usuario_crea`, `permisos`.`id_rol` as `id_rol`, `permisos`.`id_acciones` as `id_acciones`
+FROM `permisos`
+JOIN `usuarios` ON `permisos`.`usuario_crea` = `usuarios`.`id_usuario`
+JOIN `rol` ON `permisos`.`id_rol` = `rol`.`id_rol`
+JOIN `acciones` ON `permisos`.`id_acciones` = `acciones`.`id_acciones`
+WHERE `permisos`.`id_rol` = :permisos.id_rol:
+AND `permisos`.`estado` = :permisos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\PermisosModel.php(44): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarPermisos.php(71): App\Models\AdministradorModels\PermisosModel->colocarPermisos('1', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->buscar_Permisos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:03:19 --> mysqli_sql_exception: Table 'db_citas.rol' doesn't exist in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `permiso...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `permiso...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `permiso...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `permiso...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\AgendamientoCitas\app\Models\AdministradorModels\PermisosModel.php(44): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(71): App\Models\AdministradorModels\PermisosModel->colocarPermisos('4', 'A')
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->buscar_Permisos('4')
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:03:19 --> Table 'db_citas.rol' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `permisos`.*, `permisos`.`usuario_crea` as `usuario_crea`, `permisos`.`id_rol` as `id_rol`, `permisos`.`id_acciones` as `id_acciones`
+FROM `permisos`
+JOIN `usuarios` ON `permisos`.`usuario_crea` = `usuarios`.`id_usuario`
+JOIN `rol` ON `permisos`.`id_rol` = `rol`.`id_rol`
+JOIN `acciones` ON `permisos`.`id_acciones` = `acciones`.`id_acciones`
+WHERE `permisos`.`id_rol` = :permisos.id_rol:
+AND `permisos`.`estado` = :permisos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\PermisosModel.php(44): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarPermisos.php(71): App\Models\AdministradorModels\PermisosModel->colocarPermisos('4', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->buscar_Permisos('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:03:49 --> mysqli_sql_exception: Table 'db_citas.rol' doesn't exist in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `permiso...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `permiso...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `permiso...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `permiso...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\AgendamientoCitas\app\Models\AdministradorModels\PermisosModel.php(44): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(71): App\Models\AdministradorModels\PermisosModel->colocarPermisos('1', 'A')
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->buscar_Permisos('1')
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:03:49 --> Table 'db_citas.rol' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `permisos`.*, `permisos`.`usuario_crea` as `usuario_crea`, `permisos`.`id_rol` as `id_rol`, `permisos`.`id_acciones` as `id_acciones`
+FROM `permisos`
+JOIN `usuarios` ON `permisos`.`usuario_crea` = `usuarios`.`id_usuario`
+JOIN `rol` ON `permisos`.`id_rol` = `rol`.`id_rol`
+JOIN `acciones` ON `permisos`.`id_acciones` = `acciones`.`id_acciones`
+WHERE `permisos`.`id_rol` = :permisos.id_rol:
+AND `permisos`.`estado` = :permisos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\PermisosModel.php(44): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarPermisos.php(71): App\Models\AdministradorModels\PermisosModel->colocarPermisos('1', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->buscar_Permisos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:04:58 --> mysqli_sql_exception: Table 'db_citas.rol' doesn't exist in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `permiso...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `permiso...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `permiso...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `permiso...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\AgendamientoCitas\app\Models\AdministradorModels\PermisosModel.php(44): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(71): App\Models\AdministradorModels\PermisosModel->colocarPermisos('1', 'A')
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->buscar_Permisos('1')
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:04:58 --> Table 'db_citas.rol' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `permisos`.*, `permisos`.`usuario_crea` as `usuario_crea`, `permisos`.`id_rol` as `id_rol`, `permisos`.`id_acciones` as `id_acciones`
+FROM `permisos`
+JOIN `usuarios` ON `permisos`.`usuario_crea` = `usuarios`.`id_usuario`
+JOIN `rol` ON `permisos`.`id_rol` = `rol`.`id_rol`
+JOIN `acciones` ON `permisos`.`id_acciones` = `acciones`.`id_acciones`
+WHERE `permisos`.`id_rol` = :permisos.id_rol:
+AND `permisos`.`estado` = :permisos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\PermisosModel.php(44): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarPermisos.php(71): App\Models\AdministradorModels\PermisosModel->colocarPermisos('1', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->buscar_Permisos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:06:27 --> mysqli_sql_exception: Table 'db_citas.rol' doesn't exist in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `permiso...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `permiso...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `permiso...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `permiso...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\AgendamientoCitas\app\Models\AdministradorModels\PermisosModel.php(44): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(71): App\Models\AdministradorModels\PermisosModel->colocarPermisos('1', 'A')
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->buscar_Permisos('1')
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:06:27 --> Table 'db_citas.rol' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `permisos`.*, `permisos`.`usuario_crea` as `usuario_crea`, `permisos`.`id_rol` as `id_rol`, `permisos`.`id_acciones` as `id_acciones`
+FROM `permisos`
+JOIN `usuarios` ON `permisos`.`usuario_crea` = `usuarios`.`id_usuario`
+JOIN `rol` ON `permisos`.`id_rol` = `rol`.`id_rol`
+JOIN `acciones` ON `permisos`.`id_acciones` = `acciones`.`id_acciones`
+WHERE `permisos`.`id_rol` = :permisos.id_rol:
+AND `permisos`.`estado` = :permisos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\PermisosModel.php(44): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarPermisos.php(71): App\Models\AdministradorModels\PermisosModel->colocarPermisos('1', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->buscar_Permisos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:08:35 --> mysqli_sql_exception: Table 'db_citas.rol' doesn't exist in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `permiso...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `permiso...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `permiso...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `permiso...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\AgendamientoCitas\app\Models\AdministradorModels\PermisosModel.php(44): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(71): App\Models\AdministradorModels\PermisosModel->colocarPermisos('1', 'A')
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->buscar_Permisos('1')
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:08:35 --> Table 'db_citas.rol' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `permisos`.*, `permisos`.`usuario_crea` as `usuario_crea`, `permisos`.`id_rol` as `id_rol`, `permisos`.`id_acciones` as `id_acciones`
+FROM `permisos`
+JOIN `usuarios` ON `permisos`.`usuario_crea` = `usuarios`.`id_usuario`
+JOIN `rol` ON `permisos`.`id_rol` = `rol`.`id_rol`
+JOIN `acciones` ON `permisos`.`id_acciones` = `acciones`.`id_acciones`
+WHERE `permisos`.`id_rol` = :permisos.id_rol:
+AND `permisos`.`estado` = :permisos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\PermisosModel.php(44): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarPermisos.php(71): App\Models\AdministradorModels\PermisosModel->colocarPermisos('1', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->buscar_Permisos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:09:01 --> mysqli_sql_exception: Table 'db_citas.rol' doesn't exist in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `permiso...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `permiso...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `permiso...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `permiso...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\AgendamientoCitas\app\Models\AdministradorModels\PermisosModel.php(44): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(71): App\Models\AdministradorModels\PermisosModel->colocarPermisos('1', 'A')
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->buscar_Permisos('1')
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:09:01 --> Table 'db_citas.rol' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `permisos`.*, `permisos`.`usuario_crea` as `usuario_crea`, `permisos`.`id_rol` as `id_rol`, `permisos`.`id_acciones` as `id_acciones`
+FROM `permisos`
+JOIN `usuarios` ON `permisos`.`usuario_crea` = `usuarios`.`id_usuario`
+JOIN `rol` ON `permisos`.`id_rol` = `rol`.`id_rol`
+JOIN `acciones` ON `permisos`.`id_acciones` = `acciones`.`id_acciones`
+WHERE `permisos`.`id_rol` = :permisos.id_rol:
+AND `permisos`.`estado` = :permisos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\PermisosModel.php(44): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarPermisos.php(71): App\Models\AdministradorModels\PermisosModel->colocarPermisos('1', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->buscar_Permisos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:10:39 --> mysqli_sql_exception: Table 'db_citas.rol' doesn't exist in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `permiso...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `permiso...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `permiso...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `permiso...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\AgendamientoCitas\app\Models\AdministradorModels\PermisosModel.php(44): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(71): App\Models\AdministradorModels\PermisosModel->colocarPermisos('1', 'A')
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->buscar_Permisos('1')
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:10:39 --> Table 'db_citas.rol' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `permisos`.*, `permisos`.`usuario_crea` as `usuario_crea`, `permisos`.`id_rol` as `id_rol`, `permisos`.`id_acciones` as `id_acciones`
+FROM `permisos`
+JOIN `usuarios` ON `permisos`.`usuario_crea` = `usuarios`.`id_usuario`
+JOIN `rol` ON `permisos`.`id_rol` = `rol`.`id_rol`
+JOIN `acciones` ON `permisos`.`id_acciones` = `acciones`.`id_acciones`
+WHERE `permisos`.`id_rol` = :permisos.id_rol:
+AND `permisos`.`estado` = :permisos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\PermisosModel.php(44): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarPermisos.php(71): App\Models\AdministradorModels\PermisosModel->colocarPermisos('1', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->buscar_Permisos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:10:47 --> mysqli_sql_exception: Table 'db_citas.rol' doesn't exist in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `permiso...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `permiso...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `permiso...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `permiso...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\AgendamientoCitas\app\Models\AdministradorModels\PermisosModel.php(44): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(71): App\Models\AdministradorModels\PermisosModel->colocarPermisos('1', 'A')
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->buscar_Permisos('1')
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:10:47 --> Table 'db_citas.rol' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `permisos`.*, `permisos`.`usuario_crea` as `usuario_crea`, `permisos`.`id_rol` as `id_rol`, `permisos`.`id_acciones` as `id_acciones`
+FROM `permisos`
+JOIN `usuarios` ON `permisos`.`usuario_crea` = `usuarios`.`id_usuario`
+JOIN `rol` ON `permisos`.`id_rol` = `rol`.`id_rol`
+JOIN `acciones` ON `permisos`.`id_acciones` = `acciones`.`id_acciones`
+WHERE `permisos`.`id_rol` = :permisos.id_rol:
+AND `permisos`.`estado` = :permisos.estado:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\AdministradorModels\PermisosModel.php(44): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\AdministrarPermisos.php(71): App\Models\AdministradorModels\PermisosModel->colocarPermisos('1', 'A')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->buscar_Permisos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:23:14 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_acciones` FOREIGN KEY (`id_acciones`) REFERENCES `acciones` (`id_acciones`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:23:14 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_acciones` FOREIGN KEY (`id_acciones`) REFERENCES `acciones` (`id_acciones`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permisos` (`id_acciones`, `id_rol`, `usuario_crea`, `fecha_crea`) VALUES (:id_acciones:, :id_rol:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:25:42 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_acciones` FOREIGN KEY (`id_acciones`) REFERENCES `acciones` (`id_acciones`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:25:42 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_acciones` FOREIGN KEY (`id_acciones`) REFERENCES `acciones` (`id_acciones`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permisos` (`id_acciones`, `id_rol`, `usuario_crea`, `fecha_crea`) VALUES (:id_acciones:, :id_rol:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:27:10 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_acciones` FOREIGN KEY (`id_acciones`) REFERENCES `acciones` (`id_acciones`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:27:10 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_acciones` FOREIGN KEY (`id_acciones`) REFERENCES `acciones` (`id_acciones`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permisos` (`id_acciones`, `id_rol`, `usuario_crea`, `fecha_crea`) VALUES (:id_acciones:, :id_rol:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:27:17 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_acciones` FOREIGN KEY (`id_acciones`) REFERENCES `acciones` (`id_acciones`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:27:17 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_acciones` FOREIGN KEY (`id_acciones`) REFERENCES `acciones` (`id_acciones`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permisos` (`id_acciones`, `id_rol`, `usuario_crea`, `fecha_crea`) VALUES (:id_acciones:, :id_rol:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:27:35 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:27:35 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permisos` (`id_acciones`, `id_rol`, `usuario_crea`, `fecha_crea`) VALUES (:id_acciones:, :id_rol:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:28:40 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:28:40 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permisos` (`id_acciones`, `id_rol`, `usuario_crea`, `fecha_crea`) VALUES (:id_acciones:, :id_rol:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:28:40 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:28:40 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permisos` (`id_acciones`, `id_rol`, `usuario_crea`, `fecha_crea`) VALUES (:id_acciones:, :id_rol:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:28:40 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:28:40 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permisos` (`id_acciones`, `id_rol`, `usuario_crea`, `fecha_crea`) VALUES (:id_acciones:, :id_rol:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:28:41 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:28:41 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permisos` (`id_acciones`, `id_rol`, `usuario_crea`, `fecha_crea`) VALUES (:id_acciones:, :id_rol:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:28:41 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:28:41 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permisos` (`id_acciones`, `id_rol`, `usuario_crea`, `fecha_crea`) VALUES (:id_acciones:, :id_rol:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:28:41 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:28:41 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permisos` (`id_acciones`, `id_rol`, `usuario_crea`, `fecha_crea`) VALUES (:id_acciones:, :id_rol:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:28:42 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:28:42 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permisos` (`id_acciones`, `id_rol`, `usuario_crea`, `fecha_crea`) VALUES (:id_acciones:, :id_rol:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:28:42 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:28:42 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permisos` (`id_acciones`, `id_rol`, `usuario_crea`, `fecha_crea`) VALUES (:id_acciones:, :id_rol:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:28:42 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:28:42 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permisos` (`id_acciones`, `id_rol`, `usuario_crea`, `fecha_crea`) VALUES (:id_acciones:, :id_rol:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:28:42 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:28:42 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permisos` (`id_acciones`, `id_rol`, `usuario_crea`, `fecha_crea`) VALUES (:id_acciones:, :id_rol:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:28:53 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:28:53 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permisos` (`id_acciones`, `id_rol`, `usuario_crea`, `fecha_crea`) VALUES (:id_acciones:, :id_rol:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:30:48 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:30:48 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permisos` (`id_acciones`, `id_rol`, `usuario_crea`, `fecha_crea`) VALUES (:id_acciones:, :id_rol:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:36:34 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:36:34 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permisos` (`id_acciones`, `id_rol`, `usuario_crea`, `fecha_crea`) VALUES (:id_acciones:, :id_rol:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 15:39:16 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)) in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-04 15:39:16 --> Cannot add or update a child row: a foreign key constraint fails (`db_citas`.`permisos`, CONSTRAINT `permisos_roles` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `permisos` (`id_acciones`, `id_rol`, `usuario_crea`, `fecha_crea`) VALUES (:id_acciones:, :id_rol:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdministrarPermisos.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarPermisos->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarPermisos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 16:11:54 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarUsuarios.php(59): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarUsuarios->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarUsuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 16:12:14 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdministrarUsuarios.php(59): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarUsuarios->insertar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarUsuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 16:25:14 --> Undefined property: App\Controllers\EstudiantesSolicitarCita::$detalles
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 20.
+ 1 APPPATH\Controllers\EstudiantesSolicitarCita.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\EstudiantesSolicitarCita::$detalles', 'APPPATH\\Controllers\\EstudiantesSolicitarCita.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 16:26:07 --> Undefined property: App\Controllers\EstudiantesSolicitarCita::$detalles
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 20.
+ 1 APPPATH\Controllers\EstudiantesSolicitarCita.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\EstudiantesSolicitarCita::$detalles', 'APPPATH\\Controllers\\EstudiantesSolicitarCita.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 16:27:24 --> syntax error, unexpected single-quoted string "detallecargo", expecting "]"
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\EstudiantesSolicitarCita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EstudiantesSolicitarCita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EstudiantesSolicitarCita')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\EstudiantesSolicitarCita', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 16:27:48 --> Undefined property: App\Controllers\EstudiantesSolicitarCita::$detalles
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 20.
+ 1 APPPATH\Controllers\EstudiantesSolicitarCita.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\EstudiantesSolicitarCita::$detalles', 'APPPATH\\Controllers\\EstudiantesSolicitarCita.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EstudiantesSolicitarCita->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstudiantesSolicitarCita))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 16:28:25 --> Class "App\Controllers\DetallesModel" not found
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\EstudiantesSolicitarCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 16:30:28 --> Class "App\Controllers\DetallesModel" not found
+in APPPATH\Controllers\EstudiantesSolicitarCita.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\EstudiantesSolicitarCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

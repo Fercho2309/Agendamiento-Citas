@@ -1,0 +1,560 @@
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 14:44:09 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Usuarios.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Usuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\usuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 14:44:09 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Usuarios.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Usuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\usuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 14:44:09 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Usuarios.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Usuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\usuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 14:44:10 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Usuarios.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Usuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\usuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 14:44:10 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Usuarios.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Usuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\usuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 14:44:10 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Usuarios.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Usuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\usuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 14:44:10 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Usuarios.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Usuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\usuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 14:44:11 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Usuarios.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Usuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\usuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 14:44:11 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Usuarios.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Usuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\usuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 14:44:11 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Usuarios.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Usuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuarios')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\usuarios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:00:46 --> Class "App\Controllers\UsuariosModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:00:49 --> Class "App\Controllers\UsuariosModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:25 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:26 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:26 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:26 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:27 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:27 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:27 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:27 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:27 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:27 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:28 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:28 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:28 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:35 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:36 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:36 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:36 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:36 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:37 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:37 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:01:37 --> Class "App\Controllers\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:02:02 --> Class "APP\Models\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:02:13 --> Class "APP\Models\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:02:53 --> Class "APP\Models\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:03:35 --> Class "APP\Models\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:04:12 --> Class "APP\Models\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:04:23 --> Class "APP\Models\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:05:51 --> Class "APP\Models\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:09:11 --> Class "APP\Models\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:11:59 --> syntax error, unexpected variable "$data", expecting ")"
+in APPPATH\Controllers\RegistroCita.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\RegistroCita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\RegistroCita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\RegistroCita')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\RegistroCita', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:12:20 --> Class "APP\Models\RegistroCitaModel" not found
+in APPPATH\Controllers\RegistroCita.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\RegistroCita->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:12:59 --> Invalid file: "estudiantes/registroCita/registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estudiantes/registroCita/registro.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/registroCita/registro', [], true)
+ 3 APPPATH\Controllers\RegistroCita.php(25): view('estudiantes/registroCita/registro', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:13:19 --> Invalid file: "estudiantes/registroCita/registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estudiantes/registroCita/registro.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/registroCita/registro', [], true)
+ 3 APPPATH\Controllers\RegistroCita.php(25): view('estudiantes/registroCita/registro', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:13:19 --> Invalid file: "estudiantes/registroCita/registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estudiantes/registroCita/registro.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/registroCita/registro', [], true)
+ 3 APPPATH\Controllers\RegistroCita.php(25): view('estudiantes/registroCita/registro', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:13:19 --> Invalid file: "estudiantes/registroCita/registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estudiantes/registroCita/registro.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/registroCita/registro', [], true)
+ 3 APPPATH\Controllers\RegistroCita.php(25): view('estudiantes/registroCita/registro', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:13:20 --> Invalid file: "estudiantes/registroCita/registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estudiantes/registroCita/registro.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/registroCita/registro', [], true)
+ 3 APPPATH\Controllers\RegistroCita.php(25): view('estudiantes/registroCita/registro', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:13:42 --> Invalid file: "estudiantes/registroCita/registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estudiantes/registroCita/registro.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/registroCita/registro', [], true)
+ 3 APPPATH\Controllers\RegistroCita.php(25): view('estudiantes/registroCita/registro', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:17:45 --> Invalid file: "estudiantes/registroCita/registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estudiantes/registroCita/registro.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/registroCita/registro', [], true)
+ 3 APPPATH\Controllers\RegistroCita.php(25): view('estudiantes/registroCita/registro', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:29:20 --> syntax error, unexpected token "."
+in APPPATH\Controllers\RegistroCita.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\RegistroCita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\RegistroCita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\RegistroCita')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\RegistroCita', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:29:36 --> syntax error, unexpected token "."
+in APPPATH\Controllers\RegistroCita.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\RegistroCita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\RegistroCita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\RegistroCita')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\RegistroCita', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:29:37 --> syntax error, unexpected token "."
+in APPPATH\Controllers\RegistroCita.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\RegistroCita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\RegistroCita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\RegistroCita')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\RegistroCita', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:29:37 --> syntax error, unexpected token "."
+in APPPATH\Controllers\RegistroCita.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\RegistroCita.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\RegistroCita')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\RegistroCita')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\RegistroCita', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:29:52 --> Invalid file: "estudiantes/registroCita/registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estudiantes/registroCita/registro.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/registroCita/registro', [], true)
+ 3 APPPATH\Controllers\RegistroCita.php(25): view('estudiantes/registroCita/registro', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:29:54 --> Invalid file: "estudiantes/registroCita/registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estudiantes/registroCita/registro.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/registroCita/registro', [], true)
+ 3 APPPATH\Controllers\RegistroCita.php(25): view('estudiantes/registroCita/registro', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:29:54 --> Invalid file: "estudiantes/registroCita/registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estudiantes/registroCita/registro.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/registroCita/registro', [], true)
+ 3 APPPATH\Controllers\RegistroCita.php(25): view('estudiantes/registroCita/registro', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:30:32 --> Invalid file: "estudiantes/registroCita/registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estudiantes/registroCita/registro.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estudiantes/registroCita/registro', [], true)
+ 3 APPPATH\Controllers\RegistroCita.php(25): view('estudiantes/registroCita/registro', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:32:28 --> Invalid file: "/estudiantes/registroCita/registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/estudiantes/registroCita/registro.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/estudiantes/registroCita/registro', [], true)
+ 3 APPPATH\Controllers\RegistroCita.php(25): view('/estudiantes/registroCita/registro', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:32:30 --> Invalid file: "/estudiantes/registroCita/registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/estudiantes/registroCita/registro.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/estudiantes/registroCita/registro', [], true)
+ 3 APPPATH\Controllers\RegistroCita.php(25): view('/estudiantes/registroCita/registro', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:34:45 --> Invalid file: "/estudiantes/registroCita/registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/estudiantes/registroCita/registro.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/estudiantes/registroCita/registro', [], true)
+ 3 APPPATH\Controllers\RegistroCita.php(25): view('/estudiantes/registroCita/registro')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:34:55 --> Invalid file: "/estudiantes/registroCita/registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/estudiantes/registroCita/registro.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/estudiantes/registroCita/registro', [], true)
+ 3 APPPATH\Controllers\RegistroCita.php(25): view('/estudiantes/registroCita/registro')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:34:58 --> Invalid file: "/estudiantes/registroCita/registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/estudiantes/registroCita/registro.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/estudiantes/registroCita/registro', [], true)
+ 3 APPPATH\Controllers\RegistroCita.php(25): view('/estudiantes/registroCita/registro')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:35:30 --> Undefined array key "id_usuario"
+in APPPATH\Views\estudiantes\registrarCita\registro.php on line 63.
+ 1 APPPATH\Views\estudiantes\registrarCita\registro.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_usuario"', 'APPPATH\\Views\\estudiantes\\registrarCita\\registro.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\registrarCita\\registro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/estudiantes/registrarCita/registro', [], true)
+ 5 APPPATH\Controllers\RegistroCita.php(25): view('/estudiantes/registrarCita/registro')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:59:39 --> Undefined array key "horai"
+in APPPATH\Views\estudiantes\registrarCita\registro.php on line 65.
+ 1 APPPATH\Views\estudiantes\registrarCita\registro.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "horai"', 'APPPATH\\Views\\estudiantes\\registrarCita\\registro.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiantes\\registrarCita\\registro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/estudiantes/registrarCita/registro', [], true)
+ 5 APPPATH\Controllers\RegistroCita.php(25): view('/estudiantes/registrarCita/registro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 16:00:10 --> Call to a member function buscaCita() on null
+in APPPATH\Controllers\RegistroCita.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-27 16:01:08 --> mysqli_sql_exception: Unknown column 'disponibilidad.id' in 'on clause' in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `citas`....', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `citas`....')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `citas`....')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`....', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\AgendamientoCitas\app\Models\RegistroCitaModel.php(39): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\RegistroCita.php(20): App\Models\RegistroCitaModel->buscaCita()
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-27 16:01:08 --> Unknown column 'disponibilidad.id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`.*, `disponibilidad`.`hora_de_inicio` as `horai`, `citas`.*, `disponibilidad`.`hora_de_finalizacion` as `horaf`
+FROM `citas`
+JOIN `disponibilidad` ON `disponibilidad`.`id` = `citas`.`id_disponibilidad`
+WHERE `citas`.`estado` = :citas.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\RegistroCitaModel.php(39): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\RegistroCita.php(20): App\Models\RegistroCitaModel->buscaCita()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-27 16:04:04 --> mysqli_sql_exception: Unknown column 'disponibilidad.id' in 'on clause' in C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\AgendamientoCitas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `citas`....', 0)
+#1 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `citas`....')
+#2 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `citas`....')
+#3 C:\xampp\htdocs\AgendamientoCitas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`....', Array, false)
+#4 C:\xampp\htdocs\AgendamientoCitas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AgendamientoCitas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\AgendamientoCitas\app\Models\RegistroCitaModel.php(39): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\AgendamientoCitas\app\Controllers\RegistroCita.php(20): App\Models\RegistroCitaModel->buscaCita()
+#8 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+#9 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+#10 C:\xampp\htdocs\AgendamientoCitas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\AgendamientoCitas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-27 16:04:04 --> Unknown column 'disponibilidad.id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `citas`.*, `disponibilidad`.`hora_de_inicio` as `horai`, `citas`.*, `disponibilidad`.`hora_de_finalizacion` as `horaf`
+FROM `citas`
+JOIN `disponibilidad` ON `disponibilidad`.`id` = `citas`.`id_disponibilidad`
+WHERE `citas`.`estado` = :citas.estado:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\RegistroCitaModel.php(39): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\RegistroCita.php(20): App\Models\RegistroCitaModel->buscaCita()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistroCita->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroCita))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
