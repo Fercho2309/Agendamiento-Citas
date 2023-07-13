@@ -5,53 +5,40 @@
 }
 
 #contenedor {
-    height: auto !important;
-    /* height: auto !important; */
-    /* display: flex; */
-    /* flex-direction: column; */
+    width: 100vw;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid blue !important; */
 }
 
 #limite {
-    /* margin: 30px 20px 50px 20px !important; */
     margin: 45px 20px 10% 20px!important;
     border-radius: 20px 20px 0px 0px;
-    /* box-shadow: 0px 0px 15px 5px #5f6c7b; */
 }
 
 #contenedorTitle {
-    /* text-align: center; */
-     border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     background-color: #094067;
-    /* display: flex; */
-    /* justify-content: center; */
     align-items: center;
     padding: 5px 0px;
-    /* border: 1px solid blue; */
 }
 
 #Img {
-    position: relative;
-    width: 5%;
-    /* padding: 5px 10px; */
-    /* border: 1px solid red; */
+    width: 7rem;
 }
 
 #title {
-    font-size: 80px;
+    font-size: 4em;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     color: #fffffe;
 }
 
-#contBarra{
-    padding: 15px 15px ;
+#contBarra {
+    padding: 15px 15px;
 }
 
 #btns {
-    padding: 10px 15px 10px 15px ;
+    padding: 10px 15px 10px 15px;
     /* border: 1px solid red; */
     display: flex;
     justify-content: start;
@@ -76,26 +63,26 @@
     background-color: #2cb67d;
 }
 
-/* #contenidoTable{
+
+/* #contenidoTable {
     overflow: scroll-vertical !important;
     overflow-y: scroll !important;
     height: 700px;
-    padding-top: 20px;  
-
+    padding-top: 20px;
 } */
 
-#th tr th{
+#th tr th {
     padding: 20px 8px 10px 8px;
     text-align: center;
     font-weight: bold;
     color: #094067;
 }
 
-tbody tr td{
+tbody tr td {
     text-align: center;
 }
 
-#invalido{
+#invalido {
     font-size: 15px;
     font-weight: bold;
     text-align: start;
@@ -107,23 +94,24 @@ tbody tr td{
     border: none;
 }
 
-#contenedorTitleModal{
+#contenedorTitleModal {
     background: linear-gradient( #094067, #5f6c7b);
 }
 
-#titleModal{
+#titleModal {
     color: #fffffe;
     font-weight: bold;
     font-size: 30px;
 }
 
-#btnModal{
+#btnModal {
     background-color: #fffffe;
 }
 
-#btnModal:hover{
+#btnModal:hover {
     background-color: #fffffe;
 }
+
 
 /*-----------------------------------------------------------------*/
 
@@ -136,24 +124,26 @@ tbody tr td{
     background-color: white;
 }
 
-.boton i{
+.boton i {
     padding: 7px 10px 6px 10px;
     font-size: 30px;
 }
 
-#alert-container{
-    color:red;
+#alert-container {
+    color: red;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
 }
 
-#alert-container .alert{
+#alert-container .alert {
     background-color: #EE462F;
     padding: 5px;
     color: white;
     margin: 0px 18%;
 }
+
+
 /* .select,
 .form-select,
 .form-control {

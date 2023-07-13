@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bg-light {
+    position: absolute;
+    z-index: 10;
+}
+
+.navTitle {
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #094067;
+}
+
+#navbarNavDropdown {
+    justify-content: flex-end;
+}
+
+#listadoPrincipal li {
+    padding: 0px 15px 0px 15px;
+    cursor: pointer;
+}
+
+#listadoPrincipal a {
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #094067;
+    opacity: 0.8;
+    transition: all ease;
+    color: #fffffe;
+}
+
+#listadoPrincipal a:hover {
+    border-radius: 10px;
+    opacity: 1;
+    color: #fffffe;
+    font-weight: bold;
+}

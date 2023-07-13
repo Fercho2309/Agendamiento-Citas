@@ -25,6 +25,7 @@ class DocenteBuzonEntrada extends BaseController
         $citaAll = $this->cita->AllCitas('A');
         $citasDeUnUsuario = $this->cita->CitasPorIdUsuarioAgenda();
         $citasDeUnDocente = $this->cita->CitasAgendadasDocente();
+        $RegistroSuperAdmin = $this->cita-> CitasSuperAdministrador('A');
 
         $data = [
             'titulo' => 'Nombre de la APP', 
@@ -34,7 +35,8 @@ class DocenteBuzonEntrada extends BaseController
             'Rcitas' => $citaAll, 
             'DatosPerfil' => $perfil,
             'misCitas' => $citasDeUnUsuario,
-            'citasDocente' => $citasDeUnDocente
+            'citasDocente' => $citasDeUnDocente,
+            'RSAdmin' => $RegistroSuperAdmin,
         ]; // le asignamos a la variable data, que es la que interactua con la vista, los datos obtenidos del modelo, ademas de enviarle una variable titulo para el reporte.
         echo view('principal/menu/menu', $data);
         echo view('docentes/buzonEntrada/buzon', $data);

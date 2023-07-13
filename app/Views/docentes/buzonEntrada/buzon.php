@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?php echo base_url("css/administradores/allView.css")?>">
+    <script src="js/prueba.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -14,40 +15,92 @@
                 
             <div class="d-flex justify-content-center" id="contenedorTitle">
                 <img id="Img" src="<?php echo base_url("img/email.png")?>" alt="Icono Registro Citas">
-                <h1 class="title">Buzon Entrada</h1>
+                <h1 id="title">Buzon Entrada</h1>
             </div>
-
+     
             <div class="table-responsive" id="contenidoTable">
-                            <!-- Estudiante -->
-
-                            <div class="contenedorBuzon" style=" padding:10px;">
-                                <div style="padding:10px;">
-                                    <?php foreach ($misCitas as $cita): ?>  
-                                        <p>Has solicitado una cita con el profesor <strong><?php echo $cita['Dueño']; ?></strong>, con hora de inicio a las <?php echo $cita['hora_de_inicio']; ?> y hora de finalización a las <?php echo $cita['hora_de_finalizacion']; ?> en el aula <?php echo $cita['aula']; ?>, con el siguiente asunto: <?php echo $cita['asuntos']; ?></p>
-                                    <?php endforeach; ?>
-                                </div>
-                            </div>
-
-
-                        <?php if ($User_session->id_rol == '5'): ?>
-                                
-                        <!-- Docente -->
-                        <div class="contenedorBuzon" style="height: 100vh; padding:10px;">
-                            <div style="padding:10px;">
-                                <?php foreach ($citasDocente as $cita): ?> 
-                                    <p>Se ha registrado una cita en tu agendamiento con el estudiante <strong><?php echo $cita['usuarios'];?> </strong> a las <?php echo $cita['hora_de_inicio']; ?> con hora de finalización a las <?php echo $cita['hora_de_finalizacion']; ?> en el aula <?php echo $cita['aula']; ?>, con el siguiente asunto: <?php echo $cita['asuntos']; ?></p>
-                                <?php endforeach; ?>
-                            </div>
-                        </div>
+                <table class="table caption-top" id="example" style="width:100%">
+                    <?php if ($User_session->id_rol == '4'): ?>
+                        <caption>Lista de Citas Solicitadas</caption>
+                        <thead id="th">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Profesor</th>
+                                <th scope="col">Fecha y Hora de Inicio</th>
+                                <th scope="col">Fecha y Hora de Finalización</th>
+                                <th scope="col">Lugar de Reunion</th>
+                                <th scope="col">Asunto</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php foreach ($misCitas as $cita) { ?>
+                                <tr>
+                                    <th scope="row"><?php echo $cita['id_cita']; ?></th>
+                                    <td><?php echo $cita['Dueño']; ?></td>
+                                    <td><?php echo $cita['hora_de_inicio']; ?></td>
+                                    <td><?php echo $cita['hora_de_finalizacion']; ?></td>
+                                    <td><?php echo $cita['aula']; ?></td>
+                                    <td><?php echo $cita['asuntos']; ?></td>
+                                </tr>
+                            <?php } ?>
                     <?php endif; ?>
-                            
-                            
-            </div>
-                        
-                        <!-- <div class="contenedor-button">
-                            <a href="<= base_url("/DocenteInicio")?>" type="button" class="btn btn-primary" id="regresarCita">Regresar</a>
-            </div> -->
 
+                    <?php if ($User_session->id_rol == '5'): ?>
+                        <caption>Lista de Citas Registradas</caption>
+                        <thead id="th">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Estudiante o Acudiente</th>
+                                <th scope="col">Fecha y Hora de Inicio</th>
+                                <th scope="col">Fecha y Hora de Finalización</th>
+                                <th scope="col">Lugar de Reunion</th>
+                                <th scope="col">Asunto</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php foreach ($citasDocente as $citas) { ?>
+                                <tr>
+                                    <th scope="row"><?php echo $citas['id_cita']; ?></th>
+                                    <td><?php echo $citas['usuarios'];?></td>
+                                    <td><?php echo $citas['hora_de_inicio']; ?></td>
+                                    <td><?php echo $citas['hora_de_finalizacion']; ?></td>
+                                    <td><?php echo $citas['aula']; ?></td>
+                                    <td><?php echo $citas['asuntos']; ?></td>
+                                </tr>
+                            <?php } ?>
+                        </tbody>
+                    <?php endif; ?>
+
+                    <?php if ($User_session->id_rol == '1'): ?>
+
+                        <caption>Lista de Citas Solicitadas por Acudientes o Estudiantes y Profesores</caption>
+                        <thead id="th">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Estudiante o Acudiente</th>
+                                <th scope="col">Profesor</th>
+                                <th scope="col">Fecha y Hora de Inicio</th>
+                                <th scope="col">Fecha y Hora de Finalización</th>
+                                <th scope="col">Lugar de Reunion</th>
+                                <th scope="col">Asunto</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php foreach ($RSAdmin as $citas) { ?>
+                                <tr>
+                                    <th scope="row"><?php echo $citas['id_cita']; ?></th>
+                                    <td><?php echo $citas['usuarios'];?></td>
+                                    <td><?php echo $citas['Dueño']; ?></td>
+                                    <td><?php echo $citas['hora_de_inicio']; ?></td>
+                                    <td><?php echo $citas['hora_de_finalizacion']; ?></td>
+                                    <td><?php echo $citas['aula']; ?></td>
+                                    <td><?php echo $citas['asuntos']; ?></td>
+                                </tr>
+                            <?php } ?>
+                        </tbody>
+                    <?php endif; ?>
+                </table>   
+            </div>
         </div>
     </div>
 

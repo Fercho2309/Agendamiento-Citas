@@ -6,32 +6,42 @@
 .form-signin {
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .cont-form {
     background-color: aliceblue;
     text-align: center;
-    border-radius: 20px;
-    margin: 60px 0px 7.1%;
+    border-radius: 10px;
+    width: 25rem;
     box-shadow: 0px 0px 15px 5px #5f6c7b;
-
 }
 
 #contenedorTitle {
-    padding: 20px;
+    padding: 1rem;
 }
 
 #loginImg {
-    width: 50%;
+    width: 10rem;
+}
+
+.contenInput {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
 }
 
 #form-group {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 10px 0px;
+    width: 18rem;
 }
 
 #invalido {
@@ -40,15 +50,8 @@
     text-align: start;
 }
 
-#contraseña,
-#usuario {
-    width: 400px;
-}
-
 #form-group label {
-    margin: 10px 0px 0px 14%;
     font-weight: bold;
-    text-align: start;
 }
 
 #btnSesion {
@@ -87,16 +90,23 @@
     padding: 0px 0px 20px 0px;
 }
 
-#alert-container{
-    color:red;
+#alert-container {
+    color: red;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
 }
 
-#alert-container .alert{
+#alert-container .alert {
     background-color: #EE462F;
     padding: 5px;
     color: white;
     margin: 0px 18%;
+}
+
+@media (max-width: 550px) {
+    .cont-form {
+        width: 100%;
+        max-width: 300px;
+    }
 }

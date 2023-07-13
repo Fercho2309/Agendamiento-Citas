@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?= base_url("css/principal/header.css")?>">
+    <link rel="stylesheet" href="<?= base_url("css/principal/headers.css")?>">
     <link rel="stylesheet" href="<?= base_url('bootstrap/bootstrap.min.css'); ?>">
     <script src="<?= base_url('bootstrap/bootstrap.bundle.min.js'); ?>"></script>
     <script src="<?= base_url("css/jquery-3.6.0.js"); ?>"></script>
@@ -19,31 +19,39 @@
 
 </head>
 
-<body style="background-image: url('img/institucionVillaEstadio.jpeg'); background-repeat: no-repeat; background-size: cover; width: 100vw; background-position: auto;">
+<body>
+<!-- style=" margin: 0;
+  padding: 0;
+  background-image: url('img/institucionVillaEstadio.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; -->
 
-    <nav class="navbar navbar-expand-lg" id="barraNavegacion">
+    <nav class="navbar navbar-light bg-light">
+
         <div class="container-fluid">
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <a class="navTitle">EduCitas</a>
+        
+            <div class="d-flex" id="navbarNavDropdown">
 
-                <div id="InicarSesion">
+                <ul class="navbar-nav" id="listadoPrincipal">
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url("/signin")?>"><i class="fa-solid fa-right-to-bracket"></i> Iniciar Sesion</a>
+                    </li>
+                </ul>
 
-                    <ul class="navbar-nav" id="listadoPrincipal">
+                <ul class="navbar-nav" id="listadoPrincipal">
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url("/signin")?>"><i class="fa-solid fa-right-to-bracket"></i> Iniciar Sesion</a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url("/registrarusuario")?>">Registrar</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url("/registrarusuario")?>">Registrar</a>
-                        </li>
-
-                    </ul>
-                    
-                </div>
+                </ul>
 
             </div>
-        </div>       
+
+        </div>
     </nav>
 
 </body>

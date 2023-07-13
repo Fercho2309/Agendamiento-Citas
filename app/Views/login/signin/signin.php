@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="<?= base_url("css/login/Signin.css")?>">
+    <link rel="stylesheet" href="<?= base_url("css/login/signin.css")?>">
     <link rel="stylesheet" href="<?= base_url("bootstrap/bootstrap.min.css")?>">
     <script src="<?= base_url("bootstrap/bootstrap.bundle.min.js")?>"></script>
     <script src="https://kit.fontawesome.com/9bccd79f52.js" crossorigin="anonymous"></script>
@@ -24,24 +24,27 @@
             <img id="loginImg" src="<?= base_url("img/loginModificado.png")?>" alt="Icono Login">
           </div>
 
+          <div class="contenInput">
             <div class="form-floating mb-3" id="form-group">
               <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Nombre de Usuario" aria-describedby="inputGroupPrepend" required>
               <label for="usuario" id="label"><i class="fa-solid fa-user"></i> Nombre de Usuario</label>
-
+  
               <div class="invalid-feedback" id="invalido">
                 Por favor, Coloque su nombre de usuario.
               </div>
             </div>
-
-
-          <div class="form-floating" id="form-group">
-            <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="Contraseña" aria-describedby="inputGroupPrepend" required>
-            <label for="contraseña" id="label"><i class="fa-solid fa-lock"></i> Contraseña</label>
-
-            <div class="invalid-feedback" id="invalido">
-                Por favor, Coloque su Contraseña.
+  
+  
+            <div class="form-floating" id="form-group">
+              <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="Contraseña" aria-describedby="inputGroupPrepend" required>
+              <label for="contraseña" id="label"><i class="fa-solid fa-lock"></i> Contraseña</label>
+    
+              <div class="invalid-feedback" id="invalido">
+                  Por favor, Coloque su Contraseña.
+              </div>
             </div>
           </div>
+
 
           <div id="btnSesion" class="col-12">
             <button class="btn btn-success" type="submit" id="iniciarSesion" name="iniciarSesion">Iniciar sesión</button>

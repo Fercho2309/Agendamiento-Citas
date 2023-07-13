@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="<?php echo base_url('/bootstrap/bootstrap.min.css'); ?>">
     <script src="<?php echo base_url('/bootstrap/bootstrap.bundle.min.js'); ?>"></script>
-    <link rel="stylesheet" href="<?php echo base_url('css/login/Registrousuarios.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('css/login/Registrousuario.css'); ?>">
     <script src="<?php echo base_url('/css/jquery-3.6.0.js'); ?>"> </script>
     
 </head>
@@ -11,18 +11,17 @@
 
 <body>
     
-    <div id="contenedor"> 
+    <div class="containerOrigin"> 
         
-        <div id="limite" class="border border-3">
+        <div class="limite">
             
             <form method="POST" action="<?= base_url('registrar');?>" class="needs-validation" novalidate id="formulario">
 
                 <div class="d-flex justify-content-center" id="contenedorTitle">       
-                    <img id="registroImg"src="<?php echo base_url("img/registro.png")?>" alt="Icono Registro"> 
-                    <h5 id="title">Crear Cuenta</h5>
+                    <img class="Img"src="<?php echo base_url("img/registro.png")?>" alt="Icono Registro"> 
+                    <h5 class="title">Crear Cuenta</h5>
                 </div>
 
-                <div class="div2">
                     
                     <div class="container">
                         <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
@@ -32,11 +31,11 @@
                                     <div>
                                         <!-- <label for="nombreUsuario" id="informacion">Nombre de Usuario</label> -->
                                         <input type="text" name="nombreUsuario" id="nombreUsuario"  placeholder="Nombre de Usuario.." required>
-                                        <!-- <input type="text" class="form-control" name="nombreUsuario" id="nombreUsuario" placeholder="Nombre de Usuario" required> -->
-        
                                         <div class="invalid-feedback" id="invalido">
                                             Por favor, Ingrese su Nombre de Usuario.
                                         </div>
+                                        <!-- <input type="text" class="form-control" name="nombreUsuario" id="nombreUsuario" placeholder="Nombre de Usuario" required> -->
+        
                                     </div>
 
                                 </div>
@@ -46,10 +45,6 @@
                                 <div class="p-2">
 
                                     <div>
-                                        <!-- <input type="text" class="form-control" name ="primerNombre" id="primerNombre" placeholder="Primer Nombre" required> -->
-                                        <!-- <label for="primerNombre" id="informacion">Primer Nombre</label> -->
-                                        
-                                        <!-- <label for="fname" id="informacion">Primer Nombre</label> -->
                                         <input type="text" name ="primerNombre" id="inputLetras" class="inputVal" onkeyup="capitalizarPrimeraLetra()" placeholder="Primer Nombre.." required>                                        
                                         
 
@@ -65,10 +60,7 @@
                                 <div class="p-2">
 
                                     <div>
-                                        <!-- <label for="segundoNombre" id="informacion">Segundo Nombre</label> -->
                                         <input type="text"  name="segundoNombre" id="inputLetras" class="inputVal" onkeyup="capitalizarPrimeraLetra()" placeholder="Segundo Nombre.." required>  
-
-                                        <!-- <input type="text" class="form-control" name="segundoNombre" id="segundoNombre" placeholder="Segundo Nombre" required> -->
 
                                         <div class="invalid-feedback" id="invalido">
                                             Por favor, Ingrese su Segundo Nombre.
@@ -83,7 +75,6 @@
                                 <div class="p-2">
 
                                     <div>
-                                        <!-- <label for="primerApellido" id="informacion">Primer Apellido</label> -->
                                         <input type="text" name="primerApellido" id="inputLetras" class="inputVal" onkeyup="capitalizarPrimeraLetra()"  placeholder="Primer Apellido" required>
 
                                         <div class="invalid-feedback" id="invalido">
@@ -97,7 +88,6 @@
                             <div class="col">
                                 <div class="p-2">
                                     <div>
-                                        <!-- <label for="segundoApellido" id="informacion">Segundo Apellido</label> -->
                                         <input type="text" name="segundoApellido" id="inputLetras " class="inputVal" onkeyup="capitalizarPrimeraLetra()" placeholder="Segundo Apellido" required>
 
                                         <div class="invalid-feedback" id="invalido">
@@ -142,7 +132,6 @@
                             <div class="col">
                                 <div class="p-2">
                                     <div>
-                                        <!-- <label for="telefono" id="informacion">Telefono</label> -->
                                         <input type="text" name="telefono" id="telefono" placeholder="Telefono" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" required>
 
                                         <div class="invalid-feedback" id="invalido">
@@ -152,12 +141,9 @@
                                 </div>
                             </div>
 
-                            <!-- <input type="text"id="inputLetras" title="Solo se permiten letras" required> -->
-
 
                             <div class="col">
                                 <div class="p-2">
-                                    <!-- <label for="tipoDocumento" id="informacion">Tipo de Documento</label> -->
                                     <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" name="tipoDocumento" id="tipoDocumento" required>
                                         <option value="" selected disabled>Tipo de Documento</option>
                                         <?php foreach( $tpdocument as $tpd ) { ?>
@@ -174,7 +160,6 @@
                             <div class="col">
                                 <div class="p-2">
                                     <div>
-                                        <!-- <label for="numeroDocumento" id="informacion">Número Documento</label> -->
                                         <input type="text" id="numeroDocumento" name="numeroDocumento" placeholder="Número Documento" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" required>
 
                                         <div class="invalid-feedback" id="invalido">
@@ -187,11 +172,7 @@
                             <div class="col">
                                 <div class="p-2">
                                     <div>
-                                   
-                                        <!-- <label for="email" id="informacion">Correo Electronico</label> -->
                                         <input type="email" id="email" name="email" placeholder="name@example.com" required>
-
-                                       
 
                                         <div class="invalid-feedback" id="invalido">
                                             Por favor, Ingrese su Correo Electronico.
@@ -203,7 +184,6 @@
                             <div class="col">
                                 <div class="p-2">
                                     <div>
-                                        <!-- <label for="contraseña" id="informacion">Contraseña</label> -->
                                         <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" required>
 
                                         <div class="invalid-feedback" id="invalido">
@@ -216,7 +196,6 @@
                             <div class="col">
                                 <div class="p-2">
                                     <div>
-                                        <!-- <label for="verificarContraseña" id="informacion">Verificar Contraseña</label> -->
                                         <input type="password" id="verificarContraseña" name="verificarContraseña" placeholder="Verificar Contraseña" required>
 
                                         <div class="invalid-feedback" id="invalido">
@@ -236,13 +215,8 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <!-- <p id="message"></p> -->
-
                         </div>
                     </div>
-                        <!-- <input type="submit" value="Submit"> -->
-                </div>
             </form>    
         </div>
     </div>
