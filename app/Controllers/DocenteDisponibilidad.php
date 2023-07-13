@@ -8,16 +8,18 @@ use App\Controllers\BaseController;
 // use App\Models\PruebaCalendar\EventoModel;
 use App\Models\PruebaCalendar\CalendarioModel;
 use App\Models\AdministradorModels\UsuariosModel;
+use App\Models\EstudiantesModels\SolicitarCItaModel;
 
 class DocenteDisponibilidad extends BaseController
 {
     protected $eventos;
     protected $miperfil;
+    protected $citas;
 
     public function __construct()
     {
         $this->eventos = new CalendarioModel();
-        
+        $this->citas = new SolicitarCItaModel();
     }
     
     public function index()
@@ -26,11 +28,13 @@ class DocenteDisponibilidad extends BaseController
         $miperfil = new UsuariosModel();
         $idUsuarioglobal = $miperfil->traer_usuario($session->id_usuario);
         $datosEventos = $this->eventos->traer_todos_los_eventos_por_usuario();
+        $datosCitas = $this->citas->AllCitas('A');
 
         $data = [
             'DatosPerfil' => $idUsuarioglobal,
             'User_session' => $session,
-            'eventos' => $datosEventos
+            'eventos' => $datosEventos,
+            'citas' => $datosCitas
         ];
 
         echo view('principal/menu/menu', $data);
@@ -51,7 +55,7 @@ class DocenteDisponibilidad extends BaseController
         $aulas = $this->request->getPost('aulas');
         $start = $this->request->getPost('start');
         $end = $this->request->getPost('end');
-        $color = $this->request->getPost('color');
+        $color = $this->request->getPost('#11ee14');
 
     if( $id && $this->request->getMethod() == "post" ) {	
             
@@ -106,7 +110,7 @@ class DocenteDisponibilidad extends BaseController
                 'aulas' => $registro['aulas'],
                 'start' => $fecha .'T' .$registro['start'],
                 'end' => $fecha .'T' .$registro['end'],
-                'color' => $registro['color'],
+                'color' => '#11ee14',
                 'usuario_crea' => $id_usuario
             ]);
         }

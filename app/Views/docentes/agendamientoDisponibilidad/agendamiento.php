@@ -105,6 +105,12 @@
                                 <label for="aulas" class="form-label">Aulas</label>
                             </div>
 
+                            <!-- <div  class="form-floating mb-3">
+                                <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Evento" value="<= $citas['disponibilidad']?>">
+                                <php echo $citas["id_asunto"];?></input>
+                                <label for="asunto" class="form-label">Asunto</label>
+                            </div> -->
+
                             <div class="form-floating mb-3">
                                 <input type="datetime-local" class="form-control" id="start" name="start" placeholder="Seleccione la Hora de Inicio" required>
                                 <label for="start">Fecha de Inicio</label>
@@ -116,8 +122,8 @@
                             </div>
 
 
-                            <div class="form-floating mb-3">
-                                <input type="color" class="form-control" id="color" name="color" placeholder="Color" required>
+                            <div hidden class="form-floating mb-3">
+                                <input type="text" class="form-control" id="color" name="color" placeholder="Color">
                                 <label for="color">Color</label>
                             </div>
 
@@ -155,6 +161,7 @@ let inputId = document.querySelector('#id_calendario');
 let inputTitulo = document.querySelector("#titles");
 let inputTituloFalso = document.querySelector("#titlesV");
 let inputAulas = document.querySelector("#aulas");
+let inputAsunto = document.querySelector("#asunto");
 let inputFechaInicio = document.querySelector("#start");
 let inputFechaFinal = document.querySelector("#end");
 let inputColor = document.querySelector("#color");
@@ -203,6 +210,7 @@ document.addEventListener('DOMContentLoaded', function() {
             inputTitulo.value = 'Disponible';
             inputTituloFalso.value = 'Disponible';
             inputAulas.value = '';
+            // inputAsunto.type = 'hidden'; 
             inputFechaInicio.value = fechaInicio1;
             inputFechaFinal.value = fechaFinal1;
             inputColor.value = '';
@@ -212,7 +220,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             modalEvento.show();
         },
-        eventClick: function(info) {
+        eventClick: function(info) {    
             console.log(info);
 
             let evento = info.event;
@@ -222,6 +230,7 @@ document.addEventListener('DOMContentLoaded', function() {
             let fechaInicio = moment(evento.start).subtract(5, 'hours').toISOString().slice(0, 16);
             let fechaFinal = moment(evento.end).subtract(5, 'hours').toISOString().slice(0, 16);
             let color = evento.backgroundColor;
+            // let asunto = style.display.block;
 
             // console.log('Valor de color:', color);
 
@@ -232,6 +241,7 @@ document.addEventListener('DOMContentLoaded', function() {
             originalFechaInicio = fechaInicio;
             inputFechaInicio.value = originalFechaInicio;
             inputFechaFinal.value = fechaFinal;
+            // inputAsunto = asunto;
             inputColor.value = color;
 
             // console.log('aulas valor:', aulas);

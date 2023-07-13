@@ -1,0 +1,156 @@
+CRITICAL - 2023-07-13 09:46:58 --> Undefined array key "#11ee14"
+in APPPATH\Controllers\DocenteDisponibilidad.php on line 109.
+ 1 APPPATH\Controllers\DocenteDisponibilidad.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "#11ee14"', 'APPPATH\\Controllers\\DocenteDisponibilidad.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->crear_disponiblidad()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 10:22:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\principal\menu\menu.php on line 113.
+ 1 APPPATH\Views\principal\menu\menu.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\principal\\menu\\menu.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\Perfiles.php(50): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 10:22:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\principal\menu\menu.php on line 113.
+ 1 APPPATH\Views\principal\menu\menu.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\principal\\menu\\menu.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\Perfiles.php(50): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 10:22:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\principal\menu\menu.php on line 113.
+ 1 APPPATH\Views\principal\menu\menu.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\principal\\menu\\menu.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\Inicio.php(30): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Inicio->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 10:43:37 --> syntax error, unexpected token "echo"
+in APPPATH\Views\docentes\agendamientoDisponibilidad\agendamiento.php on line 109.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/agendamientoDisponibilidad/agendamiento', [], true)
+ 3 APPPATH\Controllers\DocenteDisponibilidad.php(41): view('docentes/agendamientoDisponibilidad/agendamiento', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 10:44:03 --> syntax error, unexpected token "echo"
+in APPPATH\Views\docentes\agendamientoDisponibilidad\agendamiento.php on line 109.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/agendamientoDisponibilidad/agendamiento', [], true)
+ 3 APPPATH\Controllers\DocenteDisponibilidad.php(41): view('docentes/agendamientoDisponibilidad/agendamiento', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 10:44:04 --> syntax error, unexpected token "echo"
+in APPPATH\Views\docentes\agendamientoDisponibilidad\agendamiento.php on line 109.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/agendamientoDisponibilidad/agendamiento', [], true)
+ 3 APPPATH\Controllers\DocenteDisponibilidad.php(41): view('docentes/agendamientoDisponibilidad/agendamiento', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 10:44:04 --> syntax error, unexpected token "echo"
+in APPPATH\Views\docentes\agendamientoDisponibilidad\agendamiento.php on line 109.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/agendamientoDisponibilidad/agendamiento', [], true)
+ 3 APPPATH\Controllers\DocenteDisponibilidad.php(41): view('docentes/agendamientoDisponibilidad/agendamiento', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 10:44:04 --> syntax error, unexpected token "echo"
+in APPPATH\Views\docentes\agendamientoDisponibilidad\agendamiento.php on line 109.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/agendamientoDisponibilidad/agendamiento', [], true)
+ 3 APPPATH\Controllers\DocenteDisponibilidad.php(41): view('docentes/agendamientoDisponibilidad/agendamiento', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 10:44:05 --> syntax error, unexpected token "echo"
+in APPPATH\Views\docentes\agendamientoDisponibilidad\agendamiento.php on line 109.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/agendamientoDisponibilidad/agendamiento', [], true)
+ 3 APPPATH\Controllers\DocenteDisponibilidad.php(41): view('docentes/agendamientoDisponibilidad/agendamiento', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 10:44:05 --> syntax error, unexpected token "echo"
+in APPPATH\Views\docentes\agendamientoDisponibilidad\agendamiento.php on line 109.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/agendamientoDisponibilidad/agendamiento', [], true)
+ 3 APPPATH\Controllers\DocenteDisponibilidad.php(41): view('docentes/agendamientoDisponibilidad/agendamiento', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 10:44:05 --> syntax error, unexpected token "echo"
+in APPPATH\Views\docentes\agendamientoDisponibilidad\agendamiento.php on line 109.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/agendamientoDisponibilidad/agendamiento', [], true)
+ 3 APPPATH\Controllers\DocenteDisponibilidad.php(41): view('docentes/agendamientoDisponibilidad/agendamiento', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 10:44:13 --> Undefined array key "disponibilidad"
+in APPPATH\Views\docentes\agendamientoDisponibilidad\agendamiento.php on line 109.
+ 1 APPPATH\Views\docentes\agendamientoDisponibilidad\agendamiento.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disponibilidad"', 'APPPATH\\Views\\docentes\\agendamientoDisponibilidad\\agendamiento.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\agendamientoDisponibilidad\\agendamiento.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/agendamientoDisponibilidad/agendamiento', [], true)
+ 5 APPPATH\Controllers\DocenteDisponibilidad.php(41): view('docentes/agendamientoDisponibilidad/agendamiento', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 10:44:32 --> Undefined array key "disponibilidad"
+in APPPATH\Views\docentes\agendamientoDisponibilidad\agendamiento.php on line 109.
+ 1 APPPATH\Views\docentes\agendamientoDisponibilidad\agendamiento.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disponibilidad"', 'APPPATH\\Views\\docentes\\agendamientoDisponibilidad\\agendamiento.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\agendamientoDisponibilidad\\agendamiento.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/agendamientoDisponibilidad/agendamiento', [], true)
+ 5 APPPATH\Controllers\DocenteDisponibilidad.php(41): view('docentes/agendamientoDisponibilidad/agendamiento', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 10:44:33 --> Undefined array key "disponibilidad"
+in APPPATH\Views\docentes\agendamientoDisponibilidad\agendamiento.php on line 109.
+ 1 APPPATH\Views\docentes\agendamientoDisponibilidad\agendamiento.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disponibilidad"', 'APPPATH\\Views\\docentes\\agendamientoDisponibilidad\\agendamiento.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\agendamientoDisponibilidad\\agendamiento.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/agendamientoDisponibilidad/agendamiento', [], true)
+ 5 APPPATH\Controllers\DocenteDisponibilidad.php(41): view('docentes/agendamientoDisponibilidad/agendamiento', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 10:44:34 --> Undefined array key "disponibilidad"
+in APPPATH\Views\docentes\agendamientoDisponibilidad\agendamiento.php on line 109.
+ 1 APPPATH\Views\docentes\agendamientoDisponibilidad\agendamiento.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disponibilidad"', 'APPPATH\\Views\\docentes\\agendamientoDisponibilidad\\agendamiento.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\agendamientoDisponibilidad\\agendamiento.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/agendamientoDisponibilidad/agendamiento', [], true)
+ 5 APPPATH\Controllers\DocenteDisponibilidad.php(41): view('docentes/agendamientoDisponibilidad/agendamiento', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteDisponibilidad->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteDisponibilidad))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -101,8 +101,9 @@ class EstudiantesSolicitarCita extends BaseController
         if ($this->request->getMethod() === 'post') {
 
             $this->eventos->update($this->request->getPost('id_evento'),[
-                'title' => 'No disponible', //Cambiar a no disponible para agendar.
-                'estado' => 'A' //A: Cambiar estado a A: Agendado. 
+                'title' => 'Agendado', //Cambiar a no disponible para agendar.
+                'estado' => 'A', //A: Cambiar estado a A: Agendado. 
+                'color' => '#E83845'
             ]);
 
             $this->cita->insert([
