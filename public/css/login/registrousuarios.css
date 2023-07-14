@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containerOrigin {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 9%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.limite {
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 5px #5f6c7b;
+}
+
+#contenedorTitle {
+    background-color: aliceblue;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.3rem;
+}
+
+.Img {
+    width: 6rem;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #094067;
+    margin-left: 5px;
+}
+
+.container {
+    background-color: aliceblue;
+    /* background-color: red; */
+    border-radius: 0px 0px 10px 10px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#informacion,
+#sexo,
+#tipoDocumento {
+    font-weight: bold;
+}
+
+#invalido,
+#message {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: start;
+}
+
+#contenedorBoton {
+    text-align: center;
+}
+
+#btnRegistrar {
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #094067;
+    border-radius: 15px;
+    transition: all 0.9s ease;
+}
+
+#btnRegistrar:hover {
+    transform: translateY(-5px);
+    background-color: #5f6c7b;
+    color: white;
+    box-shadow: 0 5px 10px #094067;
+}
+
+@media (max-width: 992px) {
+    .containerOrigin {
+        top: 37%;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+}

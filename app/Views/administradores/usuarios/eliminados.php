@@ -4,14 +4,14 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="<?php echo base_url("css/administradores/allView.css")?>">
+        <link rel="stylesheet" href="<?php echo base_url("css/administradores/AllView.css")?>">
         <script src="js/prueba.js"></script>
         <title>Document</title>
     </head>
     <body>
         
-    <div id="contenedor">
-        <div id="limite" class="border border-3">
+    <div class="contenedor">
+        <div class="limite">
             
             <div class="d-flex justify-content-center" id="contenedorTitle">       
                 <img id="Img" src="<?php echo base_url("img/usuariosModificado.png")?>" alt="Icono Usuarios">
@@ -20,10 +20,8 @@
 
             <div>
  
-                <div id="btns">
-                
+                <div id="btns">    
                     <a href="<?php echo base_url("/usuarios")?>" id="regresar" class="btn btn-primary">Regresar</a>
-                
                 </div>
             </div>
 

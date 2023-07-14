@@ -4,15 +4,17 @@
     box-sizing: border-box;
 }
 
-#contenedor {
-    width: 100vw;
+.contenedor {
+    height: auto;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-#limite {
-    margin: 45px 20px 10% 20px!important;
+.limite {
+    margin: 20px;
     border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 0px 15px 5px #5f6c7b;
 }
 
 #contenedorTitle {
@@ -27,7 +29,8 @@
 }
 
 #title {
-    font-size: 4em;
+    font-size: auto;
+    /* font-size: 4em; */
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     color: #fffffe;
@@ -39,7 +42,6 @@
 
 #btns {
     padding: 10px 15px 10px 15px;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: start;
 }
@@ -50,26 +52,18 @@
     font-size: 15px;
     border: none;
     font-weight: bold;
-    /* padding: 7px 1.5% 7px 1.5%; */
     padding: 7px 1.5% 7px 1.5%;
     border-radius: 15px;
     transition: all 0.9s ease;
     margin: 0px 10px 0px 0px;
-    /* border: 1px solid blue; */
+    opacity: 0.7;
 }
 
-#agregar:hover {
-    transition: all 0.9s ease;
-    background-color: #2cb67d;
+#agregar:hover,
+#eliminados:hover,
+#regresar:hover {
+    opacity: 1;
 }
-
-
-/* #contenidoTable {
-    overflow: scroll-vertical !important;
-    overflow-y: scroll !important;
-    height: 700px;
-    padding-top: 20px;
-} */
 
 #th tr th {
     padding: 20px 8px 10px 8px;
@@ -108,8 +102,18 @@ tbody tr td {
     background-color: #fffffe;
 }
 
-#btnModal:hover {
-    background-color: #fffffe;
+@media screen and (max-width: 550px) {
+    #contenedorTitle {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    #Img {
+        margin-left: 20px;
+    }
+    #title {
+        font-size: 2.5em;
+    }
 }
 
 
@@ -142,14 +146,3 @@ tbody tr td {
     color: white;
     margin: 0px 18%;
 }
-
-
-/* .select,
-.form-select,
-.form-control {
-    width: 100%;
-    padding: 16px 20px;
-    border: none;
-    border-radius: 4px;
-    background-color: #f1f1f1;
-  } */

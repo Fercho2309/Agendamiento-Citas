@@ -1,0 +1,130 @@
+  * {
+      padding: 0;
+      margin: 0;
+  }
+  
+  .contenedor1 {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background-color: #5f6c7b;
+      padding: 5px 0px;
+  }
+  
+  .limite1 {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .btnMenu {
+      color: #fffffe;
+      width: 4rem;
+      padding: 8px 0px;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      background-color: #333;
+      border-radius: 10px;
+      text-decoration: none;
+      margin-left: 10px;
+  }
+  
+  .btnMenu i {
+      font-size: 2.5rem;
+  }
+  
+  .offcanvas-header {
+      background: #333;
+  }
+  
+  .offcanvas-title {
+      color: #f2f2f2;
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 65px;
+      background: #333;
+      text-align: center;
+  }
+  
+  .offcanvas-body {
+      background-color: #1c1c1c;
+  }
+  
+  .offcanvas-body .list-items {
+      padding: 0;
+      margin: 0;
+      position: relative;
+      list-style-type: none;
+  }
+  
+  .offcanvas-body .list-items li {
+      padding-left: 40px;
+      line-height: 50px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      border-bottom: 1px solid #333;
+      transition: all 0.3s ease;
+  }
+  
+  .offcanvas-body .list-items li:hover {
+      border-top: 1px solid transparent;
+      border-bottom: 1px solid transparent;
+      box-shadow: 0px 0px 10px 3px #222;
+  }
+  
+  .offcanvas-body .list-items li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 500;
+      height: 100%;
+      width: 100%;
+      display: block;
+  }
+  
+  .offcanvas-body .list-items li a i {
+      margin-right: 20px
+  }
+  
+  #contenedordrop {
+      height: 3rem;
+      width: 5rem;
+      margin-right: 10px;
+  }
+  
+  #btnimg {
+      background-color: #fffffe;
+      color: #094067;
+      height: 100%;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  
+  #btnimg i {
+      font-size: 2rem;
+  }
+  
+  .subtitle {
+      margin-left: 5px;
+  }
+  
+  .subtitle span {
+      font-size: 1.3rem;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .Ptitle {
+      text-align: end;
+      color: #094067;
+      margin-right: 10px;
+  }
+  
+  .Ptitle span {
+      font-size: 2rem;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+  }

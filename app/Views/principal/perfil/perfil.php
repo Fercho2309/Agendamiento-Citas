@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo base_url("css/principal/perfiles.css")?>">
+    <link rel="stylesheet" href="<?php echo base_url("css/principal/perfil.css")?>">
     <title>Document</title>
     <link rel="stylesheet" href="<?= base_url("sweetAlert/dist/sweetalert2.min.css")?>">
     <script src="<?= base_url("sweetAlert/dist/sweetalert2.all.min.js")?>"></script>
 </head>
 <body>
 
-    <div id="contenedor">
-        <div id="limite">
+    <div class="contenedor">
+        <div class="limite">
 
-            <div id="contTitle">
+            <div id="contenedorTitle">
                <h1 id="title">Perfil</h1>
             </div>
 
@@ -22,26 +22,14 @@
 
                 <div id="primeraColumn">
                     
-                <img id="perfilImg" src="<?php echo base_url("img/perfil.png")?>" alt="avatar">
+                    <img id="Img" src="<?php echo base_url("img/perfil.png")?>" alt="avatar">
                     
                     
                     <!-- <div id="imageContainer"></div> -->
 
-                    <div class="col">
-                        <div class="p-3">
-                            <div class="col">
-                                <div class="input-group mb-3">     
-                                     <!-- <input type="file" name="foto" id="foto" class='input' accept="image/*"/>
-                                     <label for="foto" class='label'>Cambiar foto</label> -->
-                                    <!-- <input type="file" id="imageUpload" multiple> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="col userName">
 
-                    <div class="col" style="margin:0; padding:0px 20px;">
-
-                        <div class="form-floating mb-3">
+                        <div class="form-floating mb-3 inputUserName">
                             <input type="text" value="<?php echo $DatosPerfil['nombre_corto']; ?>" class="form-control vp" name="nomCorto" id="nomCorto" placeholder="Nombre Usuario" disabled>
                             <label for="floatingInput">Nombre de Usuario:</label>
                         </div>
@@ -49,8 +37,6 @@
 
                 </div>
                 
-    
-                <div id="segundaColumn">
 
                     <div class="container">
                         <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-1">
@@ -223,7 +209,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+               
             </form>
 
         </div>

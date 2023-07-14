@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <script src="https://kit.fontawesome.com/9bccd79f52.js" crossorigin="anonymous"></script> -->
-    <link rel="stylesheet" href="<?php echo base_url("css/administradores/allView.css")?>">
+    <link rel="stylesheet" href="<?php echo base_url("css/administradores/AllView.css")?>">
 
     <script src="<?= base_url('/css/jquery-3.6.0.js'); ?>"></script>
 
@@ -26,9 +26,9 @@
 
 <body>
 
-  <div id="contenedor">
+  <div class="contenedor">
 
-    <div id="limite" class="border border-3">  
+    <div class="limite">  
 
       
       <div class="d-flex justify-content-center" id="contenedorTitle">       

@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="<?php echo base_url('/bootstrap/bootstrap.min.css'); ?>">
     <script src="<?php echo base_url('/bootstrap/bootstrap.bundle.min.js'); ?>"></script>
-    <link rel="stylesheet" href="<?php echo base_url('css/login/Registrousuario.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('css/login/registrousuarios.css'); ?>">
     <script src="<?php echo base_url('/css/jquery-3.6.0.js'); ?>"> </script>
     
 </head>
@@ -17,8 +17,8 @@
             
             <form method="POST" action="<?= base_url('registrar');?>" class="needs-validation" novalidate id="formulario">
 
-                <div class="d-flex justify-content-center" id="contenedorTitle">       
-                    <img class="Img"src="<?php echo base_url("img/registro.png")?>" alt="Icono Registro"> 
+                <div class="d-flex justify-content-center" id="contenedorTitle">      
+                    <img class="Img"src="<?php echo base_url("img/registro2.png")?>" alt="Icono Registro">
                     <h5 class="title">Crear Cuenta</h5>
                 </div>
 

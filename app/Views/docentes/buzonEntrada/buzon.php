@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo base_url("css/administradores/allView.css")?>">
+    <link rel="stylesheet" href="<?php echo base_url("css/administradores/AllView.css")?>">
     <script src="js/prueba.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <div id="contenedor">
+    <div class="contenedor">
 
-        <div id="limite" class="border border-3">
+        <div class="limite">
                 
             <div class="d-flex justify-content-center" id="contenedorTitle">
                 <img id="Img" src="<?php echo base_url("img/email.png")?>" alt="Icono Registro Citas">
-                <h1 id="title">Buzon Entrada</h1>
+                <h1 id="title">Buzon de Citas</h1>
             </div>
      
             <div class="table-responsive" id="contenidoTable">
@@ -73,7 +73,7 @@
 
                     <?php if ($User_session->id_rol == '1'): ?>
 
-                        <caption>Lista de Citas Solicitadas por Acudientes o Estudiantes y Profesores</caption>
+                        <caption>Lista de Citas Solicitadas Estudiante o Acudiente y Profesor</caption>
                         <thead id="th">
                             <tr>
                                 <th scope="col">#</th>

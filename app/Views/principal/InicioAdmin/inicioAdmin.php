@@ -10,7 +10,7 @@
 <body >
     <h1>Inicio de Admin</h1>
 
-    <a href="../manual-de-usuario.pdf" download>Manual de Usuario</a>
+    <a href="<?= base_url("manual-de-usuario.pdf")?>" download>Manual de Usuario</a>
 
 
     <div class="accordion" id="accordionExample">

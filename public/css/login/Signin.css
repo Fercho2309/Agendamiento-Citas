@@ -110,3 +110,43 @@
         max-width: 300px;
     }
 }
+
+
+/* * {
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.limite {
+    border: 1px solid blue;
+    margin: 30px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#contenedorTitle {
+    border: 1px solid lawngreen;
+    background-color: #094067;
+    color: #fffffe;
+    border-radius: 20px 20px 0px 0px;
+    align-items: center;
+}
+
+#Img {
+    width: 7rem;
+    border: 1px solid blue;
+}
+
+#title {
+    border: 1px solid red;
+    font-weight: bold;
+    font-size: 50px;
+} */

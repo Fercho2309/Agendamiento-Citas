@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo base_url("css/administradores/allView.css")?>">
+    <link rel="stylesheet" href="<?php echo base_url("css/administradores/AllView.css")?>">
     <script src="js/prueba.js"></script>
     <title>Document</title>
 </head>
 
 <body>
 
-    <div id="contenedor">
-        <div id="limite" class="border border-3">
+    <div class="contenedor">
+        <div class="limite">
+            <!-- class="border border-3" -->
 
             <div class="d-flex justify-content-center" id="contenedorTitle">
                 <img id="Img" src="<?php echo base_url("img/usuariosModificado.png")?>" alt="Icono Usuarios">
@@ -88,10 +89,6 @@
                                     data-href="<?php echo base_url('/eliminar_usuario') . '/' .$dato['id_usuario']. '/' .'E'; ?>">
                                     <img src="<?php echo base_url('img/trash-2.svg')?>" alt="Borrar">
                                 </a>
-
-                                <!-- <a id="iconoEliminar" type="button" class="btnIconoEliminar" data-href="?php echo base_url('/eliminar_usuario') . '/' .$dato['id_usuario']. '/' .'E'; ?>">
-                                    <img src="<php echo base_url('img/trash-2.svg')?>" alt="Borrar">
-                                </a> -->
 
                             </td>
 
@@ -364,7 +361,7 @@
                     <div id="contenedorTitleModal" class="modal-header">
                         <h5 id="titleModal" class="modal-title" id="exampleModalLabel">Eliminación de Registro</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                            id="deleteModal"></button>
+                            id="btnModal"></button>
                     </div>
 
                     <div id="" class="modal-body">
