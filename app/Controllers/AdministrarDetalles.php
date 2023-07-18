@@ -43,7 +43,7 @@ class AdministrarDetalles extends BaseController
 
     //---------------------------------------Agregar y Actualizar Registros-------------------------------------------------
     public function insertar(){
-        $tp=$this->request->getPost('tp');
+        $tp=$this->request->getPost('tp_detalles');
         if ($this->request->getMethod() == "post") {
             $session = session();
 
@@ -69,7 +69,7 @@ class AdministrarDetalles extends BaseController
 
                 ]);
             }
-            return redirect()->to(base_url('/detalles'));
+            return redirect()->to(base_url('/encabezado'));
         }
     }
 
@@ -104,7 +104,7 @@ class AdministrarDetalles extends BaseController
 
     public function eliminar($id, $estado){
             $Detalle_ = $this->detalle->elimina_Detalles($id,$estado);
-            return redirect()->to(base_url('/detalles'));
+            return redirect()->to(base_url('/encabezado'));
         }
 
 }

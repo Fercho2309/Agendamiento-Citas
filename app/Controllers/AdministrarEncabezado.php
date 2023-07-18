@@ -5,16 +5,18 @@ namespace App\Controllers;
 use App\Controllers\BaseController; /*la plantilla del controlador general de codeigniter */
 use App\Models\AdministradorModels\EncabezadoModel;
 use App\Models\AdministradorModels\UsuariosModel;
+use App\Models\AdministradorModels\DetallesModel;
 
 class AdministrarEncabezado extends BaseController
 {
-    
+    protected $detalle;
     protected $encabezado;
     protected $usuarios;
 
     public function __construct()
     {
         $this->encabezado = new  EncabezadoModel();
+        $this->detalle = new  DetallesModel();
         $this->usuarios = new  UsuariosModel();
     }
     public function index()
@@ -25,11 +27,14 @@ class AdministrarEncabezado extends BaseController
         $miperfil = new UsuariosModel();
 
         $perfil = $miperfil->traer_usuario($session->id_usuario);
+
         
         $dataencabezado = $this->encabezado->obtenerEncabezado('A');
         $dataUsuarios = $this->usuarios->obtenerUsuarios('1','A');
+        $dataDetalles = $this->detalle->obtenerDetalles('A');
+        $dataDetallesEliminados = $this->detalle->obtenerDetalles('E');
 
-        $data = ['titulo' => 'Nombre de la APP', 'nombre' => '-- Nombre del Colegio --', 'encabezado' => $dataencabezado, 'usuarios' => $dataUsuarios, 'User_session' => $session, 'DatosPerfil' => $perfil]; // le asignamos a la variable data, que es la que interactua con la vista, los datos obtenidos del modelo, ademas de enviarle una variable titulo para el reporte.
+        $data = ['titulo' => 'Nombre de la APP', 'nombre' => '-- Nombre del Colegio --', 'encabezado' => $dataencabezado, 'detallesEliminados' => $dataDetallesEliminados, 'detalles' => $dataDetalles,'usuarios' => $dataUsuarios,'User_session' => $session, 'DatosPerfil' => $perfil]; // le asignamos a la variable data, que es la que interactua con la vista, los datos obtenidos del modelo, ademas de enviarle una variable titulo para el reporte.
        
         echo view('/principal/menu/menu', $data);
         echo view('administradores/encabezado/encabezado', $data);
@@ -97,5 +102,4 @@ class AdministrarEncabezado extends BaseController
             $Encabezado_ = $this->encabezado->elimina_Encabezado($id,$estado);
             return redirect()->to(base_url('/encabezado'));
         }
-
 }

@@ -59,4 +59,5 @@ class DetallesModel extends Model{
         return $datos;
     }
    
+    
 }

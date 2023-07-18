@@ -39,38 +39,30 @@
       <!-- Formulario -->
       <form method="POST" action="<?php echo base_url('traer_disp_docente')?>" autocomplete="off" class="needs-validation" novalidate>
 
-
         <div class="container px-4" style="padding-top:20px;">
           <div class="row gx-5">
 
             <div class="input-group cola">
-              <!-- <div class="Select"> -->
-                <select class="form-select form-select-lg mb-3 valida" id="tipoUsuario" name="tipoUsuario" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" required >
-                  <option selected>Seleccione Nombre:</option>
-                  <?php foreach( $RNombres as $dato ) { ?>
-                      <option onclick="selectusu(<?php echo $dato['id_usuario'] ?>);" value="<?php echo $dato['id_usuario'];?>"> <?php echo $dato["NomRol"];?> <?php echo $dato["NomRol2"];?> <?php echo $dato["NomRol3"];?> <?php echo $dato["NomRol4"];?></option>
-                  <?php } ?>
-                </select>
-              <!-- </div> -->
-              <div class="buscar">
-                <button type="submit" class="text-center boton"><i class="fa-solid fa-magnifying-glass"></i></button>
-              </div>
+              <select class="form-select form-select-lg mb-3 valida" id="tipoUsuario" name="tipoUsuario" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" required onchange="submitForm()">
+                <option selected>Seleccione Nombre:</option>
+                <?php foreach( $RNombres as $dato ) { ?>
+                  <option value="<?php echo $dato['id_usuario']; ?>"><?php echo $dato["NomRol"] . ' ' . $dato["NomRol2"] . ' ' . $dato["NomRol3"] . ' ' . $dato["NomRol4"]; ?></option>
+                <?php } ?>
+              </select>
             </div>
-            
+
           </div>
           <div id="alert-container">
             <?php if (isset($_GET['alert'])): ?>
               <script>
-                  var alertMessage = "<?php echo $_GET['alert']; ?>";
-                  var alertContainer = document.getElementById("alert-container");
-                  alertContainer.innerHTML = "<div class='alert'>" + alertMessage + "</div>";
+                var alertMessage = "<?php echo $_GET['alert']; ?>";
+                var alertContainer = document.getElementById("alert-container");
+                alertContainer.innerHTML = "<div class='alert'>" + alertMessage + "</div>";
               </script>
             <?php endif; ?>
           </div>
-        </div>  
+        </div>
 
-
-        
       </form>
       <!-- Fin Formulario -->
       
@@ -137,6 +129,7 @@
 
                               </div>
                             </div>
+                            
 
                             <div class="form-floating mb-3">
                                 <input type="datetime-local" class="form-control" id="startV" name="startV" placeholder="Seleccione la Hora de Inicio" disabled>
@@ -190,23 +183,10 @@
 
 <script>
 
-  // Obtener elementos del DOM
-  const selectAsunto = document.getElementById('asunto');
-  const inputEvento = document.getElementById('evento');
+    function submitForm() {
+        document.forms[0].submit();
+      }
 
-  // Escuchar el evento de cambio en el select
-  selectAsunto.addEventListener('change', function() {
-    // Obtener el valor seleccionado del select
-    const selectedValue = selectAsunto.value;
-
-    // Buscar el ID correspondiente en el array $disp_docente
-    const selectedEvento = <?php echo json_encode($disp_docente); ?>.find(function(evento) {
-      return evento.id == selectedValue;
-    });
-
-    // Asignar el ID al campo de texto del evento
-    inputEvento.value = selectedEvento ? selectedEvento.id : '';
-  });
         let formulario = document.querySelector('#formulario');
 
         let inputIdEvento = document.querySelector('#id_evento');
@@ -233,10 +213,10 @@ modalEvento = new bootstrap.Modal(document.getElementById('MyModal'), {
     keyboard: false
 });
 
-$(document).on('blur', '.valida', function(event) {
-  let tomar_valor = parseInt(document.getElementById("tipoUsuario").value);
-  selectusu(tomar_valor);
-});
+// $(document).on('blur', '.valida', function(event) {
+//   let tomar_valor = parseInt(document.getElementById("tipoUsuario").value);
+//   selectusu(tomar_valor);
+// });
 
 document.addEventListener('DOMContentLoaded', function() {
   var calendarEl = document.getElementById('calendar');
@@ -249,9 +229,8 @@ document.addEventListener('DOMContentLoaded', function() {
       right: 'timeGridWeek,timeGridDay'
     },
     slotLabelInterval: '00:30:00',
-    selectable: true, // Permitir selección de casillas
+    selectable: true,
     editable: false,
-    // eventDisplay: 'block', // Hacer los eventos transparentes y seleccionables
     events: [
       <?php 
       if ($disp_docente) {

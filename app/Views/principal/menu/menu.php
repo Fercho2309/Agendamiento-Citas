@@ -84,7 +84,7 @@
                                     </li>
                                     
                                     <li class="nav-item">
-                                        <a class="nav-link" aria-current="page" href="<?= base_url("/encabezado")?>"><i class="fa-solid fa-book-open-reader"></i> Encabezado</a>
+                                        <a class="nav-link" aria-current="page" href="<?= base_url("/encabezado")?>"><i class="fa-solid fa-book-open-reader"></i> Parametros</a>
                                     </li>
 
                                     <li class="nav-item">

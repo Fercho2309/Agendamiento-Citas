@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.limite {
+    margin: 20px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 0px 15px 5px #5f6c7b;
+}
+
+#contenedorTitle {
+    border-radius: 20px 20px 0px 0px;
+    background-color: #094067;
+    text-align: center;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+#title {
+    font-size: auto;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fffffe;
+}
+
+#contePerfil {
+    display: flex;
+}
+
+#primeraColumn {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+#Img {
+    padding-top: 10px;
+    width: 20rem;
+}
+
+.userName {
+    padding: 15px 0px;
+    width: 20rem;
+}
+
+.row {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vp:disabled {
+    font-weight: bold;
+    color: gray;
+    background-color: white;
+    border: none;
+}
+
+.vpActualizar:disabled {
+    font-weight: bold;
+    color: #000;
+    /* background-color: white; */
+}
+
+.mp {
+    font-weight: bold;
+    color: #000;
+}
+
+#btnRegistrar,
+#btnEditarContra {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.9s ease;
+}
+
+#btnRegistrar i,
+#btnEditarContra i {
+    font-size: 25px;
+}
+
+#contenedorTitleModal {
+    background: linear-gradient( #094067, #5f6c7b);
+}
+
+.modal-title {
+    color: #fffffe;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.btn-close {
+    background-color: #fffffe;
+}
+
+.btn-close:hover {
+    background-color: #fffffe;
+}
+
+.btn-ModalLeer {
+    background-color: #094067;
+    font-size: 15px;
+    color: #fffffe;
+    font-weight: bold;
+    transition: all 0.9s ease;
+}
+
+.btn-ModalLeer:hover {
+    transition: all 0.9s ease;
+    background-color: #5f6c7b;
+    color: #fffffe;
+}
+
+#invalido {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: start;
+}
+
+#th tr th {
+    padding: 20px 8px 10px 8px;
+    font-weight: bold;
+    color: #094067;
+}
+
+#cool {
+    display: flex;
+}
+
+.input {
+    display: none;
+}
+
+.label {
+    background: #1f5f74;
+    color: white;
+    padding: 6px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#alert-container {
+    padding: 15px 0px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#alert-container .alert {
+    background-color: #EE462F;
+    padding: 5px;
+    color: white;
+    margin: 0px 5%;
+}

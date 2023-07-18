@@ -65,14 +65,26 @@ class SolicitarCitaModel extends Model{
         return $datos;
     }
 
+    // public function CitasSuperAdministrador($estado) {
+    //     $this->select('citas.*, asunto.asunto as asuntos, CONCAT(usuarios.nombre_p, " ", usuarios.nombre_s, " ", usuarios.apellido_p, " ", usuarios.apellido_s) as usuarios, CONCAT((SELECT CONCAT(nombre_p, " ", nombre_s, " ", apellido_p, " ", apellido_s) FROM usuarios WHERE id_usuario = pruebaeventos.usuario_crea)) as Dueño');
+    //     $this->join('asunto','asunto.id_asunto = citas.id_asunto');
+    //     $this->join('usuarios','usuarios.id_usuario = citas.usuario_crea');
+    //     $this->join('pruebaeventos','pruebaeventos.id = citas.disponibilidad');
+    //     $this->where('citas.estado', $estado);
+    //     $this->orderBy('pruebaeventos.fecha_crea', 'desc');
+    //     $this->orderBy('citas.fecha_crea', 'desc');
+    //     $datos = $this->findAll();
+    //     return $datos;
+    // }
+
     public function CitasSuperAdministrador($estado) {
         $this->select('citas.*, asunto.asunto as asuntos, CONCAT(usuarios.nombre_p, " ", usuarios.nombre_s, " ", usuarios.apellido_p, " ", usuarios.apellido_s) as usuarios, CONCAT((SELECT CONCAT(nombre_p, " ", nombre_s, " ", apellido_p, " ", apellido_s) FROM usuarios WHERE id_usuario = pruebaeventos.usuario_crea)) as Dueño');
-        $this->join('asunto','asunto.id_asunto = citas.id_asunto');
-        $this->join('usuarios','usuarios.id_usuario = citas.usuario_crea');
-        $this->join('pruebaeventos','pruebaeventos.id = citas.disponibilidad');
+        $this->join('asunto', 'asunto.id_asunto = citas.id_asunto');
+        $this->join('usuarios', 'usuarios.id_usuario = citas.usuario_crea');
+        $this->join('pruebaeventos', 'pruebaeventos.id = citas.disponibilidad');
         $this->where('citas.estado', $estado);
-        $this->orderBy('pruebaeventos.fecha_crea','desc');
-        $this->orderBy('citas.fecha_crea','desc');
+        $this->orderBy('pruebaeventos.fecha_crea DESC');
+        $this->orderBy('citas.fecha_crea DESC');
         $datos = $this->findAll();
         return $datos;
     }

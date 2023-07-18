@@ -40,13 +40,10 @@ class EncabezadoModel extends Model{
         $datos = $this->first();
         return $datos;
     } 
-
      // -----------Eliminar y Restaurar el Registro--------------
 
     public function elimina_Encabezado($id,$estado){
         $datos = $this->update($id, ['estado' => $estado]);         
         return $datos;
     }
-
-   
 }

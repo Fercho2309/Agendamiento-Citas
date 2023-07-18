@@ -15,7 +15,7 @@
 
             <div class="d-flex justify-content-center" id="contenedorTitle">       
                 <img id="Img" src="<?php echo base_url("img/encabezamiento.png")?>" alt="Icono Usuarios">
-                <h1 id="title">Administrador Encabezados Eliminados</h1>
+                <h1 id="title">Administrador Parametros Eliminados</h1>
             </div>
 
             <div>

@@ -87,7 +87,6 @@ class EstudiantesSolicitarCita extends BaseController
             return redirect()->to(base_url('solicitar'))->with('disp_docente', $cosas );    
         } else{
             return redirect()->to(base_url('solicitar?alert=En la actualidad, no se encuentran horarios disponibles registrados por el usuario'));
-           
         }
         
     }

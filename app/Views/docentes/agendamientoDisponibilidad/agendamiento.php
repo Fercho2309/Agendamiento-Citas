@@ -58,94 +58,102 @@
 </head>
 
 <body>
+
+
+<div class="contenedor">
+
+    <div class="limite">
     
     <!-- <div class="d-flex justify-content-center" id="contenedorTitle">       
           <img id="Img" src="<php echo base_url("img/calendarioModificado.png")?>" alt="Icono calendario">
-          <h1 id="title">Disponibilidad Cita</h1>
+          <h1 id="title">Solici</h1>
       </div> -->
-    <div class="container">
-        <div id="calendar" style="padding: 30px 0px;"></div>
-    </div>
+
+        <div class="container">
+            <div id="calendar" style="padding: 30px 0px;"></div>
+        </div>
 
       
 
-    <form method="POST" action="<?= base_url("insertar_Calendario")?>" autocomplete="off" id="formulario">
-        <input hidden type="text" class="form-control" name="id" id="id" aria-describedby="helpId" placeholder="Ej: 2">
+        <form method="POST" action="<?= base_url("insertar_Calendario")?>" autocomplete="off" id="formulario">
+            <input hidden type="text" class="form-control" name="id" id="id" aria-describedby="helpId" placeholder="Ej: 2">
 
-        <div class="modal fade" id="MyModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-            aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
+            <div class="modal fade" id="MyModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
 
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="titulo">Eventos</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-
-                    <div hidden class="alert alert-danger" role="alert" id="mensajeError"></div>
-
-                    <div class="modal-body">
-
-                        <input hidden name="id_calendario" id="id_calendario">
-                        <!-- <input hidden name="tp" id="tp" value="1"> -->
-
-                        <div>
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="titlesV" name="titlesV" placeholder="Evento" disabled required>
-                                <label for="titlesV" class="form-label">Evento</label>
-                            </div>
-
-                            <div hidden class="form-floating mb-3">
-                                <input type="text" class="form-control" id="titles" name="titles" placeholder="Evento" required>
-                                <label for="title" class="form-label">Evento</label>
-                            </div>
-
-                            <div  class="form-floating mb-3">
-                                <input type="text" class="form-control" id="aulas" name="aulas" placeholder="Evento" required>
-                                <label for="aulas" class="form-label">Aulas</label>
-                            </div>
-
-                            <!-- <div  class="form-floating mb-3">
-                                <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Evento" value="<= $citas['disponibilidad']?>">
-                                <php echo $citas["id_asunto"];?></input>
-                                <label for="asunto" class="form-label">Asunto</label>
-                            </div> -->
-
-                            <div class="form-floating mb-3">
-                                <input type="datetime-local" class="form-control" id="start" name="start" placeholder="Seleccione la Hora de Inicio" required>
-                                <label for="start">Fecha de Inicio</label>
-                            </div>
-
-                            <div class="form-floating mb-3">
-                                <input type="datetime-local" class="form-control" id="end" name="end" placeholder="Seleccione la Hora de Finalización" required>
-                                <label for="end">Fecha de Final</label>
-                            </div>
-
-
-                            <div hidden class="form-floating mb-3">
-                                <input type="text" class="form-control" id="color" name="color" placeholder="Color">
-                                <label for="color">Color</label>
-                            </div>
-
-                            <!-- <div hidden class="form-floating mb-3">
-                                <input type="text" value="<= $DatosPerfil['nombre_corto']; ?>" class="form-control" id="usuarioCrea" name="usuarioCrea" readonly required>
-                                <label for="usuarioCrea">Usuario Crea:</label>
-                            </div> -->
-
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="titulo">Eventos</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
+
+                        <div hidden class="alert alert-danger" role="alert" id="mensajeError"></div>
+
+                        <div class="modal-body">
+
+                            <input hidden name="id_calendario" id="id_calendario">
+                            <!-- <input hidden name="tp" id="tp" value="1"> -->
+
+                            <div>
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="titlesV" name="titlesV" placeholder="Evento" disabled required>
+                                    <label for="titlesV" class="form-label">Evento</label>
+                                </div>
+
+                                <div hidden class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="titles" name="titles" placeholder="Evento" required>
+                                    <label for="title" class="form-label">Evento</label>
+                                </div>
+
+                                <div  class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="aulas" name="aulas" placeholder="Evento" required>
+                                    <label for="aulas" class="form-label">Aulas</label>
+                                </div>
+
+                                <!-- <div  class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Evento" value="<= $citas['disponibilidad']?>">
+                                    <php echo $citas["id_asunto"];?></input>
+                                    <label for="asunto" class="form-label">Asunto</label>
+                                </div> -->
+
+                                <div class="form-floating mb-3">
+                                    <input type="datetime-local" class="form-control" id="start" name="start" placeholder="Seleccione la Hora de Inicio" required>
+                                    <label for="start">Fecha de Inicio</label>
+                                </div>
+
+                                <div class="form-floating mb-3">
+                                    <input type="datetime-local" class="form-control" id="end" name="end" placeholder="Seleccione la Hora de Finalización" required>
+                                    <label for="end">Fecha de Final</label>
+                                </div>
+
+
+                                <div hidden class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="color" name="color" placeholder="Color">
+                                    <label for="color">Color</label>
+                                </div>
+
+                                <!-- <div hidden class="form-floating mb-3">
+                                    <input type="text" value="<= $DatosPerfil['nombre_corto']; ?>" class="form-control" id="usuarioCrea" name="usuarioCrea" readonly required>
+                                    <label for="usuarioCrea">Usuario Crea:</label>
+                                </div> -->
+
+                            </div>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-danger" id="btnEliminar" onClick="eliminar_evento()">Eliminar</button>
+                            <button type="submit" class="btn btn-info" id="btnAccion" name="btnAccion">Registrar</button>
+                        </div>
+
+
                     </div>
-
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Cancelar</button>
-                        <button type="button" class="btn btn-danger" id="btnEliminar" onClick="eliminar_evento()">Eliminar</button>
-                        <button type="submit" class="btn btn-info" id="btnAccion" name="btnAccion">Registrar</button>
-                    </div>
-
-
                 </div>
             </div>
-        </div>
-    </form>
+        </form>
+    </div>
+</div>
 
 </body>
 

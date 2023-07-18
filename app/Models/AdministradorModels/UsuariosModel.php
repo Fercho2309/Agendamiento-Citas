@@ -96,36 +96,12 @@ class UsuariosModel extends Model{
             return $datos;
         }
 
-    // public function helpLogin($id_usuario, $username, $estado){
-    //     $this->select('usuarios.*');
-    //     $this->where('id_usuario',$id_usuario);
-    //     $this->where('nombre_corto', $username);
-    //     $this->where('estado', $estado)
-    //     $datos = $this->first();
-    //     return $datos;
-    // }
-
-    // public function validar($usuario, $pass){
-    //     // Buscar al usuario en la base de datos y verificar la contraseña
-    //     // Devolver el usuario si las credenciales son válidas, o NULL si no lo son
-    //     $this->select('usuarios.*');
-    //     $this->where('estado', 'A');
-    //     $user = $this->where('nombre_corto', $usuario)->first();
-
-    //     if ($user && $user['contrasena'] == $pass) {
-    //         return $user;
-    //     } else {
-    //         return null;
-    //     }
-    // }
-
     public function Auth_usuario($usuario)
       {
         $this->select('usuarios.*');
         $this->where('nombre_corto', $usuario);
         $datos = $this->first();
           return $datos;
-          // o puedes agregar esto == "return $this->where('nombre_corto', $nombreCorto)->first();"//
       }
 
       public function traer_info_usuario_rol( $id )
@@ -137,41 +113,6 @@ class UsuariosModel extends Model{
             $datos = $this->first();  
             return $datos;
         }
-
-
-
-    // -----------Conexion--------------
-        // public function traer_CargosUsuarios($id,$estado){
-        //     $this->select('usuarios.*');   
-        //     $this->where('usuarios.id_usuario', $id);
-        //     $this->where('usuarios.estado', $estado);
-        //     // $this->orderBY('usuarios.nombre');
-        //     $datos = $this->findAll();         
-        //     return $datos;
-        // }
-
-
-        
-        // public function verificarContraseña($idUsuario, $contraseña) {
-        //     $this->select('usuarios.*');
-        //     $this->where('id_usuario', $idUsuario);
-        //     $this->where('contrasena', $contraseña);
-        
-        //     $query = $this->get('');
-            
-        //     return $query->getNumRows() == 1;
-        // }
-        
-        // public function cambiarContraseña($idUsuario, $nuevaContraseña) {
-        //     $datos = array(
-        //         'contrasena' => $nuevaContraseña
-        //     );
-        
-        //     $this->where('id_usuario', $idUsuario);
-        //     $this->update('usuarios', $datos);
-        
-        //     return $this->affectedRows() > 0;
-        // }
 
         public function obtenerRolreceptor($id_rol, $estado){
             $this->select('usuarios.*, usuarios.nombre_p as NomRol , usuarios.nombre_s as NomRol2, usuarios.apellido_p as NomRol3, usuarios.apellido_s as NomRol4 ');

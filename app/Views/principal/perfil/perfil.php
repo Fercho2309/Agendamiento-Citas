@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo base_url("css/principal/perfil.css")?>">
+    <link rel="stylesheet" href="<?php echo base_url("css/principal/perfiles.css")?>">
     <title>Document</title>
     <link rel="stylesheet" href="<?= base_url("sweetAlert/dist/sweetalert2.min.css")?>">
     <script src="<?= base_url("sweetAlert/dist/sweetalert2.all.min.js")?>"></script>
@@ -532,6 +532,8 @@
                                 </div>
                             </div>
 
+                    <!-- telefonos -->
+
                             <div class="col" hidden>
                                 <div class="p-2">
                                     <div class="col">
@@ -555,7 +557,7 @@
                                 <div class="p-2">
                                     <div class="col">
                                         <div class="input-group form-floating"> 
-                                            <input type="text" class="form-control vp" id="Ntelefono" name="Ntelefono" placeholder="Telefono" disabled>
+                                            <input type="text" class="form-control vpActualizar" id="Ntelefono" name="Ntelefono" placeholder="Telefono" disabled>
                                             <label for="Ntelefono" id="informacion">Telefono:</label>
                                             <button type="button" class="btn btn-ModalLeer" data-bs-toggle="modal" data-bs-target="#modalTelefonoMostrar" onclick="mostrarElemento()"><i style="font-size:20px;"class="fa-solid fa-pen-to-square"></i></button>
                                         </div>
@@ -586,7 +588,7 @@
                                 <div class="p-2">
                                     <div class="col">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control vp" id="numeroDocumento" name="numeroDocumento" placeholder="Número Documento" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" disabled required>
+                                            <input type="text" class="form-control vpActualizar" id="numeroDocumento" name="numeroDocumento" placeholder="Número Documento" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" disabled required>
                                             <label for="numeroDocumento" id="informacion">Número Documento:</label>
                                         </div>
                                     </div>
@@ -597,7 +599,7 @@
                                 <div class="p-2">
                                     <div class="col">
                                         <div class="input-group form-floating">
-                                            <input type="email" class="form-control vp" id="email" name="email" placeholder="name@example.com" disabled>
+                                            <input type="email" class="form-control vpActualizar" id="email" name="email" placeholder="name@example.com" disabled>
                                             <label for="email" id="informacion">Correo Electronico:</label>
                                             <button type="button" class="btn btn-ModalLeer" data-bs-toggle="modal" data-bs-target="#modalCorreoMostrar" onclick="mostrarElemento()"><i style="font-size:20px;"class="fa-solid fa-pen-to-square"></i></button>
                                         </div>
@@ -610,7 +612,7 @@
                                     <div class="col">
                                         <div class="input-group input-group-lg">
                                             <label class="input-group-text" id="inputGroup-sizing-lg" for="Detsexo">Sexo:</label>
-                                            <select class="form-select vp" id="Detsexo" name="Detsexo" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" disabled required>
+                                            <select class="form-select vpActualizar" id="Detsexo" name="Detsexo" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" disabled required>
                                                 <?php foreach( $Dsexo as $sex ) { ?>
                                                     <option value="<?php echo $sex['id_detalles'];?>"> <?php echo $sex["nombre"];?> </option>
                                                 <?php } ?>
@@ -624,7 +626,7 @@
                                 <div class="p-2">
                                     <div class="col">
                                         <div class="form-floating mb-3">
-                                            <input type="text" name ="Ruser" class="form-control vp" id="Ruser" placeholder="Rol" disabled>
+                                            <input type="text" name ="Ruser" class="form-control vpActualizar" id="Ruser" placeholder="Rol" disabled>
                                             <label for="Ruser" id="informacion">Rol:</label>
                                         </div>
                                     </div>
@@ -635,7 +637,7 @@
                                 <div class="p-2">
                                     <div class="col">
                                         <div class="input-group form-floating">
-                                            <input type="password" value="<?php echo $DatosPerfil['contrasena'];?>" class="form-control vp" id="Passwords" placeholder="Nueva" disabled>
+                                            <input type="password" value="<?php echo $DatosPerfil['contrasena'];?>" class="form-control vpActualizar" id="Passwords" placeholder="Nueva" disabled>
                                             <label for="Passwords">Contraseña:</label>
                                             <button type="button" class="btn btn-ModalLeer" data-bs-toggle="modal" data-bs-target="#editarcontraseña" title="Cambio de Contraseña"><i style="font-size:20px;"class="fa-solid fa-pen-to-square"></i></button>
                                             
