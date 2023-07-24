@@ -33,6 +33,8 @@ class DetallesModel extends Model{
         return $datos;
     }
 
+    
+
     public function obtenerDetallesConexion($id_encabezado, $estado){
         $this->select('detalles.*, usuarios.nombre_corto as NomUsuario, encabezado.nombre as NomEncabezado');
         $this->join('usuarios', 'usuarios.id_usuario = detalles.usuario_crea');

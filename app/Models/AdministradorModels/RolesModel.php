@@ -61,9 +61,4 @@ class RolesModel extends Model{
         $datos = $this->findAll();  // nos trae todos los registros que cumplan con una condicion dada 
         return $datos;
     }
-
-
-    
-
-   
 }

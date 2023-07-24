@@ -290,7 +290,7 @@
                                             <label class="input-group-text" id="inputGroup-sizing-lg"
                                                 for="modaltipotelefono">Tipo de Telefono:</label>
                                             <select class="form-select" id="modaltipotelefono" name="modaltipotelefono" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" required>
-                                                <option disabled selected>Seleccione Tipo de Telefono</option>
+                                                <option value="" selected disabled>Seleccione Tipo de Telefono</option>
                                                 <?php foreach( $TipoTelefono as $ttele ) { ?>
                                                     <option value="<?php echo $ttele['id_detalles'];?>">
                                                     <?php echo $ttele["nombre"];?> </option>
@@ -302,22 +302,39 @@
                                             </div>
                                         </div>
                                     </div>
-
+                                    
                                     <div class="p-3">
                                         <div class="input-group input-group-lg">
                                             <label class="input-group-text" id="inputGroup-sizing-lg" for="NumTelefonoModal">Telefono:</label>
                                             <input type="text" class="form-control" name="NumTelefonoModal" id="NumTelefonoModal" placeholder="Telefono" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" required>
-                                                
-                                                
+                                            
+                                            
                                             <div class="invalid-feedback" id="invalido">
                                                 Por favor, Ingrese su Numero de Telefono.
                                             </div>
                                         </div>
                                     </div>
-
-                            </div>     
+                                    
+                                    <div id="prioridadTelefonos" class="p-3">
+                                        <div class="input-group input-group-lg">
+                                            <label class="input-group-text" id="inputGroup-sizing-lg"
+                                                for="modalPrioridadTelefonos">Prioridad:</label>
+                                            <select class="form-select" id="modalPrioridadTelefonos" name="modalPrioridadTelefonos" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" required>
+                                                <option value="" selected disabled>Seleccione la Prioridad</option>
+                                                <?php foreach( $Prioridad as $pTele ) { ?>
+                                                    <option value="<?php echo $pTele['id_detalles'];?>">
+                                                    <?php echo $pTele["nombre"];?> </option>
+                                                <?php } ?>
+                                            </select>
+                                                        
+                                            <div class="invalid-feedback" id="invalido">
+                                                Por favor, Ingrese la Prioridad.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </div>
                         </div>
-                    </div>
 
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-bs-toggle="modal"
@@ -737,9 +754,9 @@
         let Agregar = document.querySelectorAll("#btnAgregar");
         let CerrarV1 = document.querySelectorAll("#btnCerrarV1");
         let CerrarV2 = document.querySelectorAll("#btnCerrarV2");
+        let prioridadTelefonos = document.getElementById('#prioridadTelefonos');
 
         function ocultarElemento() {
-
             columna.forEach(( element, i ) => {
                 element.setAttribute("hidden", "true");
             })
@@ -759,19 +776,9 @@
             CerrarV2.forEach(( element, i ) => {
                 element.removeAttribute("hidden");
             })
-
-            // function alert(){
-            //     Swall.fire([
-            //         type: 'error',
-            //         title: 'text',
-            //         text: 'Pruebas',
-            //     ])
-            // }
-
         }
         
         function mostrarElemento() {
-
             columna.forEach(( element, i ) => {
                 element.removeAttribute("hidden");
             })
@@ -791,9 +798,15 @@
             CerrarV2.forEach(( element, i ) => {
                 element.setAttribute("hidden", "true");
             })
-
-
         } 
+
+        Agregar.addEventListener("click", function() {
+            const prioridadTelefonos = document.getElementById('prioridadTelefonos');
+            if (prioridadTelefonos) {
+                prioridadTelefonos.setAttribute("hidden", "true");
+            }
+        });
+
 
         // Funcion para los Formularios en Blanco, estas saldra unas Advertencia sobre rellenar el Campo.
         (function () {
@@ -855,6 +868,9 @@
 
         // Funcion de Modales en Telefonos.
         function seleccionaTelefonos(id, tp){
+            prioridadTelefonos.forEach(( element, i ) => {
+                element.setAttribute("hidden", "true");
+            })
             if (tp==2){
                 
                 dataURL = "<?php echo base_url('buscarinfo_telefono'); ?>" + "/" + id;
@@ -871,6 +887,7 @@
                         $("#id_telefono").val(id);
                         $("#NumTelefonoModal").val(data[0]['numero']);
                         $("#modaltipotelefono").val(data[0]['tipo_telefono']);
+                        $("#modalPrioridadTelefonos").val(data[0]['prioridad']);
                         $("#btn_Guardar").text("Actualizar");
                         $("#modalTelefonoLeer").modal("show");
                     },
@@ -878,12 +895,12 @@
                         alert('Error en Datos de Usuarios. Informe', '');                
                     }
             });
-
             } else {
                 document.getElementById('titleModalTel').innerText = "Nuevo telefono"   
                 $("#tp").val(1);
                 $("#NumTelefonoModal").val('');
                 $("#modaltipotelefono").val('');
+                $("#modalPrioridadTelefonos").val('');
                 $("#btn_Guardar").text('Guardar');
             }
         };

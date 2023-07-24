@@ -35,7 +35,7 @@ class SolicitarCitaModel extends Model{
     }
 
 
-    public function CitasPorIdUsuarioAgenda() {
+    public function CitasPorIdUsuarioAgenda($estado) {
         //Id usuario que esta logeado actualmente.
         $session = session();
         $id_usuario = $session->get('id_usuario');
@@ -45,6 +45,7 @@ class SolicitarCitaModel extends Model{
         $this->join('usuarios','usuarios.id_usuario = citas.usuario_crea');
         $this->join('pruebaeventos','pruebaeventos.id = citas.disponibilidad');
         $this->where('citas.usuario_crea', $id_usuario);
+        $this->where('citas.estado', $estado);
         $this->orderBy('citas.fecha_crea','desc');
         $datos = $this->findAll();
         return $datos;
@@ -65,18 +66,6 @@ class SolicitarCitaModel extends Model{
         return $datos;
     }
 
-    // public function CitasSuperAdministrador($estado) {
-    //     $this->select('citas.*, asunto.asunto as asuntos, CONCAT(usuarios.nombre_p, " ", usuarios.nombre_s, " ", usuarios.apellido_p, " ", usuarios.apellido_s) as usuarios, CONCAT((SELECT CONCAT(nombre_p, " ", nombre_s, " ", apellido_p, " ", apellido_s) FROM usuarios WHERE id_usuario = pruebaeventos.usuario_crea)) as Dueño');
-    //     $this->join('asunto','asunto.id_asunto = citas.id_asunto');
-    //     $this->join('usuarios','usuarios.id_usuario = citas.usuario_crea');
-    //     $this->join('pruebaeventos','pruebaeventos.id = citas.disponibilidad');
-    //     $this->where('citas.estado', $estado);
-    //     $this->orderBy('pruebaeventos.fecha_crea', 'desc');
-    //     $this->orderBy('citas.fecha_crea', 'desc');
-    //     $datos = $this->findAll();
-    //     return $datos;
-    // }
-
     public function CitasSuperAdministrador($estado) {
         $this->select('citas.*, asunto.asunto as asuntos, CONCAT(usuarios.nombre_p, " ", usuarios.nombre_s, " ", usuarios.apellido_p, " ", usuarios.apellido_s) as usuarios, CONCAT((SELECT CONCAT(nombre_p, " ", nombre_s, " ", apellido_p, " ", apellido_s) FROM usuarios WHERE id_usuario = pruebaeventos.usuario_crea)) as Dueño');
         $this->join('asunto', 'asunto.id_asunto = citas.id_asunto');
@@ -86,6 +75,11 @@ class SolicitarCitaModel extends Model{
         $this->orderBy('pruebaeventos.fecha_crea DESC');
         $this->orderBy('citas.fecha_crea DESC');
         $datos = $this->findAll();
+        return $datos;
+    }
+
+    public function elimina_Cita($id,$estado){
+        $datos = $this->update($id, ['estado' => $estado]);         
         return $datos;
     }
 }

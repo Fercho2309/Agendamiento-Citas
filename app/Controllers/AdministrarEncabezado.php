@@ -32,9 +32,10 @@ class AdministrarEncabezado extends BaseController
         $dataencabezado = $this->encabezado->obtenerEncabezado('A');
         $dataUsuarios = $this->usuarios->obtenerUsuarios('1','A');
         $dataDetalles = $this->detalle->obtenerDetalles('A');
+        
         $dataDetallesEliminados = $this->detalle->obtenerDetalles('E');
 
-        $data = ['titulo' => 'Nombre de la APP', 'nombre' => '-- Nombre del Colegio --', 'encabezado' => $dataencabezado, 'detallesEliminados' => $dataDetallesEliminados, 'detalles' => $dataDetalles,'usuarios' => $dataUsuarios,'User_session' => $session, 'DatosPerfil' => $perfil]; // le asignamos a la variable data, que es la que interactua con la vista, los datos obtenidos del modelo, ademas de enviarle una variable titulo para el reporte.
+        $data = ['titulo' => 'Nombre de la APP', 'nombre' => '-- Nombre del Colegio --', 'encabezado' => $dataencabezado, 'detallesEliminados' => $dataDetallesEliminados, 'detalles' => $dataDetalles,'usuarios' => $dataUsuarios, 'User_session' => $session, 'DatosPerfil' => $perfil]; // le asignamos a la variable data, que es la que interactua con la vista, los datos obtenidos del modelo, ademas de enviarle una variable titulo para el reporte.
        
         echo view('/principal/menu/menu', $data);
         echo view('administradores/encabezado/encabezado', $data);
@@ -78,6 +79,9 @@ class AdministrarEncabezado extends BaseController
         }
         echo json_encode($retornoEncabezado);
     }
+
+
+    
 
     //---------------------------------------ELIMINADOS-------------------------------------------------
     public function Indexeliminados()

@@ -103,7 +103,6 @@ class Perfiles extends BaseController
             // $traertele = new TelefonosModel();
             if ($tp == 1) {
                 $this->telefonos-> save([
-
                     'numero' => $this->request->getPost('NumTelefonoModal'),
                     'tipo_telefono' => $this->request->getPost('modaltipotelefono'),
                     'prioridad' => 15,
@@ -116,7 +115,7 @@ class Perfiles extends BaseController
                     $this->request->getPost('id_telefono'),[
                     'numero' => $this->request->getPost('NumTelefonoModal'),
                     'tipo_telefono' => $this->request->getPost('modaltipotelefono'),
-                    // 'prioridad' => 15,
+                    'prioridad' => $this->request->getPost('modalPrioridadTelefonos'),
                     'id_usuario' => $idUsuario,
                     'usuario_crea'=> $idUsuario,
                 ]);

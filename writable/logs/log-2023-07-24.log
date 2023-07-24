@@ -1,0 +1,1783 @@
+CRITICAL - 2023-07-24 08:26:30 --> Undefined array key "prioridad"
+in APPPATH\Views\principal\perfil\perfil.php on line 326.
+ 1 APPPATH\Views\principal\perfil\perfil.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prioridad"', 'APPPATH\\Views\\principal\\perfil\\perfil.php', 326)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\perfil\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/perfil/perfil', [], true)
+ 5 APPPATH\Controllers\Perfiles.php(51): view('principal/perfil/perfil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->Perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 08:27:38 --> syntax error, unexpected variable "$data"
+in APPPATH\Controllers\AdministrarEncabezado.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdministrarEncabezado.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdministrarEncabezado')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdministrarEncabezado')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\AdministrarEncabezado', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 08:27:39 --> syntax error, unexpected variable "$data"
+in APPPATH\Controllers\AdministrarEncabezado.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdministrarEncabezado.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdministrarEncabezado')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdministrarEncabezado')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\AdministrarEncabezado', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 08:27:39 --> syntax error, unexpected variable "$data"
+in APPPATH\Controllers\AdministrarEncabezado.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdministrarEncabezado.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdministrarEncabezado')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdministrarEncabezado')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\AdministrarEncabezado', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 08:27:39 --> syntax error, unexpected variable "$data"
+in APPPATH\Controllers\AdministrarEncabezado.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdministrarEncabezado.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdministrarEncabezado')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdministrarEncabezado')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\AdministrarEncabezado', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 08:27:40 --> syntax error, unexpected variable "$data"
+in APPPATH\Controllers\AdministrarEncabezado.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdministrarEncabezado.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdministrarEncabezado')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdministrarEncabezado')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\AdministrarEncabezado', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 08:37:41 --> Undefined array key "sex"
+in APPPATH\Views\administradores\encabezado\encabezado.php on line 197.
+ 1 APPPATH\Views\administradores\encabezado\encabezado.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sex"', 'APPPATH\\Views\\administradores\\encabezado\\encabezado.php', 197)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\encabezado\\encabezado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/encabezado/encabezado', [], true)
+ 5 APPPATH\Controllers\AdministrarEncabezado.php(42): view('administradores/encabezado/encabezado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarEncabezado->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarEncabezado))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-24 09:01:58 --> mysqli_sql_exception: Column 'tipo_telefono' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `te...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(105): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->AgregarTelefono()
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-24 09:01:58 --> Column 'tipo_telefono' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `telefonos` (`numero`, `tipo_telefono`, `prioridad`, `id_usuario`, `usuario_crea`, `fecha_crea`) VALUES (:numero:, :tipo_telefono:, :prioridad:, :id_usuario:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Perfiles.php(105): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->AgregarTelefono()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-24 09:02:36 --> mysqli_sql_exception: Column 'tipo_telefono' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `te...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(105): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->AgregarTelefono()
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-24 09:02:36 --> Column 'tipo_telefono' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `telefonos` (`numero`, `tipo_telefono`, `prioridad`, `id_usuario`, `usuario_crea`, `fecha_crea`) VALUES (:numero:, :tipo_telefono:, :prioridad:, :id_usuario:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Perfiles.php(105): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->AgregarTelefono()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-24 09:02:41 --> mysqli_sql_exception: Column 'tipo_telefono' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `te...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(105): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->AgregarTelefono()
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-24 09:02:41 --> Column 'tipo_telefono' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `telefonos` (`numero`, `tipo_telefono`, `prioridad`, `id_usuario`, `usuario_crea`, `fecha_crea`) VALUES (:numero:, :tipo_telefono:, :prioridad:, :id_usuario:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Perfiles.php(105): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->AgregarTelefono()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-24 09:03:00 --> mysqli_sql_exception: Column 'tipo_telefono' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `te...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(105): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->AgregarTelefono()
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-24 09:03:00 --> Column 'tipo_telefono' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `telefonos` (`numero`, `tipo_telefono`, `prioridad`, `id_usuario`, `usuario_crea`, `fecha_crea`) VALUES (:numero:, :tipo_telefono:, :prioridad:, :id_usuario:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Perfiles.php(105): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->AgregarTelefono()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-24 09:04:44 --> mysqli_sql_exception: Column 'tipo_telefono' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `te...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(105): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->AgregarTelefono()
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-24 09:04:44 --> Column 'tipo_telefono' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `telefonos` (`numero`, `tipo_telefono`, `prioridad`, `id_usuario`, `usuario_crea`, `fecha_crea`) VALUES (:numero:, :tipo_telefono:, :prioridad:, :id_usuario:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Perfiles.php(105): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->AgregarTelefono()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-24 09:04:45 --> mysqli_sql_exception: Column 'tipo_telefono' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `te...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(105): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->AgregarTelefono()
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-24 09:04:45 --> Column 'tipo_telefono' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `telefonos` (`numero`, `tipo_telefono`, `prioridad`, `id_usuario`, `usuario_crea`, `fecha_crea`) VALUES (:numero:, :tipo_telefono:, :prioridad:, :id_usuario:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Perfiles.php(105): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->AgregarTelefono()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-24 09:04:46 --> mysqli_sql_exception: Column 'tipo_telefono' cannot be null in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `te...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\Perfiles.php(105): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\Perfiles->AgregarTelefono()
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-24 09:04:46 --> Column 'tipo_telefono' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `telefonos` (`numero`, `tipo_telefono`, `prioridad`, `id_usuario`, `usuario_crea`, `fecha_crea`) VALUES (:numero:, :tipo_telefono:, :prioridad:, :id_usuario:, :usuario_crea:, :fecha_crea:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Perfiles.php(105): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Perfiles->AgregarTelefono()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfiles))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:53:24 --> Undefined variable $dato
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 58.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(42): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:53:25 --> Undefined variable $dato
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 58.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(42): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:53:26 --> Undefined variable $dato
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 58.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(42): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:53:26 --> Undefined variable $dato
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 58.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(42): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:53:26 --> Undefined variable $dato
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 58.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(42): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:53:26 --> Undefined variable $dato
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 58.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(42): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:53:26 --> Undefined variable $dato
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 58.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(42): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:57:47 --> Undefined variable $acciones
+in APPPATH\Views\docentes\buzonEntrada\eliminados.php on line 44.
+ 1 APPPATH\Views\docentes\buzonEntrada\eliminados.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $acciones', 'APPPATH\\Views\\docentes\\buzonEntrada\\eliminados.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/eliminados', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(42): view('docentes/buzonEntrada/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:57:48 --> Undefined variable $acciones
+in APPPATH\Views\docentes\buzonEntrada\eliminados.php on line 44.
+ 1 APPPATH\Views\docentes\buzonEntrada\eliminados.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $acciones', 'APPPATH\\Views\\docentes\\buzonEntrada\\eliminados.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/eliminados', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(42): view('docentes/buzonEntrada/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:12 --> Undefined property: App\Controllers\DocenteBuzonEntrada::$roles
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 58.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DocenteBuzonEntrada::$roles', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:13 --> Undefined property: App\Controllers\DocenteBuzonEntrada::$roles
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 58.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DocenteBuzonEntrada::$roles', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:13 --> Undefined property: App\Controllers\DocenteBuzonEntrada::$roles
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 58.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DocenteBuzonEntrada::$roles', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:13 --> Undefined property: App\Controllers\DocenteBuzonEntrada::$roles
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 58.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DocenteBuzonEntrada::$roles', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:13 --> Undefined property: App\Controllers\DocenteBuzonEntrada::$roles
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 58.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DocenteBuzonEntrada::$roles', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:24 --> Undefined property: App\Controllers\DocenteBuzonEntrada::$roles
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 58.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DocenteBuzonEntrada::$roles', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:25 --> Undefined property: App\Controllers\DocenteBuzonEntrada::$roles
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 58.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DocenteBuzonEntrada::$roles', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:25 --> Undefined property: App\Controllers\DocenteBuzonEntrada::$roles
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 58.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DocenteBuzonEntrada::$roles', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:25 --> Undefined property: App\Controllers\DocenteBuzonEntrada::$roles
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 58.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DocenteBuzonEntrada::$roles', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:25 --> Undefined property: App\Controllers\DocenteBuzonEntrada::$roles
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 58.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DocenteBuzonEntrada::$roles', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:25 --> Undefined property: App\Controllers\DocenteBuzonEntrada::$roles
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 58.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DocenteBuzonEntrada::$roles', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:25 --> Undefined property: App\Controllers\DocenteBuzonEntrada::$roles
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 58.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DocenteBuzonEntrada::$roles', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:44 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 49.
+ 1 APPPATH\Views\principal\menu\menu.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(55): view('/principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:44 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 49.
+ 1 APPPATH\Views\principal\menu\menu.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(55): view('/principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:45 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 49.
+ 1 APPPATH\Views\principal\menu\menu.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(55): view('/principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:45 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 49.
+ 1 APPPATH\Views\principal\menu\menu.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(55): view('/principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:45 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 49.
+ 1 APPPATH\Views\principal\menu\menu.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(55): view('/principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:45 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 49.
+ 1 APPPATH\Views\principal\menu\menu.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(55): view('/principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:45 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 49.
+ 1 APPPATH\Views\principal\menu\menu.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(55): view('/principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:46 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 49.
+ 1 APPPATH\Views\principal\menu\menu.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(55): view('/principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:46 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 49.
+ 1 APPPATH\Views\principal\menu\menu.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(55): view('/principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:53 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 49.
+ 1 APPPATH\Views\principal\menu\menu.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(55): view('/principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:54 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 49.
+ 1 APPPATH\Views\principal\menu\menu.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(55): view('/principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:54 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 49.
+ 1 APPPATH\Views\principal\menu\menu.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(55): view('/principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:55 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 49.
+ 1 APPPATH\Views\principal\menu\menu.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(55): view('/principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:58:55 --> Undefined variable $User_session
+in APPPATH\Views\principal\menu\menu.php on line 49.
+ 1 APPPATH\Views\principal\menu\menu.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User_session', 'APPPATH\\Views\\principal\\menu\\menu.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(55): view('/principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:59:10 --> Undefined variable $roles
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 59.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:59:11 --> Undefined variable $roles
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 59.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:59:11 --> Undefined variable $roles
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 59.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:59:11 --> Undefined variable $roles
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 59.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:59:11 --> Undefined variable $roles
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 59.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:59:12 --> Undefined variable $roles
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 59.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:59:12 --> Undefined variable $roles
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 59.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 09:59:32 --> Undefined property: App\Controllers\DocenteBuzonEntrada::$roles
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 58.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DocenteBuzonEntrada::$roles', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->Indexeliminados()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:05:47 --> Undefined array key "id_cita"
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 57.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_cita"', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(42): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:05:48 --> Undefined array key "id_cita"
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 57.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_cita"', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(42): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:05:48 --> Undefined array key "id_cita"
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 57.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_cita"', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(42): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:05:48 --> Undefined array key "id_cita"
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 57.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_cita"', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(42): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:05:49 --> Undefined array key "id_cita"
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 57.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_cita"', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(42): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:05:49 --> Undefined array key "id_cita"
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 57.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_cita"', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(42): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:06:58 --> Trying to access array offset on value of type null
+in APPPATH\Views\principal\menu\menu.php on line 111.
+ 1 APPPATH\Views\principal\menu\menu.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\principal\\menu\\menu.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\Inicio.php(30): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Inicio->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:07:11 --> Trying to access array offset on value of type null
+in APPPATH\Views\principal\menu\menu.php on line 111.
+ 1 APPPATH\Views\principal\menu\menu.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\principal\\menu\\menu.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal\\menu\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('principal/menu/menu', [], true)
+ 5 APPPATH\Controllers\Inicio.php(30): view('principal/menu/menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Inicio->Admin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:13:30 --> Call to undefined method App\Models\EstudiantesModels\SolicitarCitaModel::eliminar_cita
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(68): CodeIgniter\Model->__call('eliminar_cita', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('20', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:20:53 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(82): CodeIgniter\Model->update('20', [...])
+ 4 APPPATH\Controllers\DocenteBuzonEntrada.php(70): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('20', 'E')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('20', 'E')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:21:25 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(82): CodeIgniter\Model->update('20', [...])
+ 4 APPPATH\Controllers\DocenteBuzonEntrada.php(70): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('20', 'E')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('20', 'E')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:22:57 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(82): CodeIgniter\Model->update('33', [...])
+ 4 APPPATH\Controllers\DocenteBuzonEntrada.php(70): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:23:05 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(82): CodeIgniter\Model->update('33', [...])
+ 4 APPPATH\Controllers\DocenteBuzonEntrada.php(70): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:23:05 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(82): CodeIgniter\Model->update('33', [...])
+ 4 APPPATH\Controllers\DocenteBuzonEntrada.php(70): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:23:06 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(82): CodeIgniter\Model->update('33', [...])
+ 4 APPPATH\Controllers\DocenteBuzonEntrada.php(70): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:23:06 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(82): CodeIgniter\Model->update('33', [...])
+ 4 APPPATH\Controllers\DocenteBuzonEntrada.php(70): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:23:07 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(82): CodeIgniter\Model->update('33', [...])
+ 4 APPPATH\Controllers\DocenteBuzonEntrada.php(70): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:23:07 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(82): CodeIgniter\Model->update('33', [...])
+ 4 APPPATH\Controllers\DocenteBuzonEntrada.php(70): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:23:12 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(82): CodeIgniter\Model->update('33', [...])
+ 4 APPPATH\Controllers\DocenteBuzonEntrada.php(70): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:35:00 --> Undefined variable $id_evento
+in APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php on line 86.
+ 1 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_evento', 'APPPATH\\Models\\EstudiantesModels\\SolicitarCItaModel.php', 86)
+ 2 APPPATH\Controllers\DocenteBuzonEntrada.php(73): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:36:12 --> syntax error, unexpected variable "$cita_"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 75.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:37:26 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:37:26 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:37:26 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:37:27 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:37:27 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:37:27 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:38:13 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:38:14 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:38:14 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:38:15 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:38:15 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:38:15 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:45 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:46 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:46 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:47 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:47 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:47 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:47 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:47 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:47 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:48 --> syntax error, unexpected variable "$datos_evento"
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:55 --> Undefined variable $id_evento
+in APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php on line 86.
+ 1 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_evento', 'APPPATH\\Models\\EstudiantesModels\\SolicitarCItaModel.php', 86)
+ 2 APPPATH\Controllers\DocenteBuzonEntrada.php(85): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:56 --> Undefined variable $id_evento
+in APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php on line 86.
+ 1 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_evento', 'APPPATH\\Models\\EstudiantesModels\\SolicitarCItaModel.php', 86)
+ 2 APPPATH\Controllers\DocenteBuzonEntrada.php(85): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:57 --> Undefined variable $id_evento
+in APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php on line 86.
+ 1 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_evento', 'APPPATH\\Models\\EstudiantesModels\\SolicitarCItaModel.php', 86)
+ 2 APPPATH\Controllers\DocenteBuzonEntrada.php(85): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:57 --> Undefined variable $id_evento
+in APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php on line 86.
+ 1 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_evento', 'APPPATH\\Models\\EstudiantesModels\\SolicitarCItaModel.php', 86)
+ 2 APPPATH\Controllers\DocenteBuzonEntrada.php(85): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:57 --> Undefined variable $id_evento
+in APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php on line 86.
+ 1 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_evento', 'APPPATH\\Models\\EstudiantesModels\\SolicitarCItaModel.php', 86)
+ 2 APPPATH\Controllers\DocenteBuzonEntrada.php(85): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:57 --> Undefined variable $id_evento
+in APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php on line 86.
+ 1 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_evento', 'APPPATH\\Models\\EstudiantesModels\\SolicitarCItaModel.php', 86)
+ 2 APPPATH\Controllers\DocenteBuzonEntrada.php(85): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:58 --> Undefined variable $id_evento
+in APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php on line 86.
+ 1 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_evento', 'APPPATH\\Models\\EstudiantesModels\\SolicitarCItaModel.php', 86)
+ 2 APPPATH\Controllers\DocenteBuzonEntrada.php(85): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:58 --> Undefined variable $id_evento
+in APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php on line 86.
+ 1 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_evento', 'APPPATH\\Models\\EstudiantesModels\\SolicitarCItaModel.php', 86)
+ 2 APPPATH\Controllers\DocenteBuzonEntrada.php(85): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:58 --> Undefined variable $id_evento
+in APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php on line 86.
+ 1 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_evento', 'APPPATH\\Models\\EstudiantesModels\\SolicitarCItaModel.php', 86)
+ 2 APPPATH\Controllers\DocenteBuzonEntrada.php(85): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:58 --> Undefined variable $id_evento
+in APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php on line 86.
+ 1 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_evento', 'APPPATH\\Models\\EstudiantesModels\\SolicitarCItaModel.php', 86)
+ 2 APPPATH\Controllers\DocenteBuzonEntrada.php(85): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:59 --> Undefined variable $id_evento
+in APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php on line 86.
+ 1 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_evento', 'APPPATH\\Models\\EstudiantesModels\\SolicitarCItaModel.php', 86)
+ 2 APPPATH\Controllers\DocenteBuzonEntrada.php(85): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:59 --> Undefined variable $id_evento
+in APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php on line 86.
+ 1 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_evento', 'APPPATH\\Models\\EstudiantesModels\\SolicitarCItaModel.php', 86)
+ 2 APPPATH\Controllers\DocenteBuzonEntrada.php(85): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:59 --> Undefined variable $id_evento
+in APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php on line 86.
+ 1 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_evento', 'APPPATH\\Models\\EstudiantesModels\\SolicitarCItaModel.php', 86)
+ 2 APPPATH\Controllers\DocenteBuzonEntrada.php(85): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:39:59 --> Undefined variable $id_evento
+in APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php on line 86.
+ 1 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_evento', 'APPPATH\\Models\\EstudiantesModels\\SolicitarCItaModel.php', 86)
+ 2 APPPATH\Controllers\DocenteBuzonEntrada.php(85): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:40:00 --> Undefined variable $id_evento
+in APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php on line 86.
+ 1 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_evento', 'APPPATH\\Models\\EstudiantesModels\\SolicitarCItaModel.php', 86)
+ 2 APPPATH\Controllers\DocenteBuzonEntrada.php(85): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:40:00 --> Undefined variable $id_evento
+in APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php on line 86.
+ 1 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_evento', 'APPPATH\\Models\\EstudiantesModels\\SolicitarCItaModel.php', 86)
+ 2 APPPATH\Controllers\DocenteBuzonEntrada.php(85): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:40:01 --> Undefined variable $id_evento
+in APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php on line 86.
+ 1 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_evento', 'APPPATH\\Models\\EstudiantesModels\\SolicitarCItaModel.php', 86)
+ 2 APPPATH\Controllers\DocenteBuzonEntrada.php(85): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:42:34 --> Undefined variable $id_evento
+in APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php on line 86.
+ 1 APPPATH\Models\EstudiantesModels\SolicitarCItaModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_evento', 'APPPATH\\Models\\EstudiantesModels\\SolicitarCItaModel.php', 86)
+ 2 APPPATH\Controllers\DocenteBuzonEntrada.php(85): App\Models\EstudiantesModels\SolicitarCitaModel->elimina_Cita('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:43:30 --> whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(827): CodeIgniter\Database\BaseBuilder->_whereIn('pruebaeventos.id', Object(App\Models\PruebaCalendar\CalendarioModel), false, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(382): CodeIgniter\Database\BaseBuilder->whereIn('pruebaeventos.id', Object(App\Models\PruebaCalendar\CalendarioModel))
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(Object(App\Models\PruebaCalendar\CalendarioModel), [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(Object(App\Models\PruebaCalendar\CalendarioModel), [...])
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(91): CodeIgniter\Model->update(Object(App\Models\PruebaCalendar\CalendarioModel), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:46:31 --> syntax error, unexpected token "..."
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 88.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:46:32 --> syntax error, unexpected token "..."
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 88.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:46:32 --> syntax error, unexpected token "..."
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 88.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:46:32 --> syntax error, unexpected token "..."
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 88.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:46:32 --> syntax error, unexpected token "..."
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 88.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:46:33 --> syntax error, unexpected token "..."
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 88.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:46:33 --> syntax error, unexpected token "..."
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 88.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:46:33 --> syntax error, unexpected token "..."
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 88.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DocenteBuzonEntrada.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DocenteBuzonEntrada')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DocenteBuzonEntrada')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DocenteBuzonEntrada', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:47:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::whereIn()
+in APPPATH\Models\PruebaCalendar\CalendarioModel.php on line 70.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(91): App\Models\PruebaCalendar\CalendarioModel->updateEventosEstado(Object(App\Models\PruebaCalendar\CalendarioModel), 'N')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:48:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::whereIn()
+in APPPATH\Models\PruebaCalendar\CalendarioModel.php on line 69.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(91): App\Models\PruebaCalendar\CalendarioModel->updateEventosEstado(Object(App\Models\PruebaCalendar\CalendarioModel), 'N')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:48:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::whereIn()
+in APPPATH\Models\PruebaCalendar\CalendarioModel.php on line 69.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(91): App\Models\PruebaCalendar\CalendarioModel->updateEventosEstado(Object(App\Models\PruebaCalendar\CalendarioModel), 'N')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:48:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::whereIn()
+in APPPATH\Models\PruebaCalendar\CalendarioModel.php on line 69.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(91): App\Models\PruebaCalendar\CalendarioModel->updateEventosEstado(Object(App\Models\PruebaCalendar\CalendarioModel), 'N')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:48:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::whereIn()
+in APPPATH\Models\PruebaCalendar\CalendarioModel.php on line 69.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(91): App\Models\PruebaCalendar\CalendarioModel->updateEventosEstado(Object(App\Models\PruebaCalendar\CalendarioModel), 'N')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:48:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::whereIn()
+in APPPATH\Models\PruebaCalendar\CalendarioModel.php on line 69.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(91): App\Models\PruebaCalendar\CalendarioModel->updateEventosEstado(Object(App\Models\PruebaCalendar\CalendarioModel), 'N')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:48:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::whereIn()
+in APPPATH\Models\PruebaCalendar\CalendarioModel.php on line 69.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(91): App\Models\PruebaCalendar\CalendarioModel->updateEventosEstado(Object(App\Models\PruebaCalendar\CalendarioModel), 'N')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:48:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::whereIn()
+in APPPATH\Models\PruebaCalendar\CalendarioModel.php on line 69.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(91): App\Models\PruebaCalendar\CalendarioModel->updateEventosEstado(Object(App\Models\PruebaCalendar\CalendarioModel), 'N')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:48:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::whereIn()
+in APPPATH\Models\PruebaCalendar\CalendarioModel.php on line 69.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(91): App\Models\PruebaCalendar\CalendarioModel->updateEventosEstado(Object(App\Models\PruebaCalendar\CalendarioModel), 'N')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:48:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::whereIn()
+in APPPATH\Models\PruebaCalendar\CalendarioModel.php on line 69.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(91): App\Models\PruebaCalendar\CalendarioModel->updateEventosEstado(Object(App\Models\PruebaCalendar\CalendarioModel), 'N')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:48:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::whereIn()
+in APPPATH\Models\PruebaCalendar\CalendarioModel.php on line 69.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(91): App\Models\PruebaCalendar\CalendarioModel->updateEventosEstado(Object(App\Models\PruebaCalendar\CalendarioModel), 'N')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:48:54 --> whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(827): CodeIgniter\Database\BaseBuilder->_whereIn('id', Object(App\Models\PruebaCalendar\CalendarioModel), false, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->whereIn('id', Object(App\Models\PruebaCalendar\CalendarioModel))
+ 3 APPPATH\Models\PruebaCalendar\CalendarioModel.php(69): CodeIgniter\Model->__call('whereIn', [...])
+ 4 APPPATH\Controllers\DocenteBuzonEntrada.php(91): App\Models\PruebaCalendar\CalendarioModel->updateEventosEstado(Object(App\Models\PruebaCalendar\CalendarioModel), 'N')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:48:55 --> whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(827): CodeIgniter\Database\BaseBuilder->_whereIn('id', Object(App\Models\PruebaCalendar\CalendarioModel), false, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->whereIn('id', Object(App\Models\PruebaCalendar\CalendarioModel))
+ 3 APPPATH\Models\PruebaCalendar\CalendarioModel.php(69): CodeIgniter\Model->__call('whereIn', [...])
+ 4 APPPATH\Controllers\DocenteBuzonEntrada.php(91): App\Models\PruebaCalendar\CalendarioModel->updateEventosEstado(Object(App\Models\PruebaCalendar\CalendarioModel), 'N')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:48:55 --> whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(827): CodeIgniter\Database\BaseBuilder->_whereIn('id', Object(App\Models\PruebaCalendar\CalendarioModel), false, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->whereIn('id', Object(App\Models\PruebaCalendar\CalendarioModel))
+ 3 APPPATH\Models\PruebaCalendar\CalendarioModel.php(69): CodeIgniter\Model->__call('whereIn', [...])
+ 4 APPPATH\Controllers\DocenteBuzonEntrada.php(91): App\Models\PruebaCalendar\CalendarioModel->updateEventosEstado(Object(App\Models\PruebaCalendar\CalendarioModel), 'N')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:48:55 --> whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(827): CodeIgniter\Database\BaseBuilder->_whereIn('id', Object(App\Models\PruebaCalendar\CalendarioModel), false, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->whereIn('id', Object(App\Models\PruebaCalendar\CalendarioModel))
+ 3 APPPATH\Models\PruebaCalendar\CalendarioModel.php(69): CodeIgniter\Model->__call('whereIn', [...])
+ 4 APPPATH\Controllers\DocenteBuzonEntrada.php(91): App\Models\PruebaCalendar\CalendarioModel->updateEventosEstado(Object(App\Models\PruebaCalendar\CalendarioModel), 'N')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:48:55 --> whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(827): CodeIgniter\Database\BaseBuilder->_whereIn('id', Object(App\Models\PruebaCalendar\CalendarioModel), false, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->whereIn('id', Object(App\Models\PruebaCalendar\CalendarioModel))
+ 3 APPPATH\Models\PruebaCalendar\CalendarioModel.php(69): CodeIgniter\Model->__call('whereIn', [...])
+ 4 APPPATH\Controllers\DocenteBuzonEntrada.php(91): App\Models\PruebaCalendar\CalendarioModel->updateEventosEstado(Object(App\Models\PruebaCalendar\CalendarioModel), 'N')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:48:56 --> whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(827): CodeIgniter\Database\BaseBuilder->_whereIn('id', Object(App\Models\PruebaCalendar\CalendarioModel), false, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->whereIn('id', Object(App\Models\PruebaCalendar\CalendarioModel))
+ 3 APPPATH\Models\PruebaCalendar\CalendarioModel.php(69): CodeIgniter\Model->__call('whereIn', [...])
+ 4 APPPATH\Controllers\DocenteBuzonEntrada.php(91): App\Models\PruebaCalendar\CalendarioModel->updateEventosEstado(Object(App\Models\PruebaCalendar\CalendarioModel), 'N')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 10:48:56 --> whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 940.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(827): CodeIgniter\Database\BaseBuilder->_whereIn('id', Object(App\Models\PruebaCalendar\CalendarioModel), false, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->whereIn('id', Object(App\Models\PruebaCalendar\CalendarioModel))
+ 3 APPPATH\Models\PruebaCalendar\CalendarioModel.php(69): CodeIgniter\Model->__call('whereIn', [...])
+ 4 APPPATH\Controllers\DocenteBuzonEntrada.php(91): App\Models\PruebaCalendar\CalendarioModel->updateEventosEstado(Object(App\Models\PruebaCalendar\CalendarioModel), 'N')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('33', 'E')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 11:00:04 --> syntax error, unexpected single-quoted string ",", expecting "," or ";"
+in APPPATH\Views\administradores\encabezado\encabezado.php on line 61.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/encabezado/encabezado', [], true)
+ 3 APPPATH\Controllers\AdministrarEncabezado.php(41): view('administradores/encabezado/encabezado', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarEncabezado->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarEncabezado))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 11:21:36 --> Cannot redeclare App\Models\PruebaCalendar\CalendarioModel::traer_todos_los_eventos_por_usuario()
+in APPPATH\Models\PruebaCalendar\CalendarioModel.php on line 45.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-24 11:21:37 --> Cannot redeclare App\Models\PruebaCalendar\CalendarioModel::traer_todos_los_eventos_por_usuario()
+in APPPATH\Models\PruebaCalendar\CalendarioModel.php on line 45.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-24 11:22:12 --> Undefined array key "id"
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 63.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(47): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 11:23:10 --> Undefined array key "id"
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 63.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(47): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 11:27:54 --> Undefined array key "id_detalles"
+in APPPATH\Views\administradores\encabezado\encabezado.php on line 60.
+ 1 APPPATH\Views\administradores\encabezado\encabezado.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_detalles"', 'APPPATH\\Views\\administradores\\encabezado\\encabezado.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\encabezado\\encabezado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/encabezado/encabezado', [], true)
+ 5 APPPATH\Controllers\AdministrarEncabezado.php(41): view('administradores/encabezado/encabezado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarEncabezado->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarEncabezado))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 11:28:01 --> Undefined variable $evento
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 64.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $evento', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(47): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 11:28:02 --> Undefined variable $evento
+in APPPATH\Views\docentes\buzonEntrada\buzon.php on line 64.
+ 1 APPPATH\Views\docentes\buzonEntrada\buzon.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $evento', 'APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\docentes\\buzonEntrada\\buzon.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('docentes/buzonEntrada/buzon', [], true)
+ 5 APPPATH\Controllers\DocenteBuzonEntrada.php(47): view('docentes/buzonEntrada/buzon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 11:29:01 --> Undefined array key "id_detalles"
+in APPPATH\Views\administradores\encabezado\encabezado.php on line 60.
+ 1 APPPATH\Views\administradores\encabezado\encabezado.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_detalles"', 'APPPATH\\Views\\administradores\\encabezado\\encabezado.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\encabezado\\encabezado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/encabezado/encabezado', [], true)
+ 5 APPPATH\Controllers\AdministrarEncabezado.php(41): view('administradores/encabezado/encabezado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarEncabezado->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarEncabezado))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 11:31:27 --> Undefined array key "id_detalles"
+in APPPATH\Views\administradores\encabezado\encabezado.php on line 60.
+ 1 APPPATH\Views\administradores\encabezado\encabezado.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_detalles"', 'APPPATH\\Views\\administradores\\encabezado\\encabezado.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\encabezado\\encabezado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/encabezado/encabezado', [], true)
+ 5 APPPATH\Controllers\AdministrarEncabezado.php(41): view('administradores/encabezado/encabezado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarEncabezado->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarEncabezado))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 11:31:38 --> Undefined array key "id_detalles"
+in APPPATH\Views\administradores\encabezado\encabezado.php on line 60.
+ 1 APPPATH\Views\administradores\encabezado\encabezado.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_detalles"', 'APPPATH\\Views\\administradores\\encabezado\\encabezado.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administradores\\encabezado\\encabezado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/encabezado/encabezado', [], true)
+ 5 APPPATH\Controllers\AdministrarEncabezado.php(41): view('administradores/encabezado/encabezado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarEncabezado->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarEncabezado))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 11:32:43 --> syntax error, unexpected token ","
+in APPPATH\Views\administradores\encabezado\encabezado.php on line 48.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('administradores/encabezado/encabezado', [], true)
+ 3 APPPATH\Controllers\AdministrarEncabezado.php(41): view('administradores/encabezado/encabezado', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdministrarEncabezado->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrarEncabezado))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 11:40:27 --> Undefined property: App\Controllers\DocenteBuzonEntrada::$pruebaeventos
+in APPPATH\Controllers\DocenteBuzonEntrada.php on line 82.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DocenteBuzonEntrada::$pruebaeventos', 'APPPATH\\Controllers\\DocenteBuzonEntrada.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('35', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 11:41:45 --> Call to undefined method App\Models\PruebaCalendar\CalendarioModel::actualizar_Estado
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(82): CodeIgniter\Model->__call('actualizar_Estado', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('35', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 11:41:46 --> Call to undefined method App\Models\PruebaCalendar\CalendarioModel::actualizar_Estado
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\DocenteBuzonEntrada.php(82): CodeIgniter\Model->__call('actualizar_Estado', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('35', 'E')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-24 11:45:58 --> mysqli_sql_exception: Unknown column 'disponibilidad' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `pruebae...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pruebae...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pruebae...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `pruebae...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Models\PruebaCalendar\CalendarioModel.php(87): CodeIgniter\Model->update('pruebaeventos', Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteBuzonEntrada.php(82): App\Models\PruebaCalendar\CalendarioModel->actualizar_Estado('223', 'N')
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('35', 'E')
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-24 11:45:58 --> Unknown column 'disponibilidad' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `pruebaeventos` SET `estado` = :estado:
+WHERE `disponibilidad` = :disponibilidad:
+AND `pruebaeventos`.`id` IN :pruebaeventos.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Models\PruebaCalendar\CalendarioModel.php(87): CodeIgniter\Model->update('pruebaeventos', [...])
+ 6 APPPATH\Controllers\DocenteBuzonEntrada.php(82): App\Models\PruebaCalendar\CalendarioModel->actualizar_Estado('223', 'N')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('35', 'E')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-24 11:45:59 --> mysqli_sql_exception: Unknown column 'disponibilidad' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `pruebae...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pruebae...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pruebae...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `pruebae...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Models\PruebaCalendar\CalendarioModel.php(87): CodeIgniter\Model->update('pruebaeventos', Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteBuzonEntrada.php(82): App\Models\PruebaCalendar\CalendarioModel->actualizar_Estado('223', 'N')
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('35', 'E')
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-24 11:45:59 --> Unknown column 'disponibilidad' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `pruebaeventos` SET `estado` = :estado:
+WHERE `disponibilidad` = :disponibilidad:
+AND `pruebaeventos`.`id` IN :pruebaeventos.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Models\PruebaCalendar\CalendarioModel.php(87): CodeIgniter\Model->update('pruebaeventos', [...])
+ 6 APPPATH\Controllers\DocenteBuzonEntrada.php(82): App\Models\PruebaCalendar\CalendarioModel->actualizar_Estado('223', 'N')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('35', 'E')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-24 11:45:59 --> mysqli_sql_exception: Unknown column 'disponibilidad' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `pruebae...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pruebae...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pruebae...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `pruebae...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Models\PruebaCalendar\CalendarioModel.php(87): CodeIgniter\Model->update('pruebaeventos', Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteBuzonEntrada.php(82): App\Models\PruebaCalendar\CalendarioModel->actualizar_Estado('223', 'N')
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('35', 'E')
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-24 11:45:59 --> Unknown column 'disponibilidad' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `pruebaeventos` SET `estado` = :estado:
+WHERE `disponibilidad` = :disponibilidad:
+AND `pruebaeventos`.`id` IN :pruebaeventos.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Models\PruebaCalendar\CalendarioModel.php(87): CodeIgniter\Model->update('pruebaeventos', [...])
+ 6 APPPATH\Controllers\DocenteBuzonEntrada.php(82): App\Models\PruebaCalendar\CalendarioModel->actualizar_Estado('223', 'N')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('35', 'E')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-24 11:45:59 --> mysqli_sql_exception: Unknown column 'disponibilidad' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `pruebae...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pruebae...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pruebae...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `pruebae...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Models\PruebaCalendar\CalendarioModel.php(87): CodeIgniter\Model->update('pruebaeventos', Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteBuzonEntrada.php(82): App\Models\PruebaCalendar\CalendarioModel->actualizar_Estado('223', 'N')
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('35', 'E')
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-24 11:45:59 --> Unknown column 'disponibilidad' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `pruebaeventos` SET `estado` = :estado:
+WHERE `disponibilidad` = :disponibilidad:
+AND `pruebaeventos`.`id` IN :pruebaeventos.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Models\PruebaCalendar\CalendarioModel.php(87): CodeIgniter\Model->update('pruebaeventos', [...])
+ 6 APPPATH\Controllers\DocenteBuzonEntrada.php(82): App\Models\PruebaCalendar\CalendarioModel->actualizar_Estado('223', 'N')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('35', 'E')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-24 11:45:59 --> mysqli_sql_exception: Unknown column 'disponibilidad' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `pruebae...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pruebae...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pruebae...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `pruebae...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Models\PruebaCalendar\CalendarioModel.php(87): CodeIgniter\Model->update('pruebaeventos', Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteBuzonEntrada.php(82): App\Models\PruebaCalendar\CalendarioModel->actualizar_Estado('223', 'N')
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('35', 'E')
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-24 11:45:59 --> Unknown column 'disponibilidad' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `pruebaeventos` SET `estado` = :estado:
+WHERE `disponibilidad` = :disponibilidad:
+AND `pruebaeventos`.`id` IN :pruebaeventos.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Models\PruebaCalendar\CalendarioModel.php(87): CodeIgniter\Model->update('pruebaeventos', [...])
+ 6 APPPATH\Controllers\DocenteBuzonEntrada.php(82): App\Models\PruebaCalendar\CalendarioModel->actualizar_Estado('223', 'N')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('35', 'E')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-24 11:45:59 --> mysqli_sql_exception: Unknown column 'disponibilidad' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `pruebae...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pruebae...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pruebae...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `pruebae...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Models\PruebaCalendar\CalendarioModel.php(87): CodeIgniter\Model->update('pruebaeventos', Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteBuzonEntrada.php(82): App\Models\PruebaCalendar\CalendarioModel->actualizar_Estado('223', 'N')
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('35', 'E')
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-24 11:45:59 --> Unknown column 'disponibilidad' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `pruebaeventos` SET `estado` = :estado:
+WHERE `disponibilidad` = :disponibilidad:
+AND `pruebaeventos`.`id` IN :pruebaeventos.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Models\PruebaCalendar\CalendarioModel.php(87): CodeIgniter\Model->update('pruebaeventos', [...])
+ 6 APPPATH\Controllers\DocenteBuzonEntrada.php(82): App\Models\PruebaCalendar\CalendarioModel->actualizar_Estado('223', 'N')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('35', 'E')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-24 11:46:00 --> mysqli_sql_exception: Unknown column 'disponibilidad' in 'where clause' in C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Agendamiento-Citas\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `pruebae...', 0)
+#1 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pruebae...')
+#2 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pruebae...')
+#3 C:\xampp\htdocs\Agendamiento-Citas\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `pruebae...', Array, false)
+#4 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Agendamiento-Citas\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Agendamiento-Citas\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Agendamiento-Citas\app\Models\PruebaCalendar\CalendarioModel.php(87): CodeIgniter\Model->update('pruebaeventos', Array)
+#8 C:\xampp\htdocs\Agendamiento-Citas\app\Controllers\DocenteBuzonEntrada.php(82): App\Models\PruebaCalendar\CalendarioModel->actualizar_Estado('223', 'N')
+#9 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('35', 'E')
+#10 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+#11 C:\xampp\htdocs\Agendamiento-Citas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Agendamiento-Citas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-24 11:46:00 --> Unknown column 'disponibilidad' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `pruebaeventos` SET `estado` = :estado:
+WHERE `disponibilidad` = :disponibilidad:
+AND `pruebaeventos`.`id` IN :pruebaeventos.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Models\PruebaCalendar\CalendarioModel.php(87): CodeIgniter\Model->update('pruebaeventos', [...])
+ 6 APPPATH\Controllers\DocenteBuzonEntrada.php(82): App\Models\PruebaCalendar\CalendarioModel->actualizar_Estado('223', 'N')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DocenteBuzonEntrada->eliminar('35', 'E')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocenteBuzonEntrada))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

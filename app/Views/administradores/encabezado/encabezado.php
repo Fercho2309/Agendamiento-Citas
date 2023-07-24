@@ -57,7 +57,7 @@
                                         <img src="<?php echo base_url('img/edit.svg');?>" alt="Editar">
                                     </a>
 
-                                    <button id="iconoEliminar" type="button" class="btn btn-ModalLeer" data-bs-toggle="modal" data-bs-target="#modalDetalles"><i class="fa-solid fa-eye"></i></button>
+                                    <button id="iconoEliminar" type="button" class="btn btn-ModalLeer" data-bs-toggle="modal" data-bs-target="#modalDetalles" onclick="seleccionaEncabezado(<?php echo $dato['id_encabezado'] . ',' . 2?>)"><i class="fa-solid fa-eye"></i></button>
 
                                     <a id="iconoEliminar" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#deleteModal" data-href="<?php echo base_url('/eliminar_Encabezado') . '/' .$dato['id_encabezado']. '/' .'E'; ?>">
                                     <img src="<?php echo base_url('img/trash-2.svg')?>" alt="Borrar">
@@ -266,7 +266,7 @@
 
                             <div style="margin:0; padding:30px 0px 0px 0px;">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control inputVal" name="resumen" id="resumen" onkeyup="capitalizarPrimeraLetra()" placeholder="Resumen" required>
+                                    <input type="text" class="form-control inputVal" name="resumen" id="resumen" placeholder="Resumen" required>
                                     <label for="resumen">Resumen</label>
 
                                     <div class="invalid-feedback" id="invalido">

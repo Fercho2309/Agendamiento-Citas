@@ -66,9 +66,16 @@ $routes->get('obtenerid/(:num)', 'EstudiantesSolicitarCita::obtenerid/$1');
 $routes->get('/agendamientodisponibilidad', 'DocenteDisponibilidad::index');
 $routes->get('eliminar_evento/(:num)', 'DocenteDisponibilidad::eliminar_evento/$1');
 
+// Buzon
 $routes->get('/buzonEntrada', 'DocenteBuzonEntrada::index');
 $routes->post('insertar_Calendario', 'DocenteDisponibilidad::crear_disponiblidad'); //Ruta para Ingresar Registros
 $routes->post('buscarinfo_Calendario/(:nueliminar_evento)', 'DocenteDisponibilidad::buscar_Calendario/$1'); //Ruta para Actualizar los Registros
+$routes->get('/eliminados_Buzon', 'DocenteBuzonEntrada::Indexeliminados');
+$routes->get('eliminar_cita/(:num)/(:any)', 'DocenteBuzonEntrada::eliminar/$1/$2'); //Ruta de Eliminar y Restaurar Registros
+
+$routes->get('actualizar_estado_pruebaeventos/(:num)/(:any)', 'DocenteBuzonEntrada::actualizarEstadoPruebaeventos/$1/$2');
+
+
 
 $routes->post('Dregistrar', 'DocenteDisponibilidad::registrar'); // NO BORRAR, PRUEBA DE CALENDARIO >:V
 
